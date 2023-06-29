@@ -2,4 +2,4 @@
 
 markdown test
 
-![[KMqY8YD.jpeg]]
+![[image/KMqY8YD.jpeg]]
