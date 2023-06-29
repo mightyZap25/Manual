@@ -1,5 +1,3 @@
-[test]()
-[asdf]()
 
 ## 1. 제품 소개 
 mightyZap Total Manager는 다양한 운영체제에서 MightyZap을 관리 및 제어할 수 있는 Software입니다.
