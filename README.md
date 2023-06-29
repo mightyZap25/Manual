@@ -1,5 +1,5 @@
 # test
 
 markdown test
-<img src="image/KMqY8YD.jpeg"></img>
+![test](./image/KMqY8YD.jpeg)
 ![[KMqY8YD.jpeg]]
