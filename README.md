@@ -1,5 +1,4 @@
 # test
 
 markdown test
-![test](./image/KMqY8YD.jpeg)
-![[KMqY8YD.jpeg]]
+![test](Total%20Manager/img/KMqY8YD.jpeg)

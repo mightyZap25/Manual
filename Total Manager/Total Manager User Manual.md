@@ -1,0 +1,1 @@
+![[Total Manager/img/KMqY8YD.jpeg]]
