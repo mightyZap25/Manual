@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c8b6a0bb213d0371",
+            "id": "afd3ca12c0ed814a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Total Manager/Total Manager User Manual.md",
+                "file": "Mini 17Lf/Mini 17Lf 사용자 메뉴얼.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Total Manager/Total Manager User Manual.md",
+                "file": "Mini 17Lf/Mini 17Lf 사용자 메뉴얼.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Total Manager/Total Manager User Manual.md",
+                "file": "Mini 17Lf/Mini 17Lf 사용자 메뉴얼.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Total Manager/Total Manager User Manual.md"
+                "file": "Mini 17Lf/Mini 17Lf 사용자 메뉴얼.md"
               }
             }
           },
@@ -155,11 +155,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c8b6a0bb213d0371",
+  "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
-    "README.md",
-    "Total Manager/img/KMqY8YD.jpeg",
+    "().md",
+    "Mini 17Lf/Mini 17Lf 사용자 메뉴얼.md",
+    "흡입시키지.md",
     "Total Manager/Total Manager User Manual.md",
+    "Mini 17Lf/img",
+    "Mini 17Lf",
+    "Total Manager/img/controlfuulshot.png",
+    "Total Manager/img/KMqY8YD.jpeg",
+    "README.md",
     "Total Manager/img",
     "Total Manager",
     "image",
