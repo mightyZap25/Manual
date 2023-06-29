@@ -1,5 +1,5 @@
 
-## 1. 제품 소개 
+# 1. 제품 소개 
 mightyZap Total Manager는 다양한 운영체제에서 MightyZap을 관리 및 제어할 수 있는 Software입니다.
 
 - MightyZap의 Parameter를 설정하고, 동작 테스트를 할 수 있습니다.
@@ -16,7 +16,7 @@ MightyZap Total Manager를 구동하기 위해서는 MightyZap 서보 인터페�
 - Modbus-RTU (FC-Only)
 - CAN Protocol (BLDC Only)
 
-**1.3** 지원 운영체제
+## 1.3 지원 운영체제
 
 - Windows : windows 7(32bit)
 - Mac OS(지원예정)
@@ -37,7 +37,7 @@ Bug 수정이 있을 경우, 새로운 Firmware가 배포됩니다.
 
 # 2. Software Install
 
-**2.1** 윈도우에서 설치하기
+## 2.1 윈도우에서 설치하기
 
 1. 윈도우즈 전용 패키지를 다운도르 합니다.
 
