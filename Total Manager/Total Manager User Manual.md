@@ -1,5 +1,5 @@
 
-## 1. 제품 소개 
+## 1. 제품 소개 [te]()
 mightyZap Total Manager는 다양한 운영체제에서 MightyZap을 관리 및 제어할 수 있는 Software입니다.
 
 - MightyZap의 Parameter를 설정하고, 동작 테스트를 할 수 있습니다.
