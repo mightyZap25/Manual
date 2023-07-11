@@ -11,23 +11,20 @@ Total Manager의 특징은 아래와 같습니다.
 ![[controlfuulshot.png]]
 
 MightyZap Total Manager를 구동하기 위해서는 MightyZap 서보 인터페이스 모듈을 추천드립니다.
-
 ## 1.2 지원 Protocol
 - Protocol 1.0
 - Modbus-RTU (FC-Only)
 - CAN Protocol (BLDC Only)
-
 ## 1.3 지원 운영체제
 - Windows : windows 7(32bit) 이상
 - Mac OS : Big Sur
 - Linux : Ubuntu LTD 20.04
 	- DeskTop & lapTop에서만 테스트 되었습니다.
+## 1.4 Interface Board
 
 
 # 2. Software Install
-
 ## 2.1 윈도우에서 설치하기
-
 1. 윈도우즈 전용 패키지를 다운도르 합니다.
 
 Windows Software 다운로드

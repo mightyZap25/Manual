@@ -1,5 +1,6 @@
 {
   "foldHeading": false,
   "foldIndent": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "legacyEditor": false
 }
