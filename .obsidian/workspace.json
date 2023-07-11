@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Actuator의",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -155,7 +156,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "afd3ca12c0ed814a",
+  "active": "c54a1b1d79cb9574",
   "lastOpenFiles": [
     "Total Manager/img/Information.jpg",
     "Total Manager/img/mainView-description.jpg",
