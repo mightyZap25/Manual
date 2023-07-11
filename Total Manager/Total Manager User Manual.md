@@ -8,7 +8,7 @@ mightyZap Total Manager는 다양한 운영체제에서 MightyZap을 관리 및 
 - 
 ![[controlfuulshot.png]]
 
-
+![[controlfuulshot.png]]
 
 
 MightyZap Total Manager를 구동하기 위해서는 MightyZap 서보 인터페이스 모듈을 추천드립니다.
