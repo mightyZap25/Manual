@@ -7,6 +7,8 @@ mightyZap Total Manager는 다양한 운영체제에서 MightyZap을 관리 및 
 - 모든 Smart mightyZap의 펌웨어를 업데이트 할 수 있습니다.
 - 
 ![[controlfuulshot.png]]
+
+
 ![fullshot](./img/controlfuulshot.png)
 
 MightyZap Total Manager를 구동하기 위해서는 MightyZap 서보 인터페이스 모듈을 추천드립니다.
