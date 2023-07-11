@@ -143,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 271.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,8 +157,10 @@
   },
   "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
-    "().md",
+    "2023-07-11.md",
+    "무제 파일 1.canvas",
     "Total Manager/Total Manager User Manual.md",
+    "().md",
     "1..md",
     "Mini 17Lf/Mini17LfUserManual.md",
     "흡입시키지.md",

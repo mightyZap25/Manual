@@ -1,4 +1,6 @@
 {
   "accentColor": "",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "textFontFamily": "맑은 고딕,DejaVu Sans",
+  "baseFontSize": 16
 }
