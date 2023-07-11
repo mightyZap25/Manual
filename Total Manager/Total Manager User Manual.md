@@ -28,7 +28,7 @@ aslkdfjaskld
 1. 윈도우즈 전용 패키지를 다운도르 합니다.
 	- [Windows Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
 2. 다운받은 설치 파일을 실행합니다.
-  ![[windows0install.jpg]]
+  <br>![[windows0install.jpg]]
 3. Next 버튼을 클릭하여 설치를 진행합니다.   
    ![[windows-install-next.jpg]]
 
