@@ -35,14 +35,14 @@ aslkdfjaskld
 # 3. 매뉴 설명
 ## 3.1 화면 설명
 ![[mainView-description.jpg]]
-- **Main Toolbar**    <br/>
-  Actuator의 Reset, Restart, Data Undo/Redo 등을 수행하는 매뉴<br/>
+- **Main Toolbar**  
+  Actuator의 Reset, Restart, Data Undo/Redo 등을 수행하는 매뉴
 - **SCAN**  
   Software의 통신을 연결하고 mightyZap을 검색하는 창을 불러 옵니다.
 - **Main Menu**  
   Information, control, Update, Manager Setting 등 Manager에서 제공하는 기능을 선택하는 메뉴
-- **Actuator List**
-   검색된 MightyZap의 이름이 통신 속도와 Protocol에 따라 분류되어 표시 됩니다.
+- **Actuator List**  
+  검색된 MightyZap의 이름이 통신 속도와 Protocol에 따라 분류되어 표시 됩니다.
 - **Main contents**
   매니저에 제공하는 Main 기능을 표시합니다.
 - **Actuator Information**
