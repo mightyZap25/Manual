@@ -139,11 +139,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 322.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,6 +157,9 @@
   },
   "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
+    "Total Manager/img/Information.jpg",
+    "Total Manager/img/mainView-description.jpg",
+    "Total Manager/img/windows-install-next.jpg",
     "Total Manager/img/windows0install.jpg",
     "2023-07-11.md",
     "Total Manager/Total Manager User Manual.md",

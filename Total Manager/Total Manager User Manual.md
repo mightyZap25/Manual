@@ -30,4 +30,30 @@ aslkdfjaskld
 2. 다운받은 설치 파일을 실행합니다.
    ![[windows0install.jpg]]
 3. Next 버튼을 클릭하여 설치를 진행합니다.
-4. 
+   ![[windows-install-next.jpg]]
+
+# 3. 매뉴 설명
+## 3.1 화면 설명
+![[mainView-description.jpg]]
+- **Main Toolbar**
+  Actuator의 Reset, Restart, Data Undo/Redo 등을 수행하는 매뉴
+- **SCAN**
+  Software의 통신을 연결하고 mightyZap을 검색하는 창을 불러 옵니다.
+- **Main Menu**
+  Information, control, Update, Manager Setting 등 Manager에서 제공하는 기능을 선택하는 메뉴
+- **Actuator List**
+   검색된 MightyZap의 이름이 통신 속도와 Protocol에 따라 분류되어 표시 됩니다.
+- **Main contents**
+  매니저에 제공하는 Main 기능을 표시합니다.
+- **Actuator Information**
+  선택된 Actuator의 모델명, Firmware Version, 통신 방식 등이 표기 됩니다.
+- **통신 상태**
+  통신 Protocol 및 송수신 Error 등 통신 상태를 나타냅니다.
+- **Manager Status**
+  Manager 의 버전 및 Language 를 표시합니다.
+## 3.2 Information
+서보 모터의 정보를 표시하는 창입니다. 선택된 서보 모터의 모델명, 모터 타입, 최대 속도, 펌웨어 버전 등을 확인할 수 있습니다.
+또한 해당 서보 보터의 Datasheet 및 사용자 매뉴얼 등을 확인 할 수 있습니다.
+![[Information.jpg]]
+## 3.3 Control 화면
+Parameter 화면은 MightyZap 서보 모터의 제어 값을 설정하거나 동작을 테스트 할 수 있습니다.또한, 실시간 변화 Data를 그래프로 볼 수 있습니다.
