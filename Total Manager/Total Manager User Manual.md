@@ -1,6 +1,5 @@
 # 1. 개요
 ## 1.1 제품 소개
-
 mightyZap Total Manager는 다양한 운영체제에서 MightyZap Actuator를 쉽게 관리 및 제어할 수 있는 Software입니다.
 Total Manager의 특징은 아래와 같습니다.
 - 통신이 가능한 MightyZap의 Parameter를 설정하고, 동작 테스트를 할 수 있습니다.
@@ -21,12 +20,11 @@ MightyZap Total Manager를 구동하기 위해서는 MightyZap 서보 인터페�
 - Linux : Ubuntu LTD 20.04
 	- DeskTop & lapTop에서만 테스트 되었습니다.
 ## 1.4 Interface Board
-
+adklfjasdf
+aslkdfjaskld
 
 # 2. Software Install
 ## 2.1 윈도우에서 설치하기
 1. 윈도우즈 전용 패키지를 다운도르 합니다.
-
 Windows Software 다운로드
-
 2. 다운받은 설치 파일을 실행합니다.
