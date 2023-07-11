@@ -1,4 +1,5 @@
 {
   "foldHeading": false,
-  "foldIndent": false
+  "foldIndent": false,
+  "readableLineLength": false
 }
