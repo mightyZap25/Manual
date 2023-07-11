@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -156,8 +155,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "c54a1b1d79cb9574",
+  "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
+    "Total Manager/img/update-view.jpg",
+    "Total Manager/img/control-view.jpg",
     "Total Manager/img/Information.jpg",
     "Total Manager/img/mainView-description.jpg",
     "Total Manager/img/windows-install-next.jpg",

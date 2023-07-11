@@ -57,3 +57,8 @@ aslkdfjaskld
 ![[Information.jpg]]
 ## 3.3 Control 화면
 Parameter 화면은 MightyZap 서보 모터의 제어 값을 설정하거나 동작을 테스트 할 수 있습니다.또한, 실시간 변화 Data를 그래프로 볼 수 있습니다.
+![[control-view.jpg]]
+서보모터의 ID 또는 Baudrate과 같은 Parameter를 변경하거나, Goal Position등의 동작 Parameter를 간단한 방법으로 테스트가 가능합니다.
+## 3.4 Update 화면
+Update 창은 서보모터의 펌웨어 버전을 변경하거나, 검색되지 않는 서보모터를 복구하는데 사용됩니다.  
+![[update-view.jpg]]
