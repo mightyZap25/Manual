@@ -15,8 +15,8 @@
   {
     "name": "Mini 17Lf",
     "value": "Mini 17Lf",
-    "manualURL": "/Mini%2017Lf/Mini%2017Lf%20User%20Manual.md",
-    "imageURL": "/Mini%2017Lf"
+    "manualURL": "Mini%2017Lf/Mini%2017Lf%20User%20Manual.md",
+    "imageURL": "Mini%2017Lf"
   },
   {
     "name": "Mini 12Ls",
@@ -33,8 +33,8 @@
     {
       "name": "Total Manager",
       "value": "Total%20Manager",
-      "manualURL": "/Total%20Manager/Total%20Manager%20User%20Manual.md",
-      "imageURL": "/Total%20Manager" 
+      "manualURL": "Total%20Manager/Total%20Manager%20User%20Manual.md",
+      "imageURL": "Total%20Manager" 
     },
     {
       "name": "etc",
