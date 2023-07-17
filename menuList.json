@@ -1,10 +1,6 @@
 {
   "Actuator": [
     {
-      "name":"Actuator",
-      "value":"Actuator"
-    },
-    {
       "name": "Mini L12",
       "value": "Mini L12",
       "url": "/Actutator/Mini_L12_UserManual.md"
@@ -31,10 +27,6 @@
     }
   ],
   "Software": [
-    {
-      "name":"Software",
-      "value":"menu"
-    },
     {
       "name": "TotalManager",
       "value": "TotalManager",
