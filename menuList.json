@@ -3,17 +3,20 @@
     {
       "name": "Mini L12",
       "value": "Mini L12",
-      "url": "/Actutator/Mini_L12_UserManual.md"
+      "manualURL": "/Actutator/Mini_L12_UserManual.md"
+      "imageURL": "/Actutator"
     },
     {
       "name": "Mini 12Lf",
       "value": "Mini 12Lf",
-      "url": "/Mini_12Lf_Usermanual.md"
+       "manualURL": "/Actutator/Mini_L12_UserManual.md"
+      "imageURL": "/Actutator"
     },
     {
       "name": "Mini 17Lf",
       "value": "Mini 17Lf",
-      "url": "/Mini_17Lf_Usermanual.md"
+       "manualURL": "/Actutator/Mini_17Lf_UserManual.md"
+      "imageURL": "/Actutator"
     },
     {
       "name": "Mini 12Ls",
