@@ -40,10 +40,6 @@
   ],
   "Library": [
     {
-      "name":"Library",
-      "value":"Library"
-    },
-    {
       "name": "C/C++",
       "value": "C/C++",
       "url": "/C_CppUserManual.md"
@@ -71,10 +67,6 @@
   ],
   "Boards": [
     {
-      "name":"Boards",
-      "value":"Boards"
-    },
-    {
       "name": "TotalManager",
       "value": "TotalManager",
       "url": "/TotalManagerUserManual.md"
@@ -86,10 +78,6 @@
     }
   ],
   "etc": [
-    {
-      "name":"etc",
-      "value":"etc"
-    },
     {
       "name": "TotalManager",
       "value": "TotalManager",
