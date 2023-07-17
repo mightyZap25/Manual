@@ -30,7 +30,8 @@
     {
       "name": "TotalManager",
       "value": "TotalManager",
-      "url": "/Total%20Manager/Total%20Manager%20User%20Manual.md"
+      "manualURL": "/Total%20Manager/Total%20Manager%20User%20Manual.md",
+      "imageURL": "/Total%20Manager",
     },
     {
       "name": "etc",
