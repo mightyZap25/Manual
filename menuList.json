@@ -1,9 +1,9 @@
 {
   "Actuator": [
-    {
+    { 
       "name": "Mini L12",
       "value": "Mini L12",
-      "manualURL": "/Actutator/Mini_L12_UserManual.md",
+      "manualURL": "/Actutator/Mini_L12_UserManual.md", 
       "imageURL": "/Actutator"
     },
     {
