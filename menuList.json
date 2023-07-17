@@ -1,92 +1,92 @@
 {
-  "Actuator":[
+  "Actuator": [
     {
-      "name":"Mini L12",
-      "value":"Mini L12",
-      "url":"/Mini_L12_Usermanual.md"
-    },    
+      "name": "Mini L12",
+      "value": "Mini L12",
+      "url": "/Mini_L12_Usermanual.md"
+    },
     {
-      "name":"Mini 12Lf",
-      "value":"Mini 12Lf",
-      "url":"/Mini_12Lf_Usermanual.md"
-    },    
+      "name": "Mini 12Lf",
+      "value": "Mini 12Lf",
+      "url": "/Mini_12Lf_Usermanual.md"
+    },
     {
-      "name":"Mini 17Lf",
-      "value":"Mini 17Lf",
-      "url":"/Mini_17Lf_Usermanual.md"
-    },    
+      "name": "Mini 17Lf",
+      "value": "Mini 17Lf",
+      "url": "/Mini_17Lf_Usermanual.md"
+    },
     {
-      "name":"Mini 12Ls",
-      "value":"Mini 12Ls",
-      "url":"/Mini_12Ls_Usermanual.md"
-    },    
+      "name": "Mini 12Ls",
+      "value": "Mini 12Ls",
+      "url": "/Mini_12Ls_Usermanual.md"
+    },
     {
-      "name":"Mini 12Lb",
-      "value":"Mini 12Lb",
-      "url":"/Mini_12Lb_Usermanual.md"
+      "name": "Mini 12Lb",
+      "value": "Mini 12Lb",
+      "url": "/Mini_12Lb_Usermanual.md"
     }
   ],
-   "Software":[
-     {
-      "name":"TotalManager",
-      "value":"TotalManager",
-      "url":"/TotalManagerUserManual.md"
-    },    
+  "Software": [
     {
-      "name":"etc",
-      "value":"etc",
-      "url":"/etcUsermanual.md"
-    },
-   ],
-   "Library":[
-     {
-      "name":"C/C++",
-      "value":"C/C++",
-      "url":"/C_CppUserManual.md"
-    },    
-    {
-      "name":"Python",
-      "value":"Python",
-      "url":"/PythonUsermanual.md"
-    },     
-    {
-      "name":"JavaScript",
-      "value":"JavaScript",
-      "url":"/JavaScriptUsermanual.md"
-    }, 
-    {
-      "name":"Arduino",
-      "value":"Arduino",
-      "url":"/ArduinoUsermanual.md"
+      "name": "TotalManager",
+      "value": "TotalManager",
+      "url": "/TotalManagerUserManual.md"
     },
     {
-      "name":"Labview",
-      "value":"Labview",
-      "url":"/LabviewUsermanual.md"
+      "name": "etc",
+      "value": "etc",
+      "url": "/etcUsermanual.md"
     }
-   ],
-  "Board":[
-     {
-      "name":"TotalManager",
-      "value":"TotalManager",
-      "url":"/TotalManagerUserManual.md"
-    },    
+  ],
+  "Library": [
     {
-      "name":"etc",
-      "value":"etc",
-      "url":"/etcUsermanual.md"
-    }
-   ],
-  "etc":[
-     {
-      "name":"TotalManager",
-      "value":"TotalManager",
-      "url":"/TotalManagerUserManual.md"
-    },    
+      "name": "C/C++",
+      "value": "C/C++",
+      "url": "/C_CppUserManual.md"
+    },
     {
-      "name":"etc",
-      "value":"etc",
-      "url":"/etcUsermanual.md"
+      "name": "Python",
+      "value": "Python",
+      "url": "/PythonUsermanual.md"
+    },
+    {
+      "name": "JavaScript",
+      "value": "JavaScript",
+      "url": "/JavaScriptUsermanual.md"
+    },
+    {
+      "name": "Arduino",
+      "value": "Arduino",
+      "url": "/ArduinoUsermanual.md"
+    },
+    {
+      "name": "Labview",
+      "value": "Labview",
+      "url": "/LabviewUsermanual.md"
     }
-   ]
+  ],
+  "Board": [
+    {
+      "name": "TotalManager",
+      "value": "TotalManager",
+      "url": "/TotalManagerUserManual.md"
+    },
+    {
+      "name": "etc",
+      "value": "etc",
+      "url": "/etcUsermanual.md"
+    }
+  ],
+  "etc": [
+    {
+      "name": "TotalManager",
+      "value": "TotalManager",
+      "url": "/TotalManagerUserManual.md"
+    },
+    {
+      "name": "etc",
+      "value": "etc",
+      "url": "/etcUsermanual.md"
+    }
+  ]
 }
