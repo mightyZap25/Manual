@@ -63,7 +63,7 @@
       "name":"Labview",
       "value":"Labview",
       "url":"/LabviewUsermanual.md"
-    },
+    }
    ],
   "Board":[
      {
@@ -75,7 +75,7 @@
       "name":"etc",
       "value":"etc",
       "url":"/etcUsermanual.md"
-    },
+    }
    ],
   "etc":[
      {
@@ -87,6 +87,6 @@
       "name":"etc",
       "value":"etc",
       "url":"/etcUsermanual.md"
-    },
-   ],
+    }
+   ]
 }
