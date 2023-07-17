@@ -1,6 +1,10 @@
 {
   "Actuator": [
     {
+      "name":"Actuator",
+      "value":"Actuator"
+    },
+    {
       "name": "Mini L12",
       "value": "Mini L12",
       "url": "/Actutator/Mini_L12_UserManual.md"
@@ -28,6 +32,10 @@
   ],
   "Software": [
     {
+      "name":"Software",
+      "value":"Software"
+    },
+    {
       "name": "TotalManager",
       "value": "TotalManager",
       "url": "/Total%20Manager/Total%20Manager%20User%20Manual.md"
@@ -39,6 +47,10 @@
     }
   ],
   "Library": [
+    {
+      "name":"Library",
+      "value":"Library"
+    },
     {
       "name": "C/C++",
       "value": "C/C++",
@@ -65,7 +77,11 @@
       "url": "/LabviewUsermanual.md"
     }
   ],
-  "Board": [
+  "Boards": [
+    {
+      "name":"Boards",
+      "value":"Boards"
+    },
     {
       "name": "TotalManager",
       "value": "TotalManager",
@@ -78,6 +94,10 @@
     }
   ],
   "etc": [
+    {
+      "name":"etc",
+      "value":"etc"
+    },
     {
       "name": "TotalManager",
       "value": "TotalManager",
