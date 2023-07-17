@@ -53,7 +53,6 @@
 
 - 제품을 사용자 임의로 분해 또는 개조하지 마세요.
 - 제품에 강한 충격을 가하거나 떨어드리지 마세요.
-
 ## [성능 그래프](https://emanual.robotis.com/docs/kr/dxl/p/ph42-020-s300-r/#%EC%84%B1%EB%8A%A5-%EA%B7%B8%EB%9E%98%ED%94%84)[](https://emanual.robotis.com/docs/kr/dxl/p/ph42-020-s300-r/#%EC%84%B1%EB%8A%A5-%EA%B7%B8%EB%9E%98%ED%94%84)
 
 ![](https://emanual.robotis.com/assets/images/dxl/pro/h42-20-s300-r_performance_graph_2.jpg)
