@@ -57,7 +57,7 @@ aslkdfjaskld
 This is a window that displays servo motor information. You can check the model name, motor type, maximum speed, and firmware version of the selected servo motor.
 Also, you can check the datasheet and user manual of the servo motor.
 ![[Information.jpg]]
-## 3.3 Control Screen
+## 3.3 Control Feature
 In the parameter screen, you can set the control value of the MightyZap servo motor or test the operation. Also, you can view the real-time change data as a graph.
 ![[control-view.jpg]]
 It is possible to change parameters such as servo motor ID or Baudrate, or to test motion parameters such as Goal Position in a simple way.
