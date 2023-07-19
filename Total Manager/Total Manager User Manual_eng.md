@@ -1,11 +1,11 @@
-# 1. 개요
-## 1.1 제품 소개
-mightyZap Total Manager는 다양한 운영체제에서 MightyZap Actuator를 쉽게 관리 및 제어할 수 있는 Software입니다.
-Total Manager의 특징은 아래와 같습니다.
-- 통신이 가능한 MightyZap의 Parameter를 설정하고, 동작 테스트를 할 수 있습니다.
-- 간단한 동작 Motion 을 테스트하고 시간에 따라 변경되는 Data를 확인할 수 있습니다.
-- 다양한 Protocol을 기반으로 MightyZap을 상태 확인 및 제어 할 수 있습니다.
-- 모든 Smart mightyZap의 펌웨어를 업데이트 할 수 있습니다.
+# 1. Abstract
+## 1.1  Introduction
+mightyZap Total Manager is software that allows easy management and control of the MightyZap Actuator on various operating systems. 
+The features of Total Manager are as follows:
+- It allows setting the parameters of the communicable MightyZap and conducting operation tests.
+- It enables testing simple motion and observing data that changes over time..
+- It supports various protocols to monitor and control the MightyZap's status.
+- It can update the firmware of all Smart mightyZap devices.
 
 ![[controlfuulshot.png]]
 
@@ -22,6 +22,8 @@ MightyZap Total Manager를 구동하기 위해서는 MightyZap 서보 인터페�
 ## 1.4 Interface Board
 adklfjasdf
 aslkdfjaskld
+
+
 
 # 2. Software Install
 ## 2.1 윈도우에서 설치하기
@@ -65,5 +67,4 @@ Update 창은 서보모터의 펌웨어 버전을 변경하거나, 검색되지 
 # 4. 기본 기능
 ## 4.1 통신 Port 확인
 ## 4.2 통신 연결 및 검색
-1. 통신 연결을 위해 아래의 그림과 같이 Software를 실행 한 후 우측 상단의 SCAN 버튼을 클릭합니다.
-2. 
+1. 통신 연결을 위해 아래의 그림과 같이 Software를 실행 한 후 우측 상단의 SCAN 버튼을 클합니다.

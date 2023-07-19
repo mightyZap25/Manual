@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual.md",
+                "file": "Total Manager/Total Manager User Manual_eng.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be5737c96dc882a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
@@ -21,20 +33,6 @@
           }
         ],
         "stacked": true
-      },
-      {
-        "id": "d1e1b234a3990d44",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e5f609b0443f82d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown-table-editor-view",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual.md",
+                "file": "Total Manager/Total Manager User Manual_eng.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual.md",
+                "file": "Total Manager/Total Manager User Manual_eng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual.md"
+                "file": "Total Manager/Total Manager User Manual_eng.md"
               }
             }
           },
@@ -149,6 +147,14 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "0b4b89dc5d6f6ed9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
@@ -170,11 +176,15 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "e5f609b0443f82d8",
+  "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
+    "Total Manager/Total Manager User Manual_kor.md",
+    "Total Manager/Total Manager User Manual_eng.md",
+    "conflict-files-obsidian-git.md",
+    "무제 파일.md",
+    "Mini 17Lf/Mini 17Lf User Manual.md",
     "menuList.json",
     "Mini 17Lf/img/스크린샷 2023-07-17 17-42-53.png",
-    "Total Manager/Total Manager User Manual.md",
     "Total Manager/img/update-view.jpg",
     "Total Manager/img/control-view.jpg",
     "Total Manager/img/Information.jpg",
@@ -187,7 +197,6 @@
     "무제 파일 1.canvas",
     "().md",
     "1..md",
-    "Mini 17Lf/Mini 17Lf User Manual.md",
     "흡입시키지.md",
     "Mini 17Lf/img",
     "Mini 17Lf",
