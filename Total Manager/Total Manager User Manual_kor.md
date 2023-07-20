@@ -9,17 +9,10 @@ Total Manager에서는 다양한 OS를 제공하고, 사용자 인터페이스�
 ## 개요
 mightyZap Total Manager는 다양한 기능을 가진 다목적 Software입니다. MightyZap Actuator의 동작 Test와 Parameter 설정 및 동작 상태 Monitoring과 Firmware Update를 기본적으로 제공합니다.
 또한 모델에 따른 특수 기능을 설정 및 테스트 할 수도 있습니다.
->특수 기능 설정 및 테스트 내용은 각 모델의 매뉴얼을 참조하시기바랍니다.
-
-Total Manager의 특징은 아래와 같습니다.
-- 통신 기능이 있는 모든  MightyZap의 Parameter를 설정하고, 동작 테스트를 할 수 있습니다.
-- 간단한 동작 Motion을 테스트하고 시간에 따라 변경되는 Data를 확인할 수 있습니다.
-- 다양한 Protocol을 기반으로 MightyZap을 상태 확인 및 제어 할 수 있습니다.
-- 모든 Smart mightyZap의 펌웨어를 업데이트 할 수 있습니다.
+>특수 기능 설정 및 테스트 내용은 각 모델의 매뉴얼을 참조하시기 바랍니다.
 
 ![[controlfuulshot.png]]
-
-MightyZap Total Manager를 구동하기 위해서는 MightyZap 서보 인터페이스 모듈을 추천드립니다.
+<매니저의 여러 이미지 넣기>
 ## 지원 운영체제
 - Windows : windows 7(32bit) 이상
 - Mac OS : Big Sur
@@ -33,11 +26,16 @@ MightyZap Actuator는 Half Duplex TTL, RS485, CAN 통신을 사용합니다. PC�
 > <font color="#ff0000">주의 사항</font>
 > PC와 Interface Board와의 연결에 사용하는 Cable중 통신이 되지않는 충전 전용 Cable을 사용하여 통신이 연결되지 않는 경우가 있습니다. 반드시 확인하시고 사용하여 주시기 바랍니다.
 
-> 통신 연결상태 확인 방법
-> win
-> linux
-> mac os
-
+## Feature
+### Information
+연결된 MightyZap Actuator의 Model명, Stroke, Rate Load, Firmware Version 등 Actuator와 관련된 기본 정보를 표시합니다.
+Software를 실행하였을 경우 제일 처음에 나타나는 화면입니다.
+<이미지>
+### Parameter
+MightyZap Actuator를  제어하거나 Paramter를 변경 및  Monitoring을 할 수 있습니다.
+연결된 여러개의 서보모터 중 선택하여 개별적으로 제어할 수 있으며, Paramter의 Type에 따라 Non-voltatile Memory와 Volatile Memoty 화면으로 나누어져 있습니다. 
+화면의 크기를 줄일 경우 화면 구성이 다이나믹하게 변하게 됩니다.
+### Update
 
 # Software Install
 ## Windows에서 설치하기
