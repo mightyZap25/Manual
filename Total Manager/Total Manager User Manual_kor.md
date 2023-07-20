@@ -30,13 +30,16 @@ MightyZap Actuator는 Half Duplex TTL, RS485, CAN 통신을 사용합니다. PC�
 ### Information
 연결된 MightyZap Actuator의 Model명, Stroke, Rate Load, Firmware Version 등 Actuator와 관련된 기본 정보를 표시합니다.
 Software를 실행하였을 경우 제일 처음에 나타나는 화면입니다.
-<이미지>
+![[Information.jpg]]
 ### Parameter
 MightyZap Actuator를  제어하거나 Paramter를 변경 및  Monitoring을 할 수 있습니다.
 연결된 여러개의 서보모터 중 선택하여 개별적으로 제어할 수 있으며, Paramter의 Type에 따라 Non-voltatile Memory와 Volatile Memoty 화면으로 나누어져 있습니다. 
-화면의 크기를 줄일 경우 화면 구성이 다이나믹하게 변하게 됩니다.
+사용 모델에 따라 Parameter의 구성이 달라지며, 화면의 크기에 따라 화면 구성이 다이나믹하게 변하게 됩니다.
+![[control-view.jpg]]
 ### Update
-
+MightyZap Actuator의 Firmware를 Update할 때 사용합니다. 당사의 Webpage에서 해당 모델에 맞는 업데이트 파일을 다운로드 받으신 후 업데이트를 진행 하실 수 있습니다.
+또한, Update Fail 및 사용자의 실수로 인해 서보모터가 검색이 되지 않을 경우 Firmware를 검사 및 복구 하실 수도 있습니다.
+![[update-view.jpg]]
 # Software Install
 ## Windows에서 설치하기
 1. 윈도우즈 전용 패키지를 다운도르 합니다.
@@ -68,14 +71,14 @@ MightyZap Actuator를  제어하거나 Paramter를 변경 및  Monitoring을 할
 ## 3.2 Information
 서보 모터의 정보를 표시하는 창입니다. 선택된 서보 모터의 모델명, 모터 타입, 최대 속도, 펌웨어 버전 등을 확인할 수 있습니다.
 또한 해당 서보 보터의 Datasheet 및 사용자 매뉴얼 등을 확인 할 수 있습니다.
-![[Information.jpg]]
+
 ## 3.3 Control 화면
 Parameter 화면은 MightyZap 서보 모터의 제어 값을 설정하거나 동작을 테스트 할 수 있습니다.또한, 실시간 변화 Data를 그래프로 볼 수 있습니다.
-![[control-view.jpg]]
+
 서보모터의 ID 또는 Baudrate과 같은 Parameter를 변경하거나, Goal Position등의 동작 Parameter를 간단한 방법으로 테스트가 가능합니다.
 ## 3.4 Update 화면
 Update 창은 서보모터의 펌웨어 버전을 변경하거나, 검색되지 않는 서보모터를 복구하는데 사용됩니다.  
-![[update-view.jpg]]
+
 # 4. 기본 기능
 ## 4.1 통신 Port 확인
 
