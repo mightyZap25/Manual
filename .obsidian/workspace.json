@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Total Manager/Total Manager User Manual_kor.md"
               }
             }
           },
@@ -164,10 +164,11 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "afd3ca12c0ed814a",
+  "active": "3c8f0a42222ab22e",
   "lastOpenFiles": [
-    "IRROBOT DATASHEET_17Lfe 양식.md",
     "Total Manager/Total Manager User Manual_eng.md",
+    "README.md",
+    "IRROBOT DATASHEET_17Lfe 양식.md",
     "Total Manager/Total Manager User Manual_kor.md",
     "conflict-files-obsidian-git.md",
     "무제 파일.md",
@@ -190,7 +191,6 @@
     "Mini 17Lf/img",
     "Mini 17Lf",
     "Total Manager/img/KMqY8YD.jpeg",
-    "README.md",
     "Total Manager/img",
     "Total Manager",
     "image",
