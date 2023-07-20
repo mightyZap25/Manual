@@ -2,15 +2,14 @@
 # Total Manager 시작하기
 MightyZap Total Manager 사용자 가이드
 LAST REVISION: 2023.07.20
-
 mightyZap Total Manager는 다양한 운영체제에서 MightyZap Actuator를 쉽게 관리 및 제어할 수 있는 Software입니다.
 Total Manager에서는 다양한 OS를 제공하고, 사용자 인터페이스를 개선하고 신규 MightyZap 모델을 추가로 지원하는 신규MightyZap Manager 입니다.
-이 가이드에서는 Total Manager의 설치와 각 기능의 사용법에 대한 기본 사항을 다룹니다.
-[Total Manager Software Download](https://mightyzap.com/ko/digitalarchive6/?uid=211&mod=document&pageid=1) 페이지에서 다운로드 할 수 있습니다.
+이 가이드에서는 Total Manager의 설치와 각 기능의 사용법에 대한 기본 사항을 다룹니다  
+>[Total Manager Software Download](https://mightyzap.com/ko/digitalarchive6/?uid=211&mod=document&pageid=1) 페이지에서 다운로드 할 수 있습니다.
 ## 개요
 mightyZap Total Manager는 다양한 기능을 가진 다목적 Software입니다. MightyZap Actuator의 동작 Test와 Parameter 설정 및 동작 상태 Monitoring과 Firmware Update를 기본적으로 제공합니다.
 또한 모델에 따른 특수 기능을 설정 및 테스트 할 수도 있습니다.
-특수 기능 설정 및 테스트 내용은 각 모델의 매뉴얼을 참조하시기 바랍니다.
+>특수 기능 설정 및 테스트 내용은 각 모델의 매뉴얼을 참조하시기 바랍니다.
 
 ![[total_image.png]]
 ## 지원 운영체제
@@ -23,8 +22,8 @@ MightyZap Actuator는 Half Duplex TTL, RS485, CAN 통신을 사용합니다. PC�
 당사에서는 MightyZap Actuator를 위한 USB Interface Board를 판매하고 있습니다. 당사의 Interface Board를 사용할 경우 손쉽게 MightyZap을 PC와 연결할 수 있습니다.
 시중의 Convertor를 구매하여 사용하실 수 있지만, 안전성을 위하여 가급적 당사의 Interface Board를 사용하여 주시기 바랍나다.
 
- <font color="#ff0000">주의 사항</font>
- PC와 Interface Board와의 연결에 사용하는 Cable중 통신이 되지않는 충전 전용 Cable을 사용하여 통신이 연결되지 않는 경우가 있습니다. 반드시 확인하시고 사용하여 주시기 바랍니다.
+> <font color="#ff0000">주의 사항</font>
+> PC와 Interface Board와의 연결에 사용하는 Cable중 통신이 되지않는 충전 전용 Cable을 사용하여 통신이 연결되지 않는 경우가 있습니다. 반드시 확인하시고 사용하여 주시기 바랍니다.
 
 ## Feature
 ### Information
