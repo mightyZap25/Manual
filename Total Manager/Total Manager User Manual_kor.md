@@ -1,9 +1,5 @@
 
 # Total Manager 시작하기
-Total Manager는 Mightzay Actuator를 제어 및 관리하기위한 Software입니다. 
-제품을 적용하기 전 동작 테스트 및 설정을 
-# 1. 개요
-## 1.1 제품 소개
 mightyZap Total Manager는 다양한 운영체제에서 MightyZap Actuator를 쉽게 관리 및 제어할 수 있는 Software입니다.
 Total Manager의 특징은 아래와 같습니다.
 - 통신 기능이 있는 모든  MightyZap의 Parameter를 설정하고, 동작 테스트를 할 수 있습니다.
@@ -14,18 +10,17 @@ Total Manager의 특징은 아래와 같습니다.
 ![[controlfuulshot.png]]
 
 MightyZap Total Manager를 구동하기 위해서는 MightyZap 서보 인터페이스 모듈을 추천드립니다.
-## 1.2 지원 Protocol
-- Protocol 1.0
-- Modbus-RTU (FC-Only)
-- CAN Protocol (BLDC Only)
-## 1.3 지원 운영체제
+## 지원 운영체제
 - Windows : windows 7(32bit) 이상
 - Mac OS : Big Sur
 - Linux : Ubuntu LTD 20.04
 	- DeskTop & lapTop에서만 테스트 되었습니다.
-## 1.4 Interface Board
-adklfjasdf
-aslkdfjaskld
+## 사용 환경
+MightyZap Actuator는 Half Duplex TTL, RS485, CAN 통신을 사용합니다. PC와의 통신을 위한 컨버터를 사용해야 Actuator와의 통신이 가능합니다.
+당사에서는 MightyZap Actuator를 위한 USB Interface Board를 판매하고 있습니다. 당사의 Interface Board를 사용할 경우 손쉽게 MightyZap을 PC와 연결할 수 있습니다.
+시중의 Convertor를 구매하여 사용하실 수 있지만, 안전성을 위하여 가급적 당사의 Interface Board를 사용하여 주시기 바랍나다.
+> **주의 사항**
+> PC와 Interface Board와의 연결에 사용하는 Cable중 통신이 되지않는 충전 전용 Cable을 사용하여 통신이 연결되지 않는 경우가 있습니다. 반드시 확인하시고 사용하여 주시기 바랍니다.
 
 
 
