@@ -19,13 +19,13 @@ MightyZap Total Manager를 구동하기 위해서는 MightyZap 서보 인터페�
 MightyZap Actuator는 Half Duplex TTL, RS485, CAN 통신을 사용합니다. PC와의 통신을 위한 컨버터를 사용해야 Actuator와의 통신이 가능합니다.
 당사에서는 MightyZap Actuator를 위한 USB Interface Board를 판매하고 있습니다. 당사의 Interface Board를 사용할 경우 손쉽게 MightyZap을 PC와 연결할 수 있습니다.
 시중의 Convertor를 구매하여 사용하실 수 있지만, 안전성을 위하여 가급적 당사의 Interface Board를 사용하여 주시기 바랍나다.
-> **주의 사항**
+
+> <font color="#ff0000">주의 사항</font>
 > PC와 Interface Board와의 연결에 사용하는 Cable중 통신이 되지않는 충전 전용 Cable을 사용하여 통신이 연결되지 않는 경우가 있습니다. 반드시 확인하시고 사용하여 주시기 바랍니다.
 
 
-
-# 2. Software Install
-## 2.1 윈도우에서 설치하기
+# Software Install
+## Windows에서 설치하기
 1. 윈도우즈 전용 패키지를 다운도르 합니다.
 	- [Windows Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
 2. 다운받은 설치 파일을 실행합니다.
