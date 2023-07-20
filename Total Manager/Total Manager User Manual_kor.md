@@ -60,11 +60,13 @@ MightyZap Actuator는 Half Duplex TTL, RS485, CAN 통신을 사용합니다. PC�
 Parameter 화면은 MightyZap 서보 모터의 제어 값을 설정하거나 동작을 테스트 할 수 있습니다.또한, 실시간 변화 Data를 그래프로 볼 수 있습니다.
 ![[control-view.jpg]]
 서보모터의 ID 또는 Baudrate과 같은 Parameter를 변경하거나, Goal Position등의 동작 Parameter를 간단한 방법으로 테스트가 가능합니다.
+[[Total Manager User Manual_kor.gif]]
 ## 3.4 Update 화면
 Update 창은 서보모터의 펌웨어 버전을 변경하거나, 검색되지 않는 서보모터를 복구하는데 사용됩니다.  
 ![[update-view.jpg]]
 # 4. 기본 기능
 ## 4.1 통신 Port 확인
+
 ## 4.2 통신 연결 및 검색
 
 1. 통신 연결을 위해 아래의 그림과 같이 Software를 실행 한 후 우측 상단의 SCAN 버튼을 클릭합니다.
