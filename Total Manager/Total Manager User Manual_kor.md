@@ -11,8 +11,7 @@ mightyZap Total Manager는 다양한 기능을 가진 다목적 Software입니�
 또한 모델에 따른 특수 기능을 설정 및 테스트 할 수도 있습니다.
 >특수 기능 설정 및 테스트 내용은 각 모델의 매뉴얼을 참조하시기 바랍니다.
 
-![[controlfuulshot.png]]
-<매니저의 여러 이미지 넣기>
+![[total_image.png]]
 ## 지원 운영체제
 - Windows : windows 7(32bit) 이상
 - Mac OS : Big Sur
@@ -40,9 +39,24 @@ MightyZap Actuator를  제어하거나 Paramter를 변경 및  Monitoring을 할
 MightyZap Actuator의 Firmware를 Update할 때 사용합니다. 당사의 Webpage에서 해당 모델에 맞는 업데이트 파일을 다운로드 받으신 후 업데이트를 진행 하실 수 있습니다.
 또한, Update Fail 및 사용자의 실수로 인해 서보모터가 검색이 되지 않을 경우 Firmware를 검사 및 복구 하실 수도 있습니다.
 ![[update-view.jpg]]
+
 # Software Install
-## Windows에서 설치하기
+### Windows에서 설치하기[이미지는 영문을 기본으로 ]
 1. 윈도우즈 전용 패키지를 다운도르 합니다.
+	- [Windows Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
+2. 다운받은 설치 파일을 실행합니다.
+ ![[windows0install.jpg]]
+3. Next 버튼을 클릭하여 설치를 진행합니다.   
+   ![[windows-install-next.jpg]]
+### Mac OS에서 설치하기
+윈도우즈 전용 패키지를 다운도르 합니다.
+	- [Windows Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
+2. 다운받은 설치 파일을 실행합니다.
+ ![[windows0install.jpg]]
+3. Next 버튼을 클릭하여 설치를 진행합니다.   
+   ![[windows-install-next.jpg]]
+### Unbuntu에서 설치하기
+윈도우즈 전용 패키지를 다운도르 합니다.
 	- [Windows Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
 2. 다운받은 설치 파일을 실행합니다.
  ![[windows0install.jpg]]
