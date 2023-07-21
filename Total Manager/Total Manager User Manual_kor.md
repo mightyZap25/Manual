@@ -15,7 +15,7 @@ mightyZap Total Manager는 다양한 기능을 가진 다목적 Software입니�
 
 ![[total_image.png]]
 ## 지원 운영체제
-- Windows : windows 7(32bit) 이상
+- Windows : windows 7(32bit) 이상  
 - Mac OS : Big Sur
 - Linux : Ubuntu LTD 20.04
 	- DeskTop & lapTop에서만 테스트 되었습니다.
