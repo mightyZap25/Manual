@@ -83,8 +83,38 @@ USB Interface Board Driver를 다운로드 합니다.
 다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.
 	[이미지 ]
 USB Interface Board를 PC와 연결합니다.
-[시스템]-[장치관리자]-[port]에서 Serial Port가 정상적으로 연결되었늕
-# 3. 매뉴 설명
+[시스템]-[장치관리자]-[port]에서 Serial Port가 정상적으로 연결되었는지 확인합니다.
+정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.
+### mac OS
+USB Interface Board Driver를 다운로드 합니다.
+	-  [USB Interface Board Window Driver]
+다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.
+	[이미지 ]
+USB Interface Board를 PC와 연결합니다.
+[시스템 정보]-[Hardware]-[USB]에서 Serial Port가 정상적으로 연결되었는지 확인합니다.
+정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.
+[이미지]
+
+### Linux[ubuntu 22.04]
+USB Interface Board Driver를 다운로드 합니다.
+	-  [USB Interface Board Window Driver]
+다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.
+	[이미지 ]
+USB Interface Board를 PC와 연결합니다.
+[시스템 정보]-[Hardware]-[USB]에서 Serial Port가 정상적으로 연결되었는지 확인합니다.
+정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.
+[이미지]
+터미널 창을 열고 아래와 같이 port 권한 설정을 사용자 계정에 추가해 주어야  Serial Port의 사용이 가능하게 됩니다.
+
+# MightyZap 연결 및 검색 
+# 기본정보 확인
+# Parameter 설정 및 제어
+# 펌웨어 업데이트
+# Recovery
+
+
+
+
 ## 3.1 화면 설명
 ![[mainView-description.jpg]]
 - **Main Toolbar**    
