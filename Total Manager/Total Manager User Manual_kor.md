@@ -14,11 +14,7 @@ mightyZap Total Manager는 다양한 기능을 가진 다목적 Software입니�
 >특수 기능 설정 및 테스트 내용은 각 모델의 매뉴얼을 참조하시기 바랍니다.
 
 ![[total_image.png]]
-## 지원 운영체제
-- Windows : windows 7(32bit) 이상  
-- Mac OS : Big Sur
-- Linux : Ubuntu LTD 20.04
-	- DeskTop & lapTop에서만 테스트 되었습니다.
+
 ## 사용 환경
 MightyZap Actuator는 Half Duplex TTL, RS485, CAN 통신을 사용합니다. PC와의 통신을 위한 컨버터를 사용해야 Actuator와의 통신이 가능합니다.
 당사에서는 MightyZap Actuator를 위한 USB Interface Board를 판매하고 있습니다. 당사의 Interface Board를 사용할 경우 손쉽게 MightyZap을 PC와 연결할 수 있습니다.
@@ -42,9 +38,19 @@ MightyZap Actuator의 Firmware를 Update할 때 사용합니다. 당사의 Webpa
 또한, Update Fail 및 사용자의 실수로 인해 서보모터가 검색이 되지 않을 경우 Firmware를 검사 및 복구 하실 수도 있습니다.
 ![[update-view.jpg]]
 
-# Software Install
-## Windows OS
-### Total Manager Install
+# Total Manager 다운로드 및 설치
+이 튜토리얼에서는 Windows. Mac 또는 Linux 컴퓨터에서 Total Manager를 다운로드하고 설치하는 방법을 보여줍니다.
+## 요구사항
+- Windows : windows 7(32bit) 이상  
+- Mac OS : Big Sur 이상 64bit
+- Linux : Ubuntu LTD 20.04 64bit
+
+## Install
+### Windows
+Windows 컴퓨터에서 MightyZap Total Manager를 설치하려면 사용중인 Windows의 
+OS 버전을 확인하신 후 Program을 설치하여 주시기 바랍니다.
+OS Version 확인 방법
+
 1. 윈도우즈 전용 패키지를 다운도르 합니다.
 	- [Windows Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
 2. 다운받은 설치 파일을 실행합니다.
