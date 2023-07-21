@@ -66,8 +66,24 @@ macOS에서 MightyZap Total Manager를 설치하려면 다운로드한 파일을
 ### Linux
 Linux 전용 패키지를 다운도르 합니다.
 	- [Linux Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
-terminal  창을 열고 다음과 같이
+terminal  창을 열고 다음과 같이 설치를 합니다.
+Ubnuntu (>=22.04)
+>sudo dpkg total-manager
 
+## USB Interface Board 
+Total Manager와 MightyZap Actuator와의 통신을 위하여 Serail convertor 가 필요합니다.
+해당 설명은 당사의 USB Interface Board를 기준으로 설명이 되어있습니다.
+먼저 USB Cable을 이용하여 PC와 연결하여 주시기 바랍니다. 
+> <font color="#ff0000">주의사항 </font>
+> <font color="#ff0000">충전 전용 케이블이 아닌 통신이 가능한 케이블을 사용하여 주셔야합니다.</font>
+
+### Windows
+USB Interface Board Driver를 다운로드 합니다.
+	-  [USB Interface Board Window Driver]
+다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.
+	[이미지 ]
+USB Interface Board를 PC와 연결합니다.
+[시스템]-[장치관리자]-[port]에서 Serial Port가 정상적으로 연결되었늕
 # 3. 매뉴 설명
 ## 3.1 화면 설명
 ![[mainView-description.jpg]]
