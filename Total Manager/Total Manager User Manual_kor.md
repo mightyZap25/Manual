@@ -97,7 +97,7 @@ USB Interface Board를 PC와 연결합니다.
 
 ### Linux[ubuntu 22.04]
 USB Interface Board Driver를 다운로드 합니다.
-	-  [USB Interface Board Window Driver]
+	[USB Interface Board Window Driver]
 다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.
 	[이미지 ]
 USB Interface Board를 PC와 연결합니다.
@@ -109,13 +109,7 @@ USB Interface Board를 PC와 연결합니다.
 # MightyZap 연결 및 검색 
 # 기본정보 확인
 # Parameter 설정 및 제어
-# 펌웨어 업데이트
-# Recovery
-
-
-
-
-## 3.1 화면 설명
+## 화면 구성
 ![[mainView-description.jpg]]
 - **Main Toolbar**    
   Actuator의 Reset, Restart, Data Undo/Redo 등을 수행하는 매뉴
@@ -133,6 +127,14 @@ USB Interface Board를 PC와 연결합니다.
   통신 Protocol 및 송수신 Error 등 통신 상태를 나타냅니다.
 - **Manager Status**  
   Manager 의 버전 및 Language 를 표시합니다.
+# 펌웨어 업데이트
+# Recovery
+
+
+
+
+## 3.1 화면 설명
+
 ## 3.2 Information
 서보 모터의 정보를 표시하는 창입니다. 선택된 서보 모터의 모델명, 모터 타입, 최대 속도, 펌웨어 버전 등을 확인할 수 있습니다.
 또한 해당 서보 보터의 Datasheet 및 사용자 매뉴얼 등을 확인 할 수 있습니다.
