@@ -2,7 +2,7 @@
 # Total Manager 시작하기
 MightyZap Total Manager 사용자 가이드
 LAST REVISION: 2023.07.20
-mightyZap Total <u>Manager는</u><span style="background:#d3f8b6"> 다양한</span> **운영체제에서** MightyZap Actuator를 쉽게 관리 및 제어할 수 있는 Software입니다.
+*mightyZap* Total <u>Manager는</u><span style="background:#d3f8b6"> 다양한</span> **운영체제에서** MightyZap Actuator를 쉽게 관리 및 제어할 수 있는 Software입니다.
 <font color="#ff0000">Total Manager</font>에서는 다양한 OS를 제공하고, 사용자 인터페이스를 개선하고 신규 MightyZap 모델을 추가로 지원하는 신규MightyZap Manager 입니다.
 이 가이드에서는 Total Manager의 설치와 각 기능의 사용법에 대한 기본 사항을 다룹니다  
 >[Total Manager Software Download](https://mightyzap.com/ko/digitalarchive6/?uid=211&mod=document&pageid=1) 페이지에서 다운로드 할 수 있습니다.
