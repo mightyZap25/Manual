@@ -52,27 +52,21 @@ OS 버전을 확인하신 후 버전에 맞게 다운로드하여 주시기 바�
 <font color="#4f81bd">OS Version 확인 방법</font>
 ![[Pasted image 20230721144713.png]]
 ![[Pasted image 20230721144728.png]]
-1. 윈도우즈 전용 패키지를 다운도르 합니다.
-	- [Windows Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
-2. 다운받은 설치 파일을 실행합니다.
- ![[windows0install.jpg]]
-3. Next 버튼을 클릭하여 설치를 진행합니다.   
-   ![[windows-install-next.jpg]]
-### USB Interface Board
-### Mac OS에서 설치하기
-윈도우즈 전용 패키지를 다운도르 합니다.
-	- [Windows Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
-2. 다운받은 설치 파일을 실행합니다.
- ![[windows0install.jpg]]
-3. Next 버튼을 클릭하여 설치를 진행합니다.   
-   ![[windows-install-next.jpg]]
-### Unbuntu에서 설치하기
-윈도우즈 전용 패키지를 다운도르 합니다.
-	- [Windows Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
-2. 다운받은 설치 파일을 실행합니다.
- ![[windows0install.jpg]]
-3. Next 버튼을 클릭하여 설치를 진행합니다.   
-   ![[windows-install-next.jpg]]
+
+다운로드한 파일을 실행하여, 설치 가이드의 지침에 따라 설치하시면 됩니다.
+설치에는 몇 분 정도 걸릴 수 있습니다.
+[이미지]
+이제 Window에서 MightyZap Total Manager를 사용하실 수 있습니다.
+### Mac OS
+Mac OS 전용 패키지를 다운도르 합니다.
+[MAC OS Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
+macOS에서 MightyZap Total Manager를 설치하려면 다운로드한 파일을 어플리케이션 폴더에 복사하기만 하면 됩니다.
+![[Pasted image 20230721150751.png]]
+이제 macOS에서 MightyZap Total Manager를 사용하실 수 있습니다.
+### Linux
+Linux 전용 패키지를 다운도르 합니다.
+	- [Linux Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
+terminal  창을 열고 다음과 같이
 
 # 3. 매뉴 설명
 ## 3.1 화면 설명
