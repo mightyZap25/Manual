@@ -137,6 +137,9 @@ USB Interface Board를 PC와 연결합니다.
 
 # Total Manager Description
 ## 통신 연결 및 검색
+### 화면 구성
+### 통신 설정
+### Actuator 검색
 # 기본정보 확인
 # Parameter 설정 및 제어
 ## 화면 구성
