@@ -131,7 +131,7 @@ USB Interface Board를 PC와 연결합니다.
 [시스템 정보]-[Hardware]-[USB]에서 Serial Port가 정상적으로 연결되었는지 확인합니다.
 정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.  
 [이미지]
-터미널 창을 열고 아래와 같이 port 권한 설정을 사용자 계정에 추가해 주어야  Serial Port의 사용이 가능하게 됩니다.  
+터미널 창을 열고 아래와 같이 port 권한 설정을 사용자 계정에 추가해 주어야  Serial Port의 사용이 가능하게 됩니다.   
 - USB Interface Board 03 - FTDI Install Guide
    - [FTDI Install Fuide Link](https://ftdichip.com/document/installation-guides/https://ftdichip.com/document/installation-guides/)
 
@@ -153,7 +153,7 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
  Serial Port 를 Open 한 후 Protocol과 Baudrate를 선택한 후 검색을 진행 해야 합니다.  
  ![[scan_options.png]]
  
- PC와 연결한 Actuator의 Model에 따라 또는 사용자 설정 사항에 따라 각각의 값을 선택합니다. <br> 
+ PC와 연결한 Actuator의 Model에 따라 또는 사용자 설정 사항에 따라 각각의 값을 선택합니다.  
  All 버튼을 누르게 되면 모든 선택 사항들이 선택이 됩니다.
  다음은 모델에 따른 기본 설정값에 대한 예시 입니다.
  (자세한 내용은 해당 모델의 매뉴얼을 참조하여 주시기 바랍니다.) 
