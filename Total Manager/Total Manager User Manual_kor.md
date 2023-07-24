@@ -153,13 +153,13 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
  Serial Port 를 Open 한 후 Protocol과 Baudrate를 선택한 후 검색을 진행 해야합니다.
  PC와 연결한 서보모터의 Model에 또는 사용자 설정 사항에 따라 각각의 값을 선택합니다.
  다음은 모델에 따른 기본 설정값에 대한 예시 입니다.
- (자세한 내용은 해당 모델의 매뉴얼을 참조하여 주시기 바랍니다.)
-|         f      | protocol        | Baudrate |
-|:--------------|:----------------|:---------|
-| Mini L12/12Lf | Own Protocol    | 57600bps |
-| Mini 17lf     | Modbus Protocol | 57600bps |  
-||||
-|:---|:---
+ (자세한 내용은 해당 모델의 매뉴얼을 참조하여 주시기 바랍니다.)    
+
+|   dafault         |   Protocol                  |   Baudrate           |
+|:------------------|:----------------------------|:---------------------|
+|   Mini L12/12Lf   | Own Protocol                |             57600pbs |
+|   Mini 17Lf       | Modbus Protocol             |             57600pbs |  
+
 
 ### Actuator 검색
 # 기본정보 확인
