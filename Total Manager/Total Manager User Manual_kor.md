@@ -137,7 +137,7 @@ USB Interface Board를 PC와 연결합니다.
 
 # Total Manager Description
 ## 통신 연결 및 검색
-
+![[scanbutton.jpg]]
 ### 화면 구성
 ### 통신 설정
 ### Actuator 검색
