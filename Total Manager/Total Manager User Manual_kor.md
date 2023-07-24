@@ -37,9 +37,7 @@ MightyZap Actuator를  제어하거나 Paramter를 변경 및  Monitoring을 할
 ### Update
 MightyZap Actuator의 Firmware를 Update할 때 사용합니다. 당사의 Webpage에서 해당 모델에 맞는 업데이트 파일을 다운로드 받으신 후 업데이트를 진행 하실 수 있습니다.
 또한, Update Fail 및 사용자의 실수로 인해 서보모터가 검색이 되지 않을 경우 Firmware를 검사 및 복구 하실 수도 있습니다.
-![caption](update-view.jpg)
-![[update-view.jpg]]
-
+![[update-view.jpg]]*caption*
 # Total Manager 다운로드 및 설치
 이 튜토리얼에서는 Windows. Mac 또는 Linux 컴퓨터에서 Total Manager를 다운로드하고 설치하는 방법을 보여줍니다.
 ## 요구사항
