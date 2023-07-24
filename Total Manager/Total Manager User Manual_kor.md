@@ -141,12 +141,25 @@ USB Interface Board를 PC와 연결합니다.
 ![[scanbutton.png]]
 ### 화면 구성
 Actuaotor Scan 팝업창이 나오면  위의 OS별 Serial Port 확인을 참조하여 연결된 Comport를 확인한 후 Open 버튼을 클릭합니다.
-정상적으로 comport 연결 되었을 경우 오른쪽 그림과 같이 비활성화 되었던 창이 활성화가 됩니다.
+정상적으로 comport 연결 되었을 경우 오른쪽 그림과 같이 비활성화 되었던 창이 활성화가 되며 Actutor를 검색 할 준비가 됩니다.
 ![[scanning.png]]
 Scan Actuator 창은 아래와 같이 구성되어있습니다.
-
+**Scan Actuator 화면 구성**
+- Serial Port Select (default :Won Protocl)
+- Baudrate Select (default :57600bps)
+- Scan 결과 창
+- Scan, close 버튼 창
 ### 통신 설정
-S
+ Serial Port 를 Open 한 후 Protocol과 Baudrate를 선택한 후 검색을 진행 해야합니다.
+ PC와 연결한 서보모터의 Model에 또는 사용자 설정 사항에 따라 각각의 값을 선택합니다.
+ 다음은 모델에 따른 기본 설정값에 대한 예시 입니다.
+ (자세한 내용은 해당 모델의 매뉴얼을 참조하여 주시기 바랍니다.)
+ **Mini L12/Mini 12Lf Model**
+  - Protocl : Own Protocol
+  - Baudrate : 57600bps
+  **Mini 17f Model**
+  - Protocl :  Modbus Protocol
+  - Baudrate : 57600bps
 ### Actuator 검색
 # 기본정보 확인
 # Parameter 설정 및 제어
