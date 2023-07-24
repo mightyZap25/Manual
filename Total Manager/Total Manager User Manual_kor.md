@@ -140,7 +140,7 @@ USB Interface Board를 PC와 연결합니다.
 아래의 이미지와같이 프로그램을 실행 한 후 상단 매뉴바에서 Scan 버튼을 누르면 Actuator Scan을 위한 팝업창이 활성화 됩니다.
 ![[scanbutton.png]]
 ### 화면 구성
-Actuaotor Scan 팝업창이 나오면  위의 OS별 Serial Port 확인을 참조하여 연결된 Comport를 확인한 후 Open 버튼을 클릭합니다.
+Actuaotor Scan 팝업창이 나오면  위의 OS별 Serial Port 확인을 참조하여 연결된 Comport를 확인한 후 Open 버튼을 클릭합니다.  
 정상적으로 comport 연결 되었을 경우 오른쪽 그림과 같이 비활성화 되었던 창이 활성화가 되며 Actutor를 검색 할 준비가 됩니다.
 ![[scanning.png]]
 Scan Actuator 창은 아래와 같이 구성되어있습니다.
