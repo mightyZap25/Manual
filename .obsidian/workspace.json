@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e45748d38323e4f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Total Manager/Total Manager User Manual_kor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "stacked": true
@@ -158,13 +170,16 @@
   },
   "active": "013e4a34060c9d9f",
   "lastOpenFiles": [
-    "Mini 17Lf/Mini 17Lf User Manual.md",
+    "[[.md",
     "Total Manager/Total Manager User Manual_kor.md",
+    "update.md",
+    "[[update]]].md",
+    "[[Total.md",
+    "().md",
+    "Mini 17Lf/Mini 17Lf User Manual.md",
     "1..md",
     "[.md",
-    "update.md",
     "update][Total Manager User Manual_kor.md",
-    "().md",
     "Total Manager/Total Manager User Manual.md",
     "무제 파일.md",
     "Total Manager/img/windows_version_check.jpg",

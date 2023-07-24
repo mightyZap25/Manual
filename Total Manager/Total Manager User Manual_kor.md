@@ -9,6 +9,7 @@ Total Manager에서는 다양한 OS를 제공하고, 사용자 인터페이스�
 이 가이드에서는 Total Manager의 설치와 각 기능의 사용법에 대한 기본 사항을 다룹니다  
 >[Total Manager Software Download](https://mightyzap.com/ko/digitalarchive6/?uid=211&mod=document&pageid=1) 페이지에서 다운로드 할 수 있습니다.
 
+[update](#개요)
 ## 개요
 mightyZap Total Manager는 다양한 기능을 가진 다목적 Software입니다. MightyZap Actuator의 동작 Test와 Parameter 설정 및 동작 상태 Monitoring과 Firmware Update를 기본적으로 제공합니다.  
 또한 모델에 따른 특수 기능을 설정 및 테스트 할 수도 있습니다. 
