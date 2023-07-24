@@ -152,9 +152,10 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
 ### 통신 설정
  Serial Port 를 Open 한 후 Protocol과 Baudrate를 선택한 후 검색을 진행 해야 합니다.  
  ![[scan_options.png]]
- ![[ezgif-5-e9c1d402d7.gif]]
+ 
  PC와 연결한 Actuator의 Model에 따라 또는 사용자 설정 사항에 따라 각각의 값을 선택합니다.  
- All 버튼을 누르게 되면 모든 선택 사항들이 선택이 됩니다.  
+ All 버튼을 누르게 되면 모든 선택 사항들이 선택이 됩니다.    
+ ![[sacn_ani_1.gif]]
  다음은 모델에 따른 기본 설정 값에 대한 예시 입니다.  
  (자세한 내용은 해당 모델의 매뉴얼을 참조하여 주시기 바랍니다.)   
  
