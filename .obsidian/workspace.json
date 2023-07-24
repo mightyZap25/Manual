@@ -6,6 +6,7 @@
       {
         "id": "174cf033ccc0dce8",
         "type": "tabs",
+        "dimension": 72.80701754385966,
         "children": [
           {
             "id": "afd3ca12c0ed814a",
@@ -25,6 +26,7 @@
       {
         "id": "bc07f050aee448e6",
         "type": "tabs",
+        "dimension": 27.192982456140353,
         "children": [
           {
             "id": "ac667b204c43adfc",
@@ -161,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -178,7 +180,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "ac667b204c43adfc",
+  "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
     "Total Manager/img/scan_options.png",
     "Total Manager/img/scanning.png",
