@@ -12,10 +12,11 @@
             "id": "afd3ca12c0ed814a",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
                 "file": "Total Manager/Total Manager User Manual_kor.md",
-                "staged": false
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -101,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Total Manager/Total Manager User Manual_kor.md"
+              }
             }
           },
           {
@@ -175,7 +180,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "afd3ca12c0ed814a",
+  "active": "3c8f0a42222ab22e",
   "lastOpenFiles": [
     "Total Manager/Total Manager User Manual_kor.md",
     "[.md",
