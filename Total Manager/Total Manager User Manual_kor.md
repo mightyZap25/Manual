@@ -1,5 +1,5 @@
 
-# Total Manager 시작하기
+# 1. Total Manager 시작하기
 MightyZap Total Manager 사용자 가이드  
 <p align="right">LAST REVISION: 2023.07.22</p>
 
@@ -9,14 +9,14 @@ Total Manager에서는 다양한 OS를 제공하고, 사용자 인터페이스�
 이 가이드에서는 Total Manager의 설치와 각 기능의 사용법에 대한 기본 사항을 다룹니다  
 >[Total Manager Software Download](https://mightyzap.com/ko/digitalarchive6/?uid=211&mod=document&pageid=1) 페이지에서 다운로드 할 수 있습니다.
 
-## 개요
+## 1.1 개요
 mightyZap Total Manager는 다양한 기능을 가진 다목적 Software입니다. MightyZap Actuator의 동작 Test와 Parameter 설정 및 동작 상태 Monitoring과 Firmware Update를 기본적으로 제공합니다.  
 또한 모델에 따른 특수 기능을 설정 및 테스트 할 수도 있습니다. 
 >특수 기능 설정 및 테스트 내용은 각 모델의 매뉴얼을 참조하시기 바랍니다.
 
 ![[total_image.png]]
 
-## 사용 환경
+## 1.2 사용 환경
 MightyZap Actuator는 Half Duplex TTL, RS485, CAN 통신을 사용합니다. PC와의 통신을 위한 컨버터를 사용해야 Actuator와의 통신이 가능합니다.  
 당사에서는 MightyZap Actuator를 위한 USB Interface Board를 판매하고 있습니다. 당사의 Interface Board를 사용할 경우 손쉽게 MightyZap을 PC와 연결할 수 있습니다.  
 시중의 Convertor를 구매하여 사용하실 수 있지만, 안전성을 위하여 가급적 당사의 Interface Board를 사용하여 주시기 바랍나다.
@@ -24,29 +24,29 @@ MightyZap Actuator는 Half Duplex TTL, RS485, CAN 통신을 사용합니다. PC�
 > <font color="#ff0000">주의 사항</font><br>
 > PC와 Interface Board와의 연결에 사용하는 Cable중 통신이 되지않는 충전 전용 Cable을 사용하여 통신이 연결되지 않는 경우가 있습니다. 반드시 확인하시고 사용하여 주시기 바랍니다.
 
-## Feature
-### Information
+## 1.3 Feature
+### 1.3.1 Information
 연결된 MightyZap Actuator의 Model명, Stroke, Rate Load, Firmware Version 등 Actuator와 관련된 기본 정보를 표시합니다.   
 Software를 실행하였을 경우 제일 처음에 나타나는 화면입니다.
 ![[Information.jpg]]
-### Parameter
+### 1.3.2 Parameter
 MightyZap Actuator를  제어하거나 Paramter를 변경 및  Monitoring을 할 수 있습니다.   
 연결된 여러개의 서보모터 중 선택하여 개별적으로 제어할 수 있으며, Paramter의 Type에 따라 Non-voltatile Memory와 Volatile Memoty 화면으로 나누어져 있습니다.    
 사용 모델에 따라 Parameter의 구성이 달라지며, 화면의 크기에 따라 화면 구성이 다이나믹하게 변하게 됩니다.   
 ![[control-view.jpg]]
-### Update
+### 1.3.3 Update
 MightyZap Actuator의 Firmware를 Update할 때 사용합니다. 당사의 Webpage에서 해당 모델에 맞는 업데이트 파일을 다운로드 받으신 후 업데이트를 진행 하실 수 있습니다.  
 또한, Update Fail 및 사용자의 실수로 인해 서보모터가 검색이 되지 않을 경우 Firmware를 검사 및 복구 하실 수도 있습니다.  
 ![[update-view.jpg]]*caption*
-# Total Manager 다운로드 및 설치
+# 2. Total Manager 다운로드 및 설치
 이 튜토리얼에서는 Windows. Mac 또는 Linux 컴퓨터에서 Total Manager를 다운로드하고 설치하는 방법을 보여줍니다.
-## 요구사항
+## 2.1 요구사항
 - Windows : windows 7(32bit) 이상  
 - Mac OS : Big Sur 이상 64bit
 - Linux : Ubuntu LTD 20.04 64bit
 
-## Install
-### Windows
+## 2.2 Install
+### 2.2.1 Windows
 Windows 컴퓨터에서 MightyZap Total Manager를 설치하려면 사용중인 Windows의 
 OS 버전을 확인하신 후 버전에 맞게 다운로드하여 주시기 바랍니다.  
 <font color="#4f81bd">OS Version 확인 방법</font>
@@ -57,20 +57,20 @@ OS 버전을 확인하신 후 버전에 맞게 다운로드하여 주시기 바�
 설치에는 몇 분 정도 걸릴 수 있습니다.
 ![[window_install.jpg]]
 이제 Window에서 MightyZap Total Manager를 사용하실 수 있습니다.  
-### Mac OS
+### 2.2.2 Mac OS
 Mac OS 전용 패키지를 다운도르 합니다.  
 [MAC OS Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
 macOS에서 MightyZap Total Manager를 설치하려면 다운로드한 파일을 어플리케이션 폴더에 복사하기만 하면 됩니다.  
 ![[Pasted image 20230721150751.png]]
 이제 macOS에서 MightyZap Total Manager를 사용하실 수 있습니다.  
-### Linux
+### 2.2.3 Linux
 Linux 전용 패키지를 다운도르 합니다.
 	- [Linux Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
 terminal  창을 열고 다음과 같이 설치를 합니다.
 Ubnuntu (>=22.04)
 >sudo dpkg total-manager
 
-## 화면 구성
+## 2.3 화면 구성
 화면 구성은 크게 4가지로  Header 부분과 Side bar, Contents, Fotter로 구성되어있다.  
 ![[mainView-description.jpg]]
 - **Main Toolbar**    
@@ -89,14 +89,14 @@ Ubnuntu (>=22.04)
   통신 Protocol 및 송수신 Error 등 통신 상태를 나타냅니다.
 - **Manager Status**  
   Manager 의 버전 및 Language 를 표시합니다.
-## USB Interface Board 
+## 2.4 USB Interface Board 
 Total Manager와 MightyZap Actuator와의 통신을 위하여 Serail convertor 가 필요합니다.  
 해당 설명은 당사의 USB Interface Board를 기준으로 설명이 되어있습니다.  
 먼저 USB Cable을 이용하여 PC와 연결하여 주시기 바랍니다.   
 > <font color="#ff0000">주의사항 </font>     
 > <font color="#ff0000">충전 전용 케이블이 아닌 통신이 가능한 케이블을 사용하여 주셔야합니다.</font>
 
-### Windows
+### 2.4.1 Windows
 USB Interface Board Driver를 다운로드 합니다.
 	-  [USB Interface Board Window Driver]
 다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.
@@ -110,7 +110,7 @@ USB Interface Board를 PC와 연결합니다.
 [시스템]-[장치관리자]-[port]에서 Serial Port가 정상적으로 연결되었는지 확인합니다.  
 정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.
 ![[serialPort_check_win.jpg]]
-### mac OS
+### 2.4.2 mac OS
 USB Interface Board Driver를 다운로드 합니다.  
 	-  [USB Interface Board Window Driver]  
 다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.  
@@ -120,7 +120,7 @@ USB Interface Board를 PC와 연결합니다.
 정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.  
 [이미지]  
 
-### Linux[ubuntu 22.04]
+### 2.4.3 Linux[ubuntu 22.04]
 Manual installation is not necessary, all FTDI devices are now supported in Ubuntu 11.10, kernel 3.0.0-19.  
 만양ㄱ
 USB Interface Board Driver를 다운로드 합니다.    
@@ -135,11 +135,11 @@ USB Interface Board를 PC와 연결합니다.
 - USB Interface Board 03 - FTDI Install Guide  
    - [FTDI Install Fuide Link](https://ftdichip.com/document/installation-guides/https://ftdichip.com/document/installation-guides/)  
 
-# Total Manager Description
-## 통신 연결 및 검색
+# 3 Total Manager Description
+## 3.1 통신 연결 및 검색
 아래의 이미지와같이 프로그램을 실행 한 후 상단 매뉴바에서 Scan 버튼을 누르면 Actuator Scan을 위한 팝업창이 활성화 됩니다.  
 ![[scanbutton.png]]
-### 화면 구성
+### 3.1.1 화면 구성
 Actuaotor Scan 팝업창이 나오면  위의 OS별 Serial Port 확인을 참조하여 연결된 Comport를 확인한 후 Open 버튼을 클릭합니다.    
 정상적으로 comport 연결 되었을 경우 오른쪽 그림과 같이 비활성화 되었던 창이 활성화가 되며 Actutor를 검색 할 준비가 됩니다.
 ![[scanning.png]]
@@ -149,7 +149,7 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
 - Baudrate Select (default :57600bps)
 - Scan 결과 창
 - Scan, close 버튼 창
-### 통신 설정
+### 3.1.2 통신 설정
  Serial Port 를 Open 한 후 Protocol과 Baudrate를 선택한 후 검색을 진행 해야 합니다.  
  ![[scan_options.png]]
  
@@ -164,7 +164,7 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
 |   **Mini 17Lf**       | Modbus Protocol             |             57600pbs |  
 
 
-### Actuator 검색
+### 3.1.3 Actuator 검색
 # 기본정보 확인
 # Parameter 설정 및 제어
 ## 화면 구성
