@@ -6,7 +6,6 @@
       {
         "id": "174cf033ccc0dce8",
         "type": "tabs",
-        "dimension": 72.80701754385966,
         "children": [
           {
             "id": "afd3ca12c0ed814a",
@@ -22,21 +21,6 @@
           }
         ],
         "stacked": true
-      },
-      {
-        "id": "bc07f050aee448e6",
-        "type": "tabs",
-        "dimension": 27.192982456140353,
-        "children": [
-          {
-            "id": "ac667b204c43adfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown-table-editor-view",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +164,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "3c8f0a42222ab22e",
+  "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
     "Total Manager/Total Manager User Manual_kor.md",
     "[.md",
