@@ -137,17 +137,9 @@
               "type": "git-view",
               "state": {}
             }
-          },
-          {
-            "id": "0b4b89dc5d6f6ed9",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -160,37 +152,30 @@
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "markdown-table-editor:Open Markdown Table Editor": false
+      "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "afd3ca12c0ed814a",
+  "active": "8f4c923ba4880f16",
   "lastOpenFiles": [
-    "Total Manager/Parameter.md",
-    "Total Manager/Total Manager User Manual_kor.md",
-    "IRROBOT DATASHEET_17Lfe 양식.md",
-    "Pasted image 20230721144658.png",
-    "Total Manager/img/sacn_ani_1.gif",
-    "Total Manager/img/yrdy-2023-07-24_18.47.19.gif",
-    "Total Manager/img/180703_sample_gif.gif",
-    "Total Manager/img/180703_sample_gif.gif.crdownload",
-    "Total Manager/Total Manager User Manual_eng.md",
     "[.md",
-    "Total Manager/img/scan_options.png",
-    "Total Manager/img/scanning.png",
-    "Total Manager/img/scanningpng",
-    "Total Manager/img/scanbutton.png",
-    "Total Manager/img/mainView-description.jpg",
-    "Total Manager/img/ScanButton.jpg",
-    "Total Manager/img/scanbutton.jpg",
-    "Total Manager/img/lu171134ov2k.tmp",
-    "Total Manager/img/serialPort_check_win.jpg.crdownload",
-    "Total Manager/img/ch340x_win_install.jpg.crdownload",
-    "Total Manager/img/windows11_version_check.jpg.crdownload",
+    "Total Manager/Total Manager User Manual_kor.md",
+    "update.md",
     "().md",
-    "conflict-files-obsidian-git.md",
-    "README.md",
+    "Total Manager/Total Manager User Manual.md",
     "무제 파일.md",
+    "Total Manager/img/windows_version_check.jpg",
+    "Total Manager/img/windows7_version_check.jpg",
+    "Total Manager/img/windows11_version_check.jpg",
+    "Total Manager/img/window_install.jpg",
+    "Total Manager/img/total_image.png",
+    "Total Manager/img/serialPort_check_win.jpg",
+    "Total Manager/img/scanning.png",
+    "Total Manager/img/scanbutton.png",
+    "Total Manager/img/scanbutton.jpg",
+    "Total Manager/img/scan_options.png",
+    "Total Manager/Total Manager User Manual_eng.md",
+    "Total Manager/Parameter.md",
+    "IRROBOT DATASHEET_17Lfe 양식.md",
     "Mini 17Lf/Mini 17Lf User Manual.md",
     "menuList.json",
     "2023-07-11.md",
@@ -200,6 +185,10 @@
     "흡입시키지.md",
     "Mini 17Lf/img",
     "Mini 17Lf",
+    "README.md",
+    "Total Manager/img",
+    "Total Manager",
+    "image",
     "무제 파일.canvas"
   ]
 }
