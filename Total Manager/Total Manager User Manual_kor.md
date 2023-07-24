@@ -70,6 +70,25 @@ terminal  창을 열고 다음과 같이 설치를 합니다.
 Ubnuntu (>=22.04)
 >sudo dpkg total-manager
 
+## 화면 구성
+화면 구성은 크게 4가지로  Header 부분과 Side bar, Contents, Fotter로 구성되어있다.
+![[mainView-description.jpg]]
+- **Main Toolbar**    
+  Actuator의 Reset, Restart, Data Undo/Redo 등을 수행하는 매뉴
+- **SCAN**  
+  Software의 통신을 연결하고 mightyZap을 검색하는 창을 불러 옵니다.
+- **Main Menu**  
+  Information, control, Update, Manager Setting 등 Manager에서 제공하는 기능을 선택하는 메뉴
+- **Actuator List**  
+  검색된 MightyZap의 이름이 통신 속도와 Protocol에 따라 분류되어 표시
+- **Main contents**  
+  매니저에 제공하는 Main 기능을 표시합니다.
+- **Actuator Information**  
+  선택된 Actuator의 모델명, Firmware Version, 통신 방식 등이 표기 됩니다.
+- **통신 상태**  
+  통신 Protocol 및 송수신 Error 등 통신 상태를 나타냅니다.
+- **Manager Status**  
+  Manager 의 버전 및 Language 를 표시합니다.
 ## USB Interface Board 
 Total Manager와 MightyZap Actuator와의 통신을 위하여 Serail convertor 가 필요합니다.
 해당 설명은 당사의 USB Interface Board를 기준으로 설명이 되어있습니다.
@@ -114,29 +133,15 @@ USB Interface Board를 PC와 연결합니다.
 [이미지]
 터미널 창을 열고 아래와 같이 port 권한 설정을 사용자 계정에 추가해 주어야  Serial Port의 사용이 가능하게 됩니다.
 - USB Interface Board 03 - FTDI Install Guide
-   - [[]]
-   - https://ftdichip.com/document/installation-guides/https://ftdichip.com/document/installation-guides/
-# MightyZap 연결 및 검색 
+   - [FTDI Install Fuide Link](https://ftdichip.com/document/installation-guides/https://ftdichip.com/document/installation-guides/)
+
+# Total Manager Description
+## 통신 연결 및 검색
 # 기본정보 확인
 # Parameter 설정 및 제어
 ## 화면 구성
 ![[mainView-description.jpg]]
-- **Main Toolbar**    
-  Actuator의 Reset, Restart, Data Undo/Redo 등을 수행하는 매뉴
-- **SCAN**  
-  Software의 통신을 연결하고 mightyZap을 검색하는 창을 불러 옵니다.
-- **Main Menu**  
-  Information, control, Update, Manager Setting 등 Manager에서 제공하는 기능을 선택하는 메뉴
-- **Actuator List**  
-  검색된 MightyZap의 이름이 통신 속도와 Protocol에 따라 분류되어 표시
-- **Main contents**  
-  매니저에 제공하는 Main 기능을 표시합니다.
-- **Actuator Information**  
-  선택된 Actuator의 모델명, Firmware Version, 통신 방식 등이 표기 됩니다.
-- **통신 상태**  
-  통신 Protocol 및 송수신 Error 등 통신 상태를 나타냅니다.
-- **Manager Status**  
-  Manager 의 버전 및 Language 를 표시합니다.
+
 # 펌웨어 업데이트
 # Recovery
 
