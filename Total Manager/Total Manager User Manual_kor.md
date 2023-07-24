@@ -165,7 +165,6 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
 |   **Mini L12/12Lf**   | Own Protocol                |             57600pbs |
 |   **Mini 17Lf**       | Modbus Protocol             |             57600pbs |  
 
-
 ### Actuator 검색
 # 기본정보 확인
 # Parameter 설정 및 제어
