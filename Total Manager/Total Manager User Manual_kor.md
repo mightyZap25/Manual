@@ -55,7 +55,7 @@ OS 버전을 확인하신 후 버전에 맞게 다운로드하여 주시기 바�
 
 다운로드한 파일을 실행하여, 설치 가이드의 지침에 따라 설치하시면 됩니다.
 설치에는 몇 분 정도 걸릴 수 있습니다.
-[이미지]
+![[window_install.jpg]]
 이제 Window에서 MightyZap Total Manager를 사용하실 수 있습니다.
 ### Mac OS
 Mac OS 전용 패키지를 다운도르 합니다.
@@ -82,13 +82,15 @@ USB Interface Board Driver를 다운로드 합니다.
 	-  [USB Interface Board Window Driver]
 다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.
 **- USB Interface board - 02** (CH340x)
-  ![[Pasted image 20230724112426.png]]
+![[ch340x_win_install.jpg]]
+  
 **- USB Interface Board - 03** (FTDI)
-  ![[ftdi_win_install.png]]
+![[ftdi_win_install.png]]
 
 USB Interface Board를 PC와 연결합니다.
 [시스템]-[장치관리자]-[port]에서 Serial Port가 정상적으로 연결되었는지 확인합니다.
 정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.
+![[serialPort_check_win.jpg]]
 ### mac OS
 USB Interface Board Driver를 다운로드 합니다.
 	-  [USB Interface Board Window Driver]
