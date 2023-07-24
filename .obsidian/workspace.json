@@ -66,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -116,7 +117,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
@@ -139,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -155,11 +156,14 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "8f4c923ba4880f16",
+  "active": "013e4a34060c9d9f",
   "lastOpenFiles": [
-    "[.md",
+    "Mini 17Lf/Mini 17Lf User Manual.md",
     "Total Manager/Total Manager User Manual_kor.md",
+    "1..md",
+    "[.md",
     "update.md",
+    "update][Total Manager User Manual_kor.md",
     "().md",
     "Total Manager/Total Manager User Manual.md",
     "무제 파일.md",
@@ -176,12 +180,10 @@
     "Total Manager/Total Manager User Manual_eng.md",
     "Total Manager/Parameter.md",
     "IRROBOT DATASHEET_17Lfe 양식.md",
-    "Mini 17Lf/Mini 17Lf User Manual.md",
     "menuList.json",
     "2023-07-11.md",
     "edit.css",
     "무제 파일 1.canvas",
-    "1..md",
     "흡입시키지.md",
     "Mini 17Lf/img",
     "Mini 17Lf",
