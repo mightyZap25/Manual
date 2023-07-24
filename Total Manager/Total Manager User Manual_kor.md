@@ -82,9 +82,9 @@ Total Manager와 MightyZap Actuator와의 통신을 위하여 Serail convertor �
 USB Interface Board Driver를 다운로드 합니다.
 	-  [USB Interface Board Window Driver]
 다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.
-- USB Interface board - 02
+**- USB Interface board - 02** (CH340x)
   ![[Pasted image 20230724112426.png]]
-- USB Interface Board - 03
+**- USB Interface Board - 03** (FTDI)
   ![[ftdi_win_install.png]]
 
 USB Interface Board를 PC와 연결합니다.
@@ -101,6 +101,8 @@ USB Interface Board를 PC와 연결합니다.
 [이미지]
 
 ### Linux[ubuntu 22.04]
+Manual installation is not necessary, all FTDI devices are now supported in Ubuntu 11.10, kernel 3.0.0-19.  
+만양ㄱ
 USB Interface Board Driver를 다운로드 합니다.
 	[USB Interface Board Window Driver]
 다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.
@@ -110,7 +112,9 @@ USB Interface Board를 PC와 연결합니다.
 정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.
 [이미지]
 터미널 창을 열고 아래와 같이 port 권한 설정을 사용자 계정에 추가해 주어야  Serial Port의 사용이 가능하게 됩니다.
-
+- USB Interface Board 03 - FTDI Install Guide
+   - [[]]
+   - https://ftdichip.com/document/installation-guides/https://ftdichip.com/document/installation-guides/
 # MightyZap 연결 및 검색 
 # 기본정보 확인
 # Parameter 설정 및 제어
