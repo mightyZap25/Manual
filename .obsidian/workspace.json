@@ -147,11 +147,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 491.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,7 +164,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "8326d637edc67dcf",
+  "active": "719f7c1e9e32f8c6",
   "lastOpenFiles": [
     "e Manual Review.md",
     "Total Manager/img/yrdy-2023-07-25_10.39.gif",
