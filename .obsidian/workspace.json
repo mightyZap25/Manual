@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Mini 17Lf User Manual_kor.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Mini 17Lf User Manual_kor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Mini 17Lf User Manual_kor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md"
+                "file": "Mini 17Lf User Manual_kor.md"
               }
             }
           },
@@ -167,9 +167,10 @@
   },
   "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
+    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+    "Mini 17Lf User Manual_kor.md",
     "Total Manager/Total Manager User Manual_kor.md",
     "Total Manager/img/option_toggle.gif",
-    "update][Total Manager User Manual_kor.md",
     "[[.md",
     "Total Manager/Parameter.md",
     "IRROBOT DATASHEET_17Lfe 양식.md",
@@ -194,7 +195,6 @@
     "conflict-files-obsidian-git.md",
     "README.md",
     "무제 파일.md",
-    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
     "menuList.json",
     "2023-07-11.md",
     "edit.css",
