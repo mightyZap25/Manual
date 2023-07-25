@@ -6,7 +6,6 @@
       {
         "id": "174cf033ccc0dce8",
         "type": "tabs",
-        "dimension": 30.401234567901238,
         "children": [
           {
             "id": "afd3ca12c0ed814a",
@@ -22,21 +21,6 @@
           }
         ],
         "stacked": true
-      },
-      {
-        "id": "352782c93f6a4772",
-        "type": "tabs",
-        "dimension": 69.59876543209876,
-        "children": [
-          {
-            "id": "476fd1db6b37cbf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown-table-editor-view",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -180,10 +164,11 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "476fd1db6b37cbf6",
+  "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
-    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+    "KMqY8YD.jpeg",
     "Mini 17Lf User Manual_kor.md",
+    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
     "Total Manager/Total Manager User Manual_kor.md",
     "Total Manager/img/option_toggle.gif",
     "[[.md",
