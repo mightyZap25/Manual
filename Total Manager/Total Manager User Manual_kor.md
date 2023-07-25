@@ -199,12 +199,13 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
 
  
 ### 3.3.2 Parameter Control
+
 - slide
 - checkbox
 - text input
 - select box
 - button
-### 3.3.3 Monotoring
+### 3.3.3 MonItoring
 ### 3.3.4 Error State
 ## 3.4 Update
 ### 3.4.1 화면 구성
