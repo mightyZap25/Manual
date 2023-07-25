@@ -1,6 +1,12 @@
 {
   "items": [
     {
+<<<<<<< HEAD
+      "type": "group",
+      "ctime": 1690219206304,
+      "items": [],
+      "title": "Untitled group"
+=======
       "type": "file",
       "ctime": 1688006955337,
       "path": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
@@ -37,6 +43,7 @@
       "ctime": 1690218925434,
       "path": "Total Manager/Total Manager User Manual_kor.md",
       "subpath": "#USB Interface Board"
+>>>>>>> origin/main
     }
   ]
 }
