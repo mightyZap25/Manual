@@ -48,7 +48,7 @@ MightyZap Actuator의 Firmware를 Update할 때 사용합니다. 당사의 Webpa
 ## Install
 ### Windows
 Windows 컴퓨터에서 MightyZap Total Manager를 설치하려면 사용중인 Windows의 
-OS 버전을 확인하신 후 버전에 맞게 다운로드하여 주시기 바랍니다.  SDJFHDKJ
+OS 버전을 확인하신 후 버전에 맞게 다운로드하여 주시기 바랍니다.  
 <font color="#4f81bd">OS Version 확인 방법</font>
 ![[windows_version_check.jpg]]
 
