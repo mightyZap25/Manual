@@ -2,7 +2,7 @@
   "accentColor": "",
   "theme": "moonstone",
   "textFontFamily": "맑은 고딕,DejaVu Sans",
-  "baseFontSize": 11,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "edit"
   ]

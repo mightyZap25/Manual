@@ -182,8 +182,18 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
 - text input
 - select box
 - button
-- 
 ### 3.3.3 Monotoring
+### 3.3.4 Error State
+## 3.4 Update
+### 3.4.1 화면 구성
+### 3.4.2 Firmware Uopdate
+### 3.4.3 Recovery
+### 3.4.4 Factory Reset
+## 3.5 Setting
+### 3.5.1 Language
+### 3.5.2 theme
+### 3.5.3 Software Update
+
 
 ## 화면 구성
 ![[mainView-description.jpg]]
