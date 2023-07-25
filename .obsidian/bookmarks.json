@@ -1,10 +1,49 @@
 {
   "items": [
     {
+<<<<<<< HEAD
       "type": "group",
       "ctime": 1690219206304,
       "items": [],
       "title": "Untitled group"
+=======
+      "type": "file",
+      "ctime": 1688006955337,
+      "path": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+      "subpath": "#1. 주요 사양"
+    },
+    {
+      "type": "file",
+      "ctime": 1689060436604,
+      "path": "Total Manager/img/controlfuulshot.png",
+      "title": "rfr"
+    },
+    {
+      "type": "file",
+      "ctime": 1690217432736,
+      "path": "Total Manager/Total Manager User Manual_kor.md",
+      "subpath": "#3.4 Update 화면",
+      "title": "update"
+    },
+    {
+      "type": "file",
+      "ctime": 1690217729003,
+      "path": "Total Manager/Total Manager User Manual_kor.md",
+      "subpath": "#Update",
+      "title": "update"
+    },
+    {
+      "type": "file",
+      "ctime": 1690218025658,
+      "path": "Total Manager/Total Manager User Manual_kor.md",
+      "subpath": "#update"
+    },
+    {
+      "type": "file",
+      "ctime": 1690218925434,
+      "path": "Total Manager/Total Manager User Manual_kor.md",
+      "subpath": "#USB Interface Board"
+>>>>>>> origin/main
     }
   ]
 }

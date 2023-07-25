@@ -48,7 +48,7 @@ MightyZap Actuator의 Firmware를 Update할 때 사용합니다. 당사의 Webpa
 ## Install
 ### Windows
 Windows 컴퓨터에서 MightyZap Total Manager를 설치하려면 사용중인 Windows의 
-OS 버전을 확인하신 후 버전에 맞게 다운로드하여 주시기 바랍니다.  
+OS 버전을 확인하신 후 버전에 맞게 다운로드하여 주시기 바랍니다.  SDJFHDKJ
 <font color="#4f81bd">OS Version 확인 방법</font>
 ![[windows_version_check.jpg]]
 
@@ -57,6 +57,8 @@ OS 버전을 확인하신 후 버전에 맞게 다운로드하여 주시기 바�
 설치에는 몇 분 정도 걸릴 수 있습니다.
 ![[window_install.jpg]]
 이제 Window에서 MightyZap Total Manager를 사용하실 수 있습니다.  
+
+
 ### Mac OS
 Mac OS 전용 패키지를 다운도르 합니다.  
 [MAC OS Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
@@ -151,21 +153,21 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
 - Scan, close 버튼 창
 ### 통신 설정
  Serial Port 를 Open 한 후 Protocol과 Baudrate를 선택한 후 검색을 진행 해야 합니다.  
- ![[scan_options.png]]
- 
- PC와 연결한 Actuator의 Model에 따라 또는 사용자 설정 사항에 따라 각각의 값을 선택합니다.  
- All 버튼을 누르게 되면 모든 선택 사항들이 선택이 됩니다.    
- ![[sacn_ani_1.gif]]
- *gif Sample Image*
- 다음은 모델에 따른 기본 설정 값에 대한 예시 입니다.  
+ PC와 연결한 Actuator의 Model에 따라 또는 사용자 설정 사항에 따라 각각의 값을 선택합니다. 
+ 모든 옵션은 중복으로 선택할 수 있으며 검색 시 순차적으로 진행이 됩니다.  
+ All 버튼을 누르게 되면 모든 선택 사항들이 선택이 되며, 아무것도 선택하지 않고 검색 시 경고 창이 나오게 됩니다.  
+   ![[yrdy-2023-07-25_10.39.gif]]
+  다음은 모델에 따른 기본 설정 값에 대한 예시 입니다.  
  (자세한 내용은 해당 모델의 매뉴얼을 참조하여 주시기 바랍니다.)   
  
-|   dafault         |   Protocol                  |   Baudrate           |
+|   예시 모델         |   Protocol                  |   Baudrate           |
 |:------------------|:----------------------------|:---------------------|
 |   **Mini L12/12Lf**   | Own Protocol                |             57600pbs |
 |   **Mini 17Lf**       | Modbus Protocol             |             57600pbs |  
 
 ### Actuator 검색
+ SCAN 버튼을 누르게 되면 선택한 옵션에 따라 차례로 검색을 시작하여 해당 결과를 표시합니다.
+ 원하는 Actuator 가 모두 검색 되었을 경우, 완료를 기다리지 않고 STOP 버튼을 눌러 검색을 종료하면 됩니다.  
 # 기본정보 확인
 # Parameter 설정 및 제어
 ## 화면 구성

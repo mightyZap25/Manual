@@ -139,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -147,6 +147,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-table-editor:Open Markdown Table Editor": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
@@ -155,10 +156,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "afd3ca12c0ed814a",
+  "active": "719f7c1e9e32f8c6",
   "lastOpenFiles": [
-    "Mini 17Lf/Mini 17Lf User Manual.md",
+    "conflict-files-obsidian-git.md",
     "Total Manager/Total Manager User Manual_kor.md",
+    "e Manual Review.md",
+    "Total Manager/img/yrdy-2023-07-25_10.39.gif",
+    "Total Manager/img/option_toggle.gif",
+    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+    "Mini 17Lf User Manual_kor.md",
+    "Mini 17Lf/Mini 17Lf User Manual.md",
     "[[.md",
     "update.md",
     "[[update]]].md",
@@ -177,8 +184,6 @@
     "Total Manager/img/serialPort_check_win.jpg",
     "Total Manager/img/scanning.png",
     "Total Manager/img/scanbutton.png",
-    "Total Manager/img/scanbutton.jpg",
-    "Total Manager/img/scan_options.png",
     "Total Manager/Total Manager User Manual_eng.md",
     "Total Manager/Parameter.md",
     "IRROBOT DATASHEET_17Lfe 양식.md",
