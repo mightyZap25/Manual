@@ -170,9 +170,21 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
  SCAN 버튼을 누르게 되면 선택한 옵션에 따라 차례로 검색을 시작하여 해당 결과를 표시합니다.
  원하는 Actuator 가 모두 검색 되었을 경우, 완료를 기다리지 않고 STOP 버튼을 눌러 검색을 종료하면 됩니다.  
  (검색하는 gif 이미지)
-# 4 기본정보 확인
-## 
-# Parameter 설정 및 제어
+## 3.2 기본정보 확인
+### 3.2.1 서보모터 List 확인
+### 3.2.2 정보 확인
+
+## 3.3 Parameter 설정 및 제어
+### 3.3.1 화면 구성
+### 3.3.2 Parameter Control
+- slide
+- checkbox
+- text input
+- select box
+- button
+- 
+### 3.3.3 Monotoring
+
 ## 화면 구성
 ![[mainView-description.jpg]]
 
