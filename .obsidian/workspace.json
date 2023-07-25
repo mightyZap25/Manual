@@ -6,7 +6,7 @@
       {
         "id": "174cf033ccc0dce8",
         "type": "tabs",
-        "dimension": 99.99999999999999,
+        "dimension": 30.401234567901238,
         "children": [
           {
             "id": "afd3ca12c0ed814a",
@@ -22,6 +22,21 @@
           }
         ],
         "stacked": true
+      },
+      {
+        "id": "352782c93f6a4772",
+        "type": "tabs",
+        "dimension": 69.59876543209876,
+        "children": [
+          {
+            "id": "476fd1db6b37cbf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown-table-editor-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 534.5
+    "width": 280.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,7 +180,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "afd3ca12c0ed814a",
+  "active": "476fd1db6b37cbf6",
   "lastOpenFiles": [
     "Mini 17Lf/Mini 17Lf User Manual_kor.md",
     "Mini 17Lf User Manual_kor.md",
