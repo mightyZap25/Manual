@@ -171,15 +171,19 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
  원하는 Actuator 가 모두 검색 되었을 경우, 완료를 기다리지 않고 STOP 버튼을 click하면 검색을 종료하면 됩니다.  
  (검색하는 gif 이미지)
  검색이 완료되었으면 Close 버튼을 click하여 팝업창을 닫습니다.
-## 3.2 기본 정보 확인
+## 3.2 Information
 MightyZap Actuator의 Model명, Rated Load, Stroke, firmware Version등 관련된 정보를 표시하는 페이지 입니다.  
+매니저가 실행이 되면 처음 표시하는 창이  창이며, 아래의 이미지와 같이 사이드 바 매뉴의 첫번째 아이콘을 클
 ### 3.2.1 서보모터 List 확인
 아래의 그림과 같이 매니저에 왼쪽에는 검색된 서보모터가 Display 됩니다.  
-Actuator List는 Baudrate와 Protocol에 따라 분류되어 표시 됩니다.
+Actuator List는 Baudrate와 Protocol에 따라 분류되어 표시 되며,  Baudrate 별로 접거나 펼 수 있다.
 <이미지>
 
 ### 3.2.2 정보 확인
-
+Actuator List를 선택하면 해당 Actuator의 정보가 표시되며, 이중 중요한 읿부 정보가 Manager의 하단 Footer에 표시됩니다.
+<이미지>
+Footer에 표시된 정보는 information Page가 아닌 다른 Page에서도 볼 수 있습니다. 
+<이미지>
 ## 3.3 Parameter 설정 및 제어
 ### 3.3.1 화면 구성
 ### 3.3.2 Parameter Control
