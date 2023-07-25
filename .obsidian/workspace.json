@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Total Manager/Total Manager User Manual_kor.md",
+                "file": "Mini 17Lf User Manual_kor.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Total Manager/Total Manager User Manual_kor.md",
+                "file": "Mini 17Lf User Manual_kor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Total Manager/Total Manager User Manual_kor.md",
+                "file": "Mini 17Lf User Manual_kor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Total Manager/Total Manager User Manual_kor.md"
+                "file": "Mini 17Lf User Manual_kor.md"
               }
             }
           },
@@ -156,10 +156,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "719f7c1e9e32f8c6",
+  "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Total Manager/Total Manager User Manual_kor.md",
+    "conflict-files-obsidian-git.md",
     "e Manual Review.md",
     "Total Manager/img/yrdy-2023-07-25_10.39.gif",
     "Total Manager/img/option_toggle.gif",
