@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Total Manager/Total Manager User Manual_kor.md",
+                "file": "Mini 17Lf/Mini 17Lf User Manual_Kor.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Total Manager/Total Manager User Manual_kor.md",
+                "file": "Mini 17Lf/Mini 17Lf User Manual_Kor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Total Manager/Total Manager User Manual_kor.md",
+                "file": "Mini 17Lf/Mini 17Lf User Manual_Kor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Total Manager/Total Manager User Manual_kor.md"
+                "file": "Mini 17Lf/Mini 17Lf User Manual_Kor.md"
               }
             }
           },
@@ -147,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -164,13 +164,13 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "afd3ca12c0ed814a",
+  "active": "719f7c1e9e32f8c6",
   "lastOpenFiles": [
+    "Total Manager/Total Manager User Manual_kor.md",
     "Total Manager/img/option_toggle.gif",
     "update][Total Manager User Manual_kor.md",
     "[[.md",
     "Total Manager/Parameter.md",
-    "Total Manager/Total Manager User Manual_kor.md",
     "IRROBOT DATASHEET_17Lfe 양식.md",
     "Pasted image 20230721144658.png",
     "Total Manager/img/sacn_ani_1.gif",
@@ -185,7 +185,6 @@
     "Total Manager/img/scanbutton.png",
     "Total Manager/img/mainView-description.jpg",
     "Total Manager/img/ScanButton.jpg",
-    "Total Manager/img/scanbutton.jpg",
     "Total Manager/img/lu171134ov2k.tmp",
     "Total Manager/img/serialPort_check_win.jpg.crdownload",
     "Total Manager/img/ch340x_win_install.jpg.crdownload",
@@ -194,7 +193,7 @@
     "conflict-files-obsidian-git.md",
     "README.md",
     "무제 파일.md",
-    "Mini 17Lf/Mini 17Lf User Manual.md",
+    "Mini 17Lf/Mini 17Lf User Manual_Kor.md",
     "menuList.json",
     "2023-07-11.md",
     "edit.css",
