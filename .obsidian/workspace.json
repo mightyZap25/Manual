@@ -21,6 +21,20 @@
           }
         ],
         "stacked": true
+      },
+      {
+        "id": "2c34bc9a9513488d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95b42d1284c09d0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown-table-editor-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,7 +178,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "719f7c1e9e32f8c6",
+  "active": "95b42d1284c09d0e",
   "lastOpenFiles": [
     "Total Manager/Total Manager User Manual_kor.md",
     "Total Manager/img/option_toggle.gif",
