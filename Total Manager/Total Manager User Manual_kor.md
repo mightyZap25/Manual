@@ -154,13 +154,15 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
  ![[scan_options.png]]
  
  PC와 연결한 Actuator의 Model에 따라 또는 사용자 설정 사항에 따라 각각의 값을 선택합니다.  
- All 버튼을 누르게 되면 모든 선택 사항들이 선택이 됩니다.    
- ![[sacn_ani_1.gif]]
- *gif Sample Image*
+ (All 버튼을 누르게 되면 모든 선택 사항들이 선택이 됩니다.)  
+ SCAN 버튼을 누르게 되면 선택한 옵션에 따라 차례로 검색을 시작하여 해당 결과를 표시합니다.
+ 원하는 Actuator 가 모두 검색 되었을 경우, 완료를 기다리지 않고 STOP 버튼을 눌러 검색을 종료하면 됩니다.  
+  ![[sacn_ani_1.gif]]
+ *gif Sample Image*   
  다음은 모델에 따른 기본 설정 값에 대한 예시 입니다.  
  (자세한 내용은 해당 모델의 매뉴얼을 참조하여 주시기 바랍니다.)   
  
-|   dafault         |   Protocol                  |   Baudrate           |
+|   예시 모델         |   Protocol                  |   Baudrate           |
 |:------------------|:----------------------------|:---------------------|
 |   **Mini L12/12Lf**   | Own Protocol                |             57600pbs |
 |   **Mini 17Lf**       | Modbus Protocol             |             57600pbs |  
