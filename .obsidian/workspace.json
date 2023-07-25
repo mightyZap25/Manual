@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mini 17Lf User Manual_kor.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mini 17Lf User Manual_kor.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mini 17Lf User Manual_kor.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,7 +116,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           },
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mini 17Lf User Manual_kor.md"
+                "file": "Total Manager/Total Manager User Manual_kor.md"
               }
             }
           },
@@ -137,67 +137,72 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "0b4b89dc5d6f6ed9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 280.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "markdown-table-editor:Open Markdown Table Editor": false,
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
       "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false
+      "command-palette:명령어 팔레트 열기": false,
+      "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "afd3ca12c0ed814a",
+  "active": "8326d637edc67dcf",
   "lastOpenFiles": [
-    "Total Manager/Total Manager User Manual_kor.md",
-    "conflict-files-obsidian-git.md",
     "e Manual Review.md",
     "Total Manager/img/yrdy-2023-07-25_10.39.gif",
-    "Total Manager/img/option_toggle.gif",
-    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
-    "Mini 17Lf User Manual_kor.md",
-    "Mini 17Lf/Mini 17Lf User Manual.md",
-    "[[.md",
-    "update.md",
-    "[[update]]].md",
-    "[[Total.md",
-    "().md",
-    "1..md",
-    "[.md",
-    "update][Total Manager User Manual_kor.md",
-    "Total Manager/Total Manager User Manual.md",
-    "무제 파일.md",
-    "Total Manager/img/windows_version_check.jpg",
-    "Total Manager/img/windows7_version_check.jpg",
-    "Total Manager/img/windows11_version_check.jpg",
-    "Total Manager/img/window_install.jpg",
-    "Total Manager/img/total_image.png",
-    "Total Manager/img/serialPort_check_win.jpg",
-    "Total Manager/img/scanning.png",
-    "Total Manager/img/scanbutton.png",
+    "Total Manager/Total Manager User Manual_kor.md",
+    "Total Manager/img/180703_sample_gif.gif",
     "Total Manager/Total Manager User Manual_eng.md",
+    "Mini 17Lf User Manual_kor.md",
+    "Total Manager/img/option_toggle.gif",
+    "KMqY8YD.jpeg",
+    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+    "[[.md",
     "Total Manager/Parameter.md",
     "IRROBOT DATASHEET_17Lfe 양식.md",
+    "Pasted image 20230721144658.png",
+    "Total Manager/img/sacn_ani_1.gif",
+    "Total Manager/img/yrdy-2023-07-24_18.47.19.gif",
+    "Total Manager/img/180703_sample_gif.gif.crdownload",
+    "[.md",
+    "Total Manager/img/scan_options.png",
+    "Total Manager/img/scanning.png",
+    "Total Manager/img/scanningpng",
+    "Total Manager/img/scanbutton.png",
+    "Total Manager/img/lu171134ov2k.tmp",
+    "Total Manager/img/serialPort_check_win.jpg.crdownload",
+    "Total Manager/img/ch340x_win_install.jpg.crdownload",
+    "Total Manager/img/windows11_version_check.jpg.crdownload",
+    "().md",
+    "conflict-files-obsidian-git.md",
+    "README.md",
+    "무제 파일.md",
     "menuList.json",
     "2023-07-11.md",
     "edit.css",
     "무제 파일 1.canvas",
+    "1..md",
     "흡입시키지.md",
     "Mini 17Lf/img",
     "Mini 17Lf",
-    "README.md",
-    "Total Manager/img",
-    "Total Manager",
-    "image",
     "무제 파일.canvas"
   ]
 }
