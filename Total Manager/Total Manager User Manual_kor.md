@@ -238,15 +238,19 @@ Parameter는 Model에 따라 다르게 표시되며, check box를 통해 하나�
 Monitoring 기능은 아래와 같이 구성 되어있습니다.
 - Data 범위  
   Data 표현 범위는 선택된 Paramter떼라 변경이 됩니다.
-- Sample 표현 범위
-  화면에의 Data 는 100의 Sample을 표시합니다.
+- Sample 표현 갯 수
+  100 개의 Sample을 표시하며, 이전 Data는 볼 수 없습니다.
 - Parameter Select  
-  ㅡ
-- Interval
-
-
-### 3.3.4 Error Sta1.5.1
-
+  Model에 따라 선택할 수 있는 Parameter가 변경됩니다. 일반적으로 Parameter 명 앞부분에 'Present'가 들어있는 Paramter가 표시 됩니다.
+- Interval  
+  Interval은 Data Sample 당 읽어오는 시간 간격을 의미합니다.  
+  38400bps 이상일 경우 25ms 19200bps 이하 일경우에는 50ms로 동작합니다.  
+### 3.3.4 Error State
+Error state는 매니저 하단 Footer 영역 중앙에 표시됩니다.  
+Error 상태는 아래와 같이 2가지를 표시합니다.  
+ - **Hardware Error**  
+   Actuator의 동작 에러 상태를 의미합닏
+ - **Communcation Error**
 ## 3.4 Update
 ### 3.4.1 화면 구성
 ### 3.4.2 Firmware Uopdate
