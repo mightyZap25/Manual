@@ -273,8 +273,7 @@ firmware update를 진행 할 경우 그림과 같이 Select file 버튼을 눌�
 모든 사항이 준비가 다 되었으면 상단 메뉴바에서 Update 아이콘을 클릭합니다.   
 이때 둘 이상의 actuator 가 연결되었을 경우 다음과 같은 경고창이 나타나고 SCAN  작업을 다시 합니다..
 <경고창 이미지 >
-%
-업데이트가 진행되면 그림과 같이 prograss bar가 진행이 됩니다. 100%까지 완료되면 
+업데이트가 진행되면 그림과 같이 prograss bar가 진행이 됩니다. 100%까지 완료되면 update 완료 메세지가 나타납니다.
 ### 3.4.3 Recovery
 ### 3.4.4 Factory Reset
 ## 3.5 Setting
