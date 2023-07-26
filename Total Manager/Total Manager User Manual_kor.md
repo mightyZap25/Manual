@@ -256,7 +256,8 @@ Error 상태는 아래와 같이 2가지를 표시합니다.
    일시적인 Error의 경우 통신 중 상태를 Text로 표시하는데 그치지만, 일정 시간 이상 Error가 지속되거나 잦은 Error 발생 시 mionitoring 기능이 정지 되고 팝업창으로 경고 글이 표시됩니다.   ![[communication Error.png]]
 ## 3.4 Update  
 펌웨어를 업데이트 하는 페이지 입니다.  Firmware의 버전은 최신 버전을 유지하는 것을 추천 드립니다. 다만 수정된 펌웨어를 적용하기 전에  변경 사항이 사용자의 Apllication과 적합한지 테스트 하신 후에 적용하시기 바랍니다.  
-신규 펌웨어는 해당
+펌웨어 파일은 당사의 homepage에서 다운로드 받으시기 바랍니다.
+www.mightyzap.com
 ### 3.4.1 화면 구성  
 
 ### 3.4.2 Firmware Uopdate
