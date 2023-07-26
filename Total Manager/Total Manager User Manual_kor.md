@@ -197,6 +197,8 @@ Non-volatile Meomory는 비휘발성 메모리 영역의 Parameter로 수정 및
 Volatile Memory는 휘발성 메모리 영역으로 전원이 꺼지기 전까지는 해당 Data를 저장하고 있지만, 전원이 꺼지게 되면 해당 Data는 초기화 됩니다.  
 Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지는 Volatile-Memeory 영역이 상단으로 이동합니다.
 <gif 이미지> 
+**Tooltip 기능**
+각 Paremater 이름의 옆에는 ..?를 한 아이콘이 있습니다.
 ### 3.3.2 Parameter Control
 - **Slide Control** : <font color="#4f81bd">Non-volatile Memory</font>  
   Non-Volatile Memeory의 가장 일반적인 Data 변경 방식으로 Slide bar의 Drag 또는 TextBox에 직접 Data를 입력하는 방법으로 Data를 변경 합니다.  
@@ -227,7 +229,8 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
   ![[parameter_control_selectbox2.png]]
 - **button Control box** : <font color="#4f81bd">Volatile Memory</font>   
    Button control Box 기능은 Volatilte Memory에만 있는 기능으로 Motor의 동작을 정지하기 위해 사용됩니다.
-   
+   아래의 그림과같이 Button은 활성화 비활성화에 따라 2가지의 이미지를 가지고 있으며, 해당 파라메터에 대한 자세한 설명은 해당 제품의 사용자 매뉴얼을 참조하여 주시기 바랍니다.
+   ![[parameter_control_button.png]]  
 ### 3.3.3 Monitoring
 ### 3.3.4 Error Sta1.5.1
 
