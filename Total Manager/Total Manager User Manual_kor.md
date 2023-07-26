@@ -211,8 +211,9 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
 - checkbox Control : <font color="#4f81bd">Non-volatile Memory</font>   
   Non-Volatile Memeory에서 check box를 통한 Data 수정 방법은 checkbox의 선택과 Textbox 입력을 통해 변경할 수 있습니다.  
   checkbox는 모두 선택, 모두 해제, 부분 선택 모두 가능합니다. 선택 값이 변경되었을 경우 TestBox의 font가 푸른색으로 변경됩니다.  
-  수정한 값을 적용하기 위해서는 S 버튼을 눌러 수정된 값으
-  ![[parameter_control_checkbox.png]]
+  수정한 값을 적용하기 위해서는 S 버튼을 눌러 수정된 값을 저장해야 합니다.
+  ![[parameter_control_checkbox.png]]   
+  버튼을 클릭하지 않고 다른 Parameter를 변경하려 할 경우 Data는 원래 상태로 복구 되며 TextBox의 font가 다시 흰색으로 변경됩니다.  
 - select box
 - button
 ### 3.3.3 MonItoring
