@@ -249,7 +249,7 @@ Monitoring 기능은 아래와 같이 구성 되어있습니다.
 Error state는 매니저 하단 Footer 영역 중앙에 표시됩니다.  
 Error 상태는 아래와 같이 2가지를 표시합니다.  
  - **Hardware Error**  
-   Actuator의 동작 에러 상태를 의미합니다. Input Voltage, Overload 등 모델에 따라 설정되어잇는 Error 들을 의미하며, Actuator 자체에 문제가 있는 경우를 의미합니다.  
+   Actuator의 동작 에러 상태를 의미합니다. Input Voltage, Overload 등 모델에 따라 설정되어 이있는 Error 들을 의미하며, Actuator 자체에 문제가 있는 경우를 의미합니다.  
    ![[Hardware Error.png]]
  - **Communcation Error**  
    통신 에러를 의미하며 통신 중 발생할 수 있는 Packet Error, Time Out등을 표시합니다.  
