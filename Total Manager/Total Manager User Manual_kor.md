@@ -234,7 +234,17 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
 ### 3.3.3 Monitoring
 Monitoring 기능은 MightyZap Actuator의 현재 위치, 모터 입력값, 전류 등을 실시간으로 확인하는 기능을 가지고 있습니다.  
 최대 하나의 Parameter만 확인이 가능하며, 통신 속도에 따라 읽는 속도가 달라집니다.
-Paramet
+Parameter는 Model에 따라 다르게 표시되며, check box를 통해 하나의 Paramter만 선택하실 수 있습니다.
+Monitoring 기능은 아래와 같이 구성 되어있습니다.
+- Data 범위  
+  Data 표현 범위는 선택된 Paramter떼라 변경이 됩니다.
+- Sample 표현 범위
+  화면에의 Data 는 100의 Sample을 표시합니다.
+- Parameter Select  
+  ㅡ
+- Interval
+
+
 ### 3.3.4 Error Sta1.5.1
 
 ## 3.4 Update
