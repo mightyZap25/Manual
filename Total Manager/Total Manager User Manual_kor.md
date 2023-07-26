@@ -214,10 +214,10 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
   checkbox는 모두 선택, 모두 해제, 부분 선택 모두 가능합니다. 선택 값이 변경되었을 경우 TestBox의 font가 푸른색으로 변경됩니다.  
   수정한 값을 적용하기 위해서는 S 버튼을 눌러 수정된 값을 저장해야 합니다.
   ![[parameter_control_checkbox.png]]   
-  버튼을 클릭하지 않고 다른 Parameter를 변경하려 할 경우 Data는 원래 상태로 복구 되며 TextBox의 font가 다시 흰색으로 변경됩니다.  
-- **select box**
+  버튼을 클릭하지 않고 다른 Parameter를 변경하려 할 경우 Data는 원래 상태로 복구 되며 TextBox의 font가 다시 흰색으로 변경됩니다.   
+- **select box** : <font color="#4f81bd">Non-volatile Memory</font>   
 - **button**
-### 3.3.3 MonItoring
+### 3.3.3 Monitoring
 ### 3.3.4 Error Sta1.5.1
 
 ## 3.4 Update
