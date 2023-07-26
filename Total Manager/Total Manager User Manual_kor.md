@@ -261,9 +261,20 @@ www.mightyzap.com
 ### 3.4.1 화면 구성  
 Update Page는 이미지와 같이 펌웨어 업데이트, Actuator Recovery 영역으로 되어있으며, 각각의 실행은 상단 header의 메뉴에서 해당 아이콘을 선택하여 실행할 수 있습니다.
 ### 3.4.2 Firmware Update  
+업데이트를 진행할 서보모터를 연결하고 SCAN 을 합니다.
+><font color="red">주의 사항  </font>  
+>펌웨어 업데이트 시에는 업데이트를 진행할 actuator 하나만 연결하고 SCAN 작업을 진행하여 Actuator List에 하나의 actuator만 남아 있어야 합니다.  하나 이상의 actuator 가 연결 된 상태에서 업데이트를 진행하면 업데이트가 비정상적으로 진행되어 실패하게 되고 해당  actuator 는 동작이 되지 않게 됩니다.  
+
 firmware update를 진행 할 경우 그림과 같이 Select file 버튼을 눌러 다운로드 받은 업데이트 파일을 선택해야 합니다.  
-이때 다른 모델의 firmware file 을 선택하지 않게 조심해야 합니다. Actuator List에 나와있는 Model 명과 uipdate file의 이름이 동일한지 확인합니다.
-firmware update 시에는 하나의 Actuator 만을 연결해야 합니다. 만약 Actuator List에 2개 이상의 Actuator가 연결 되어있을 경우 다음과 같이 경고 창이 나나탑니다.
+<파일 선택 이미지 gif>
+><font color="#ff0000">주의 사항  </font>
+>이때 다른 모델의 firmware file 을 선택하지 않게 조심해야 합니다. Actuator List에 나와있는 Model 명과 uipdate file의 이름이 동일한지 확인해야 합니다.
+
+모든 사항이 준비가 다 되었으면 상단 메뉴바에서 Update 아이콘을 클릭합니다.   
+이때 둘 이상의 actuator 가 연결되었을 경우 다음과 같은 경고창이 나타나고 SCAN  작업을 다시 합니다..
+<경고창 이미지 >
+%
+업데이트가 진행되면 그림과 같이 prograss bar가 진행이 됩니다. 100%까지 완료되면 
 ### 3.4.3 Recovery
 ### 3.4.4 Factory Reset
 ## 3.5 Setting
