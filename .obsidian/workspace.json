@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 358.5
   },
   "right": {
     "id": "7ccabca408164915",
@@ -164,11 +164,14 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "afd3ca12c0ed814a",
+  "active": "3c8f0a42222ab22e",
   "lastOpenFiles": [
+    "Total Manager/img/parameter_control_selectbox2.png",
+    "Total Manager/img/parameter_control_button1.png",
+    "Total Manager/img/스크린샷 2023-07-26 10-41-58.png",
+    "Total Manager/img/parameter_control_button.png",
     "Total Manager/img/parameter_control_selectbox.png",
     "Total Manager/img/parameter_control_checkbox.png",
-    "Total Manager/img/스크린샷 2023-07-26 10-41-58.png",
     "Total Manager/img/sliding_control_in_NOnvolatile.png",
     "Total Manager/Total Manager User Manual_kor.md",
     "e Manual Review.md",
@@ -182,9 +185,6 @@
     "[[.md",
     "Total Manager/Parameter.md",
     "IRROBOT DATASHEET_17Lfe 양식.md",
-    "Pasted image 20230721144658.png",
-    "Total Manager/img/sacn_ani_1.gif",
-    "Total Manager/img/yrdy-2023-07-24_18.47.19.gif",
     "Total Manager/img/180703_sample_gif.gif.crdownload",
     "[.md",
     "Total Manager/img/scanningpng",
