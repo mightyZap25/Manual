@@ -259,8 +259,11 @@ Error 상태는 아래와 같이 2가지를 표시합니다.
 펌웨어 파일은 당사의 homepage에서 다운로드 받으시기 바랍니다.
 www.mightyzap.com
 ### 3.4.1 화면 구성  
-
-### 3.4.2 Firmware Uopdate
+Update Page는 이미지와 같이 펌웨어 업데이트, Actuator Recovery 영역으로 되어있으며, 각각의 실행은 상단 header의 메뉴에서 해당 아이콘을 선택하여 실행할 수 있습니다.
+### 3.4.2 Firmware Update  
+firmware update를 진행 할 경우 그림과 같이 Select file 버튼을 눌러 다운로드 받은 업데이트 파일을 선택해야 합니다.  
+이때 다른 모델의 firmware file 을 선택하지 않게 조심해야 합니다. Actuator List에 나와있는 Model 명과 uipdate file의 이름이 동일한지 확인합니다.
+firmware update 시에는 하나의 Actuator 만을 연결해야 합니다. 만약 Actuator List에 2개 이상의 Actuator가 연결 되어있을 경우 다음과 같이 경고 창이 나나탑니다.
 ### 3.4.3 Recovery
 ### 3.4.4 Factory Reset
 ## 3.5 Setting
