@@ -189,25 +189,27 @@ Footer에 표시된 정보는 information Page가 아닌 다른 Page에서도 �
 MightyZap Actuator를 설정 및 간단한 동작 테스트를 하고, 동작 상태를 모니터링하는 페이지 입니다.  
 Menu 선택 창에서 아래의 그림과 같은 아이콘을 클릭하면 해당 페이지로 이동합니다.
 <이미지>
-사용자 환경에 맞게 Stroke, ID, Baudrate 등을 설정하고 간단한 동작 테스트를 진행할 수 있습니다.
+사용자 환경에 맞게 Stroke, ID, Baudrate 등을 설정하고 간단한 동작 테스트를 진행할 수 있습니다.  
+각 Parameter에 대한 설명은 해당 모델의 사용자 매뉴얼에서 Parameter 설명을 참조하시 바랍니다.
 ### 3.3.1 화면 구성
 Parameter 페이지의 구성은 Non-Volatile Memory 영역과 Volatile Memory 영역으로 나뉩니다.
 Non-volatile Meomory는 비휘발성 메모리 영역의 Parameter로 수정 및 저장된 Data가 전원 off 되도 지워지지 않고 저장되어있습니다.  
 Volatile Memory는 휘발성 메모리 영역으로 전원이 꺼지기 전까지는 해당 Data를 저장하고 있지만, 전원이 꺼지게 되면 해당 Data는 초기화 됩니다.  
 Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지는 Volatile-Memeory 영역이 상단으로 이동합니다.
 <gif 이미지> 
-
- 
 ### 3.3.2 Parameter Control
 - Slide Control : <font color="#4f81bd">Non-volatile Memory</font>  
-  가장 일반적인 방식으로 Slide bar의 Drag를 통해 값을 변경하는 방식입니다.  
-  값을 변경할 경우 우편의 TextBox의 값이 푸른색으로 변경되며, 변경 상태 중임을 나타냅니다.  
-  변경한 data를 저장하기 위해서는 S  버튼을 클릭해야 합니다. 
+  Non-Volatile Memeory의 가장 일반적인 Data 변경 방식으로 Slide bar의 Drag 또는 TextBox에 직접 Data를 입력하는 방법으로 Data를 변경 합니다.  
+  값을 변경할 경우 오른쪽의 TextBox의 값이 푸른색으로 변경되며, 변경한 data를 저장하기 위해서는 S  버튼을 클릭해야 합니다. 
   ![[sliding_control_in_NOnvolatile.png]]
   <마우스로 값을 바꾸고 저장하는 이미지로>  
-  S 버튼을 클릭하지 않고 다른 Parameter를 변경할 경우 Data는 원래 상태로 복구 되며 
+  S 버튼을 클릭하지 않고 다른 Parameter를 변경하려 할 경우 Data는 원래 상태로 복구 되며 TextBox의 font가 다시 흰색으로 변경됩니다.  
 - Slide Control : <font color="#4f81bd">Volatile Memory</font>
-- checkbox Control
+  Volatile Memory에서의 Slide Control 방식은 Non-Volatile Memory 방식과 유사하지만, S 버튼이 없으며, Slide bar를 Drag할 경우 변경된 Data가 즉시 적용됩니다. 또한 TextBox를 통해 Data를 입력할 경우 Data를 변경한 후 Enter key를 입력하면 변경된 Data가 즉시 적용됩니다.
+  또한 Data가 변경되도 TextBoxd의 Font는 푸른색으로 변경되지 않습니다.
+  ![[sliding_control_in_NOnvolatile.png]]
+- checkbox Control : <font color="#4f81bd">Non-volatile Memory</font>   
+
 - select box
 - button
 ### 3.3.3 MonItoring
