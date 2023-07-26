@@ -232,6 +232,9 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
    아래의 그림과같이 Button은 활성화 비활성화에 따라 2가지의 이미지를 가지고 있으며, 해당 파라메터에 대한 자세한 설명은 해당 제품의 사용자 매뉴얼을 참조하여 주시기 바랍니다.
    ![[parameter_control_button.png]]  
 ### 3.3.3 Monitoring
+Monitoring 기능은 MightyZap Actuator의 현재 위치, 모터 입력값, 전류 등을 실시간으로 확인하는 기능을 가지고 있습니다.  
+최대 하나의 Parameter만 확인이 가능하며, 통신 속도에 따라 읽는 속도가 달라집니다.
+Paramet
 ### 3.3.4 Error Sta1.5.1
 
 ## 3.4 Update
