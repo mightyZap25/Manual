@@ -199,8 +199,8 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
 
  
 ### 3.3.2 Parameter Control
-
-- Slide Control : <font color="#4f81bd">Non-volatile Memory</font>
+- Slide Control : <font color="#4f81bd">Non-volatile Memory</font>  
+  
 - Slide Control : <font color="#4f81bd">Volatile Memory</font>
 - checkbox Control
 - select box
