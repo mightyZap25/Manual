@@ -198,25 +198,25 @@ Volatile Memory는 휘발성 메모리 영역으로 전원이 꺼지기 전까�
 Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지는 Volatile-Memeory 영역이 상단으로 이동합니다.
 <gif 이미지> 
 ### 3.3.2 Parameter Control
-- Slide Control : <font color="#4f81bd">Non-volatile Memory</font>  
+- **Slide Control** : <font color="#4f81bd">Non-volatile Memory</font>  
   Non-Volatile Memeory의 가장 일반적인 Data 변경 방식으로 Slide bar의 Drag 또는 TextBox에 직접 Data를 입력하는 방법으로 Data를 변경 합니다.  
   값을 변경할 경우 오른쪽의 TextBox의 값이 푸른색으로 변경되며, 변경한 data를 저장하기 위해서는 S  버튼을 클릭해야 합니다. 
   ![[sliding_control_in_NOnvolatile.png]]
   <마우스로 값을 바꾸고 저장하는 이미지로>  
   S 버튼을 클릭하지 않고 다른 Parameter를 변경하려 할 경우 Data는 원래 상태로 복구 되며 TextBox의 font가 다시 흰색으로 변경됩니다.  
-- Slide Control : <font color="#4f81bd">Volatile Memory</font>  
+- **Slide Control** : <font color="#4f81bd">Volatile Memory</font>  
   Volatile Memory에서의 Slide Control 방식은 Non-Volatile Memory 방식과 유사하지만, S 버튼이 없으며, Slide bar를 Drag할 경우 변경된 Data가 즉시 적용됩니다.  
   또한 TextBox를 통해 Data를 입력할 경우 Data를 변경한 후 Enter key를 입력하면 변경된 Data가 즉시 적용됩니다.
   또한 Data가 변경되도 TextBoxd의 Font는 푸른색으로 변경되지 않습니다.
   ![[sliding_control_in_NOnvolatile.png]]
-- checkbox Control : <font color="#4f81bd">Non-volatile Memory</font>   
+- **checkbox Control** : <font color="#4f81bd">Non-volatile Memory</font>   
   Non-Volatile Memeory에서 check box를 통한 Data 수정 방법은 checkbox의 선택과 Textbox 입력을 통해 변경할 수 있습니다.  
   checkbox는 모두 선택, 모두 해제, 부분 선택 모두 가능합니다. 선택 값이 변경되었을 경우 TestBox의 font가 푸른색으로 변경됩니다.  
   수정한 값을 적용하기 위해서는 S 버튼을 눌러 수정된 값을 저장해야 합니다.
   ![[parameter_control_checkbox.png]]   
   버튼을 클릭하지 않고 다른 Parameter를 변경하려 할 경우 Data는 원래 상태로 복구 되며 TextBox의 font가 다시 흰색으로 변경됩니다.  
-- select box
-- button
+- **select box**
+- **button**
 ### 3.3.3 MonItoring
 ### 3.3.4 Error Sta1.5.1
 
