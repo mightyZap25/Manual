@@ -250,9 +250,10 @@ Error state는 매니저 하단 Footer 영역 중앙에 표시됩니다.
 Error 상태는 아래와 같이 2가지를 표시합니다.  
  - **Hardware Error**  
    Actuator의 동작 에러 상태를 의미합니다. Input Voltage, Overload 등 모델에 따라 설정되어잇는 Error 들을 의미하며, Actuator 자체에 문제가 있는 경우를 의미합니다.  
+   ![[Hardware Error.png]]
  - **Communcation Error**  
    통신 에러를 의미하며 통신 중 발생할 수 있는 Packet Error, Time Out등을 표시합니다.  
-   일시적인 Error의 경우 통신 중 상태를 Text로 표시하는데 그치지만, 일정 시간 이상 Error가 지속되거나 잦은 Error 발생 시 팝업창으로 경고 글이 표시됩니다.   
+   일시적인 Error의 경우 통신 중 상태를 Text로 표시하는데 그치지만, 일정 시간 이상 Error가 지속되거나 잦은 Error 발생 시 mionitoring 기능이 정지 되고 팝업창으로 경고 글이 표시됩니다.   ![[communication Error.png]]
 ## 3.4 Update
 ### 3.4.1 화면 구성
 ### 3.4.2 Firmware Uopdate
