@@ -200,7 +200,12 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
  
 ### 3.3.2 Parameter Control
 - Slide Control : <font color="#4f81bd">Non-volatile Memory</font>  
-  
+  가장 일반적인 방식으로 Slide bar의 Drag를 통해 값을 변경하는 방식입니다.  
+  값을 변경할 경우 우편의 TextBox의 값이 푸른색으로 변경되며, 변경 상태 중임을 나타냅니다.  
+  변경한 data를 저장하기 위해서는 S  버튼을 클릭해야 합니다. 
+  ![[sliding_control_in_NOnvolatile.png]]
+  <마우스로 값을 바꾸고 저장하는 이미지로>  
+  S 버튼을 클릭하지 않고 다른 Parameter를 변경할 경우 Data는 원래 상태로 복구 되며 
 - Slide Control : <font color="#4f81bd">Volatile Memory</font>
 - checkbox Control
 - select box
