@@ -209,7 +209,7 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
   또한 Data가 변경되도 TextBoxd의 Font는 푸른색으로 변경되지 않습니다.
   ![[sliding_control_in_NOnvolatile.png]]
 - checkbox Control : <font color="#4f81bd">Non-volatile Memory</font>   
-  check box를 통한 Data 수정 방법은 checkbox의 선택과 Text Input 통해 변경할 수 있으며ㅑ, TextBox를 통한 Data 수정은 불가능 합니다.  
+  check box를 통한 Data 수정 방법은 checkbox의 선택과 Textbox 입려을 통해 변경할 수 있습니다.  
   checkbox는 모두 선택, 모두 해제, 부분 선택 모두 가능합니다. 선택 값이 변경되었을 경우 TestBox의 font가 푸른색으로 변경됩니다.
 ![[parameter_control_checkbox.png]]
 - select box
