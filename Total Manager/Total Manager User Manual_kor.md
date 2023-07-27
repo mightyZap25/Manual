@@ -321,5 +321,8 @@ Total Manager의 언어는 영어와 한국어를 지원합니다.  해당 언�
 ### 3.5.2 theme  
  Total Manager는 dark Mode와 white Mode 2가지를 제공합니다. 해당 theme를 선택하면 즉시 적용이 되며 변경된 내용은 저장이 되어 프로그램 재 시작시에도 변경 상태가 유지됩니다.
  <이미지>
-~~### 3.6 Software Update~~
+### 3.6 Software Update  
+업데이가 발생할 경우 팝업이 생성이 되면서 다운로드 유무를 물어본다....... 
+
+
 
