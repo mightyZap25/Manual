@@ -289,6 +289,7 @@ Firmware 가 업데이트 실패 씨 또는 SCAN을 통해 서보모터를 검�
 calibration 진행
 완료
 ### 3.4.4 Factory Reset   
+Actuator의  상태를 공장 출하시의 초기 상태로 돌리고, 위치값을 결정하는 Potentiometer의 Calibration을 진행합니다.
 
 ## 3.5 Setting
 ### 3.5.1 Language
