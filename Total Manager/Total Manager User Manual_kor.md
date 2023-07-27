@@ -196,7 +196,8 @@ Parameter 페이지의 구성은 Non-Volatile Memory 영역과 Volatile Memory �
 Non-volatile Meomory는 비휘발성 메모리 영역의 Parameter로 수정 및 저장된 Data가 전원 off 되도 지워지지 않고 저장되어있습니다.  
 Volatile Memory는 휘발성 메모리 영역으로 전원이 꺼지기 전까지는 해당 Data를 저장하고 있지만, 전원이 꺼지게 되면 해당 Data는 초기화 됩니다.  
 Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지는 Volatile-Memeory 영역이 상단으로 이동합니다.
-<gif 이미지> 
+<gif 이미지>  
+
 **Tooltip 기능**
 각 Paremater 이름의 옆에는 (?)를 한 아이콘이 있습니다. 해당 아이콘에  mouse를 가져가 대면 해당 파라메터에 대한 간단한 설명이 표시됩니다.
 ### 3.3.2 Parameter Control
