@@ -16,6 +16,10 @@
 }
 
 .cm-line {
-  padding-bottom: 3px!important;;
+  padding-bottom: 3px!important;
   line-height:30px;
+}
+
+.HyperMD-quote {
+  background-color : #ecf6ff!important;
 }

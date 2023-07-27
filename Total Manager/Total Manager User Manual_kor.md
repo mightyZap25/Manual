@@ -291,7 +291,7 @@ calibration 진행
 ### 3.4.4 Factory Reset   
 Actuator의  상태를 공장 출하 시의 초기 상태로 돌리고, 위치 값을 결정하는 Potentiometer의 Calibration을 진행합니다.  
 ><font color="#ff0000">주의사항</font>  
->Factroy Reset 중에 Actuator가 Calibration을 위해 최대./최소로 위치이동을 합니다. 정상적인 Calibration을 위해 장치에 연결하지 않고 무부하에 최대 
+>Factroy Reset 중에 Actuator가 Calibration을 위해 최대./최소로 위치이동을 합니다. 정상적인 Calibration을 위해 장치에 연결하지 않고 무부하에 최대 동작거리를 유지할 수 있는 공간에서 진행해 주시기 바랍니다.
 
 **Factory Reset Icon**  
 Factory Reset은 Update Page에 들어오면 상단 매뉴에 추가 되어있는 것을 확인할 수 있습니다.  
@@ -313,9 +313,14 @@ Factory Reset 진행이 되면서 Actuator가 몇번의 시스템 제시작을 �
 <gif 이ㅁ미지>
 
 ## 3.5 Setting
-### 3.5.1 Language
-### 3.5.2 theme
-### 3.5.3 Software Update
+Total Manager의 언어 및 Theme를 변경할 수 있는 기능입니다.
+<이미지>
+### 3.5.1 Language  
+Total Manager의 언어는 영어와 한국어를 지원합니다.  해당 언어를 선택하면 즉시 바로 적용이 되며 모든 tooltip, Popup 창이 해당 언어로 변경이 됩니다.  변경된 내용은 저장이 되어 프로그램을 재시작 해도 변경 상태를 유지합니다.  
+<이미지 toolip 및 팝업 선택 영상 포함>
+### 3.5.2 theme  
+ 
+### 3.6 Software Update
 
 
 ## 화면 구성
