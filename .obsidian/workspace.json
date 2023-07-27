@@ -32,7 +32,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UAV.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UAV.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UAV.md"
+                "file": "README.md"
               }
             }
           },
@@ -177,10 +176,10 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "2eaf8787782ae7a0",
+  "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
-    "README.md",
     "UAV.md",
+    "README.md",
     "KMqY8YD.jpeg",
     "무제 파일.md",
     "무제 파일 1.canvas",
