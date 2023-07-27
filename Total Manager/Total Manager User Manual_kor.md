@@ -288,7 +288,8 @@ Firmware 가 업데이트 실패 씨 또는 SCAN을 통해 서보모터를 검�
 미겁색시 펌웨어 업데이트 진행
 calibration 진행
 완료
-### 3.4.4 Factory Reset
+### 3.4.4 Factory Reset   
+
 ## 3.5 Setting
 ### 3.5.1 Language
 ### 3.5.2 theme
