@@ -319,34 +319,7 @@ Total Manager의 언어 및 Theme를 변경할 수 있는 기능입니다.
 Total Manager의 언어는 영어와 한국어를 지원합니다.  해당 언어를 선택하면 즉시 바로 적용이 되며 모든 tooltip, Popup 창이 해당 언어로 변경이 됩니다.  변경된 내용은 저장이 되어 프로그램을 재시작 해도 변경 상태를 유지합니다.  
 <이미지 toolip 및 팝업 선택 영상 포함>
 ### 3.5.2 theme  
- 
-### 3.6 Software Update
+ Total Manager는 dark Mode와 white Mode 2가지를 제공합니다. 해당 theme를 선택하면 즉시 적용이 되며 변경된 내용은 저장이 되어 프로그램 재 시작시에도 변경 상태가 유지됩니다.
+ <이미지>
+~~### 3.6 Software Update~~
 
-
-## 화면 구성
-![[mainView-description.jpg]]
-
-# 펌웨어 업데이트
-# Recovery
-
-
-
-
-## 3.1 화면 설명
-
-## 3.2 Information
-서보 모터의 정보를 표시하는 창입니다. 선택된 서보 모터의 모델명, 모터 타입, 최대 속도, 펌웨어 버전 등을 확인할 수 있습니다.  
-또한 해당 서보 보터의 Datasheet 및 사용자 매뉴얼 등을 확인 할 수 있습니다.
-
-## 3.3 Control 화면
-Parameter 화면은 MightyZap 서보 모터의 제어 값을 설정하거나 동작을 테스트 할 수 있습니다.또한, 실시간 변화 Data를 그래프로 볼 수 있습니다.  
-서보모터의 ID 또는 Baudrate과 같은 Parameter를 변경하거나, Goal Position등의 동작 Parameter를 간단한 방법으로 테스트가 가능합니다.
-## 3.4 Update 화면
-Update 창은 서보모터의 펌웨어 버전을 변경하거나, 검색되지 않는 서보모터를 복구하는데 사용됩니다.  
-
-# 4. 기본 기능
-## 4.1 통신 Port 확인
-
-## 4.2 통신 연결 및 검색
-
-1. 통신 연결을 위해 아래의 그림과 같이 Software를 실행 한 후 우측 상단의 SCAN 버튼을 클릭합니다.
