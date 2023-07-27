@@ -289,8 +289,15 @@ Firmware 가 업데이트 실패 씨 또는 SCAN을 통해 서보모터를 검�
 calibration 진행
 완료
 ### 3.4.4 Factory Reset   
-Actuator의  상태를 공장 출하시의 초기 상태로 돌리고, 위치값을 결정하는 Potentiometer의 Calibration을 진행합니다.
+Actuator의  상태를 공장 출하 시의 초기 상태로 돌리고, 위치 값을 결정하는 Potentiometer의 Calibration을 진행합니다.  
+**Factory Reset 실행**  
+Factory Reset은 Update Page에 들어오면 상단 매뉴에 추가 되어있는 것을 확인할 수 있습니다.  
 
+**Factory Reset 화면구성**  
+Factory Reset을 선택하면 팝업 창이 나타납니다. 팜업창에는 Factory Reset 관련 Option 선택창과 Text Area가 나타나고 하단에 Factory Reset 을 위한 버튼이 존재합니다.  
+**Options**  
+Factory Reset에 대한 Option은 2가지로 ID Remind와 Baudrate Reminde 입니다. 그외의 다른 파라메터들은 모두 초기화 됩니다.  
+일전적인 Reset ㅇ
 ## 3.5 Setting
 ### 3.5.1 Language
 ### 3.5.2 theme
