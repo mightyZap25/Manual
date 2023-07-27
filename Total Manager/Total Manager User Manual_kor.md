@@ -198,7 +198,7 @@ Volatile Memory는 휘발성 메모리 영역으로 전원이 꺼지기 전까�
 Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지는 Volatile-Memeory 영역이 상단으로 이동합니다.
 <gif 이미지> 
 **Tooltip 기능**
-각 Paremater 이름의 옆에는 ..?를 한 아이콘이 있습니다.
+각 Paremater 이름의 옆에는 (?)를 한 아이콘이 있습니다. 해당 아이콘에  mouse를 가져가 대면 해당 파라메터에 대한 간단한 설명이 표시됩니다.
 ### 3.3.2 Parameter Control
 - **Slide Control** : <font color="#4f81bd">Non-volatile Memory</font>  
   Non-Volatile Memeory의 가장 일반적인 Data 변경 방식으로 Slide bar의 Drag 또는 TextBox에 직접 Data를 입력하는 방법으로 Data를 변경 합니다.  
@@ -210,7 +210,12 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
   Volatile Memory에서의 Slide Control 방식은 Non-Volatile Memory 방식과 유사하지만, S 버튼이 없으며, Slide bar를 Drag할 경우 변경된 Data가 즉시 적용됩니다.  
   또한 TextBox를 통해 Data를 입력할 경우 Data를 변경한 후 Enter key를 입력하면 변경된 Data가 즉시 적용됩니다.
   또한 Data가 변경되도 TextBoxd의 Font는 푸른색으로 변경되지 않습니다.
-  ![[sliding_control_in_NOnvolatile.png]]
+  ![[sliding_control_in_NOnvolatile.png]]  
+  ><font color="#4f81bd">Tip</font>  
+  >Goal Position TextBox를 클릭한 후 다음과 같이 키보드 키로 제어가 가능합니다.  
+  > 	'a' : 최소 stroke로 이동
+  > 	's' : stroke 중간 위치로 이동
+  > 	'd' : 최대 Stroke로 이동  
 - **check Control Box** : <font color="#4f81bd">Non-volatile Memory</font>   
   Check Control은 check 기능을 이용하여 Data를 변경 가능하며, 이때 Textbox는 Read Only 상태로 Data값과 상태만을 확인할 수 있습니다.
   checkbox는 모두 선택, 모두 해제, 부분 선택 모두 가능하며,선택 값이 변경되었을 경우 TestBox의 font가 푸른색으로 변경됩니다.  
@@ -321,8 +326,8 @@ Total Manager의 언어는 영어와 한국어를 지원합니다.  해당 언�
 ### 3.5.2 theme  
  Total Manager는 dark Mode와 white Mode 2가지를 제공합니다. 해당 theme를 선택하면 즉시 적용이 되며 변경된 내용은 저장이 되어 프로그램 재 시작시에도 변경 상태가 유지됩니다.
  <이미지>
-### 3.6 Software Update  
-업데이가 발생할 경우 팝업이 생성이 되면서 다운로드 유무를 물어본다....... 
+~~### 3.6 Software Update  
+업데이가 발생할 경우 팝업이 생성이 되면서 다운로드 유무를 물어본다.......~~ 
 
 
 
