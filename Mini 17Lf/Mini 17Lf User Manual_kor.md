@@ -186,8 +186,25 @@ MightyZap Model을 구별하기 위한 번호입니다.
 ### 4.2 Firmware Version  
 해당 제품의 펌웨어 버전이 표기되며, Semantic Versioning 방식으로 표기합니다. 
 **Semantic Versioning**
-    ![[versioning.png]]
 	major.mijnor.patch
 	- major : 전반적인 펌웨어 개편 또는 주요 기능 수정 및 추가
 	- minor : 기능 수정 및 기능이 추가된 경우
 	- patch :  버그 및 코드 보완이 추가된 경우
+
+   ![[versioning.png]]
+### 4.3 Actuator ID
+통신 상에서 Actuator를 식별 하기 위한 고유 번호, Daisy-chain 방식으로 연결된 Actuator들은 서로 다른 ID가 할당되어야 합니다.  
+ID 값읜 1~243입니다. ID 0은 Broadcase ID로 특수하게 사용 됩니다.
+> <font color="#ff0000">주의사항</font>  
+> 연결된 Actuator의 ID가 중복되지 않도록 주의해야 합니다. 중복된 ID가 있을 경우 통신 오류가 발생하여 정상적인 통신이 이루어지지 않습니다.  
+
+### 4.4 Baudrate  
+Actuator와 통신을 하기 위한 통신 속도 입니다.
+
+|설정값|통신 속도|
+|---|---|
+|8(0x08)|115200bps}
+|16(0x10)|5f7600bps|
+|32(0x20)|38400bps|
+|64(0x40)|19200bps|
+|128(0x80)|9600bps|
