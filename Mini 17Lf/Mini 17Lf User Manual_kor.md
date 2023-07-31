@@ -45,5 +45,13 @@ Mini 17Lf Model은 다양한 기능을 내장한 Actuator로 효율적이고 유
 
 # Control Table
 ## Description
-## Non-volatile Memory (ROM)
+- control table 라안
+- Memory Type
+- size
+- 접근 궎ㄴ
+- default value
+## Non-volatile Memory (ROM)  
+
+
+
 ## Volatile Memory(RAM)
