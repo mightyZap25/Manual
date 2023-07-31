@@ -209,12 +209,21 @@ Actuator와 통신을 하기 위한 통신 속도 입니다.
 |64(0x40)|19200bps|
 |128(0x80)|9600bps|
 
-### 4.5 Hardware Error
+### 4.5 Hardware Error  
+Actuator 가 동작 중 발생하는 위험 상황 중 아래의 상황에 대하여 스스로 감지하고, 다양한 방법으로 스스로를 보호할 수 있습니다.  
+각  Bit들은 중복되어 설정이 되며, Alarm Shutdown, Alarm LED,  Extend IO 기능을 이용하여 Error 발생 시에 대한 조치를 할 수 있습니다.  
+일반적으로 추천하는 방법은 Alarm Shutdown 기능을 이용하여 해당 Error가 발생 할 경우, Force On/Off를 '0'으로 하여,  Actuator 와  사용자의 system을 보호하는것이 좋습니다.  
+ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 이상 
 
-|Error|bit|Description|
+|Bit|Name|Description|
 |---|---|---|
-|Overload Error|5|일정 시간 이상 동안 부하가 발생한 경우|
-|Motor Error|2|모터가 동작하지 않는 경우|
-|Motor Error|2|모터가 동작하지 않는 경우|
-|Potentiometer Error|1|Potentiometer가 정상적으로 동작하지 않는 경우|
-|Input Voltage Error|0|인가된 전압이 동작 범위를 벗어난 경우|
+|Bit 7|-|미상용|
+|Bit 6|Overload Error|일정 시간 이상 동안 부하가 발생한 경우|
+|Bit 5|-||
+|Bit 4|-||
+|Bit 3|-||
+|Bit 2|Motor Error|모터가 동작하지 않는 경우|
+|Bit 1|Potentiometer Error|Potentiometer가 정상적으로 동작하지 않는 경우|
+|Bit 0|Input Voltage Error|인가된 전압이 동작 범위를 벗어난 경우|
+- Overload  Error  
+  - 
