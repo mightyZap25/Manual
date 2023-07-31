@@ -48,13 +48,14 @@ Control Table은 Actuator를 구동 및 제어하기위한 데이터와 현재 �
 사용자는 통신 Packet을 이용하여 특정 Parameter의 Data를  읽어 Actuator의 상태를 확인하거나, Data를 변경하여 Actuator를 제어할 수 있습니다.  
 통신 Packet에 대한 자세한 내용은 Modbus-RTU를 참고하여 주시기 바랍니다.  
 (Mini 17Lf Model은 Modbus-RTU 통신만을 제공합니다)
-## Description  
-### Memory Type (Non-Volatile, Volatile)  
-Control Table은 2가의 영역으로 구분됩니다. Data를 변경한 후 전원을 꺼도 그 Data가 유지가 되는  Non-volatile Memory
-- Memory Type
-- size
-- 접근 궎ㄴ
-- default value
+## 1 Description  
+### 1.1 Memory Type (Non-Volatile, Volatile)  
+Control Table은 2가의 영역으로 구분됩니다. Data를 변경한 후 전원을 꺼도 그 Data가 유지가 되는  Non-volatile Memory(ROM)와 전원이 꺼지면 Data가 초기화 되는 Volatile Memory(RAM)가 있습니다.  
+### 1.2 Address
+### 1.3 Size
+### 1.4 Access
+### 1.5 Default
+
 ## Non-volatile Memory (ROM)  
 
 

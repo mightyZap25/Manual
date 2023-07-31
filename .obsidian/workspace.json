@@ -147,11 +147,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,7 +164,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "afd3ca12c0ed814a",
+  "active": "8326d637edc67dcf",
   "lastOpenFiles": [
     "README.md",
     "UAV.md",
