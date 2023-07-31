@@ -208,3 +208,13 @@ Actuator와 통신을 하기 위한 통신 속도 입니다.
 |32(0x20)|38400bps|
 |64(0x40)|19200bps|
 |128(0x80)|9600bps|
+
+### 4.5 Hardware Error
+
+|Error|bit|Description|
+|---|---|---|
+|Overload Error|5|일정 시간 이상 동안 부하가 발생한 경우|
+|Motor Error|2|모터가 동작하지 않는 경우|
+|Motor Error|2|모터가 동작하지 않는 경우|
+|Potentiometer Error|1|Potentiometer가 정상적으로 동작하지 않는 경우|
+|Input Voltage Error|0|인가된 전압이 동작 범위를 벗어난 경우|
