@@ -56,9 +56,10 @@ Control Table은 2가의 영역으로 구분됩니다. Data를 변경한 후 전
 ### 1.3 Size  
 Mini 17Lf Model의 모든 Parameter의 Data Size 2byte 로 되어있습니다.
 ### 1.4 Access  (접근 권한)
-Control Table Data는 'R', 'RW'로 표기됩니다. 'R'은 읽기 전용(Read Only) 의미하고, 'RW'는 
-### 1.5 Default
-
+Control Table Data는 'R', 'RW'로 표기됩니다. 'R'은 읽기 전용(Read Only) 의미하고, 'RW'는  읽기와 쓰기가 모두 가능합니다.  
+읽기 전용 권한은 주로 서보모터의 기본정보 또는 모니터링용으로 사용됩니다. 읽기 쓰기 권한은 MightyZap 제어 용도로 사용됩니다.  
+### 1.5 Default  
+기본값은 초기 설정값(공장 출하 설정값)입니다. Non-Volatile Memory 영역의 값은 사용자가 수정할 경우 변경한 값으로 적용되며, volatile Memory 영역은 전원이 인가 되었을 때의 값을 의미합니다.  
 ## Non-volatile Memory (ROM)  
 
 
