@@ -213,7 +213,7 @@ Actuator와 통신을 하기 위한 통신 속도 입니다.
 Actuator 가 동작 중 발생하는 위험 상황 중 아래의 상황에 대하여 스스로 감지하고, 다양한 방법으로 스스로를 보호할 수 있습니다.  
 각  Bit들은 중복되어 설정이 되며, Alarm Shutdown, Alarm LED,  Extend IO 기능을 이용하여 Error 발생 시에 대한 조치를 할 수 있습니다.  
 일반적으로 추천하는 방법은 Alarm Shutdown 기능을 이용하여 해당 Error가 발생 할 경우, Force On/Off를 '0'으로 하여,  Actuator 와  사용자의 system을 보호하는것이 좋습니다.  
-ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 이상 
+ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 이상 모터가 동작하지 않습니다.  
 
 |Bit|Name|Description|
 |---|---|---|
@@ -226,4 +226,5 @@ ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 
 |Bit 1|Potentiometer Error|Potentiometer가 정상적으로 동작하지 않는 경우|
 |Bit 0|Input Voltage Error|인가된 전압이 동작 범위를 벗어난 경우|
 - Overload  Error  
-  - 
+  - 전류가 한번 정격 전류를 넘어가면 I<sup>2</sup>T 방식을 이용하여 정격 전류를 넘어가면 
+i<sup>2</sup>t = i<sub>peak</sub><sup>2</sup>t - i<sub>norm</sub><sup>2</sup>t = (i<sub>peak</sub><sup>2</sup> -i<sub>norm</sub><sup>2</sup>)t
