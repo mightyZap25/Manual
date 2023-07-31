@@ -186,6 +186,7 @@ MightyZap Model을 구별하기 위한 번호입니다.
 ### 4.2 Firmware Version  
 해당 제품의 펌웨어 버전이 표기되며, Semantic Versioning 방식으로 표기합니다. 
 **Semantic Versioning**
+    ![[versioning.png]]
 	major.mijnor.patch
 	- major : 전반적인 펌웨어 개편 또는 주요 기능 수정 및 추가
 	- minor : 기능 수정 및 기능이 추가된 경우
