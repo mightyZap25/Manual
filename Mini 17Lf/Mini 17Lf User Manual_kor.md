@@ -62,6 +62,93 @@ Control Table Data는 'R', 'RW'로 표기됩니다. 'R'은 읽기 전용(Read On
 기본값은 초기 설정값(공장 출하 설정값)입니다. Non-Volatile Memory 영역의 값은 사용자가 수정할 경우 변경한 값으로 적용되며, volatile Memory 영역은 전원이 인가 되었을 때의 값을 의미합니다.  
 ## Non-volatile Memory (ROM)  
 
-
+|Address|Name|Description|Access|Default|
+|---|---|---|---|---|
+|0 (0x00)|Serial Number|Model Serial Nu mber|R||
+|1 (0x01)|Version of Firmware|펌웨어 버전 정보|R||
+|4 (0x04)|Actuator ID|Actuator ID|RW|1(0x01)|
+|5 (0x05)|Actuator Baudrate|통신 속도|RW|32(0x20)|
+|9 (0x09)|Alarm Led|하드웨어 에러 알랍 LED 표시|RW|33(0x21)|
+|A (0x0A)|Alarm Shutdown|하드웨어 에러 셧다운 기능|RW|33(0x21)|
+|B (0x0B)|Short Stroke Limit|수축 방향 한계 위치 값|RW|0(0x00)|
+|C (0x0C)|Long Stroke Limit|확장 방향 한계 위치값|RW|개별 Spec|
+|D (0x0D)|Start Compliance Margin|시작 Compliance Margin|RW|20(0x14)|
+|E (0x0E)|End Compliance Margin|종료 Compliance Margin|RW|8(0x08)|
+|F (0x0F)|Acceleration|가속도|RW|개별 Spec|
+|10 (0x010)|Deceleration|감속도|RW|개별 Spec|
+|11 (0x011)|Min Position Calibration|Min Position Trim|RW|개별 Spec|
+|12 (0x012)|Max Position Calibration|Max Position Trim|RW|개별 Spec|
+|13 (0x013)|Motor Operating Rate Limt|모터 가동률 한계값(PWM)|RW|1000|
+|14 (0x014)|Speed Limit|속도 상한 값|RW|1000|
+|15 (0x015)|Current Limit|전류 상한 값|RW|800|
+|16 (0x016)|Current I Gain|전류 I Gain|RW|개별 Spec|
+|17 (0x017)|Current P Gain|전류 P Gain|RW|개별 Spec|
+|18 (0x018)|Speed D Gain|속도 D Gain|RW|개별 Spec|
+|19 (0x019)|Speed I Gain|속도 I Gain|RW|개별 Spec|
+|1A (0x01A)|Speed P Gain|속도 P Gain|RW|개별 Spec|
+|28 (0x028)|Internal Addess 0|간접 주소 0|RW|0(0x00)|
+|29 (0x029)|Internal Addess 1|간접 주소 1|RW|0(0x00)|
+|2A (0x02A)|Internal Addess 2|간접 주소 2|RW|0(0x00)|
+|2B (0x02B)|Internal Addess 3|간접 주소 3|RW|0(0x00)|
+|2C (0x02C)|Internal Addess 4|간접 주소 4|RW|0(0x00)|
+|2D (0x02D)|Internal Addess 5|간접 주소 5|RW|0(0x00)|
+|2E (0x02E)|Internal Addess 6|간접 주소 6|RW|0(0x00)|
+|2F (0x02F)|Internal Addess 7|간접 주소 7|RW|0(0x00)|
+|30 (0x030)|Internal Addess 8|간접 주소 8|RW|0(0x00)|
+|31 (0x031)|Internal Addess 9|간접 주소 9|RW|0(0x00)|
+|32 (0x032)|Extened Port Setting 0|확장 Port 0 기능 설정|RW|0(0x00)|
+|33 (0x033)|Extened Port Setting 1|확장 Port 1 기능 설정|RW|0(0x00)|
+|34 (0x034)|Extened Port Setting 2|확장 Port 2 기능 설정|RW|0(0x00)|
+|35 (0x035)|Extened Port Setting 3|확장 Port 3 기능 설정|RW|0(0x00)|
+|3C (0x03C)|Action 0 type|Action 0 동작 형식|RW|0(0x00)|
+|3D (0x03D)|Action 0 distance|Action 0 이동 거리|RW|0(0x00)|
+|3E (0x03E)|Action 0 Repeat Type|Action 0 반복 형식|RW|0(0x00)|
+|3F (0x03F)|Action 0 Repeat Count|Action 0 반복 횟수|RW|0(0x00)|
+|40 (0x040)|Action 0 Repeat Time|Action 0 1회 동작 시간|RW|0(0x00)|
+|41 (0x041)|Action 0 Goal Speed|Action 0 Gaol Speed|RW|0(0x00)|
+|42 (0x042)|Action 0 Gal Current|Action 0 Goal Current|RW|0(0x00)|
+|43 (0x043)|Action 0 Accleration|Action 0 Acceleration|RW|0(0x00)|
+|44 (0x044)|Action 0 Delceration|Action 0 Deceleration|RW|0(0x00)|
+|45 (0x045)|Action 0 Stop|Action 0 정지 형식|RW|0(0x00)|
+|46 (0x046)|Action 1 type|Action 1 동작 형식|RW|0(0x00)|
+|47 (0x047)|Action 1 distance|Action 1 이동 거리|RW|0(0x00)|
+|48 (0x048)|Action 1 Repeat Type|Action 1 반복 형식|RW|0(0x00)|
+|49 (0x049)|Action 1 Repeat Count|Action 1 반복 횟수|RW|0(0x00)|
+|4A (0x04A)|Action 1 Repeat Time|Action 1 1회 동작 시간|RW|0(0x00)|
+|4B (0x04B)|Action 1 Goal Speed|Action 1 Gaol Speed|RW|0(0x00)|
+|4C (0x04C)|Action 1 Gal Current|Action 1 Goal Current|RW|0(0x00)|
+|4D (0x04D)|Action 1 Accleration|Action 1 Acceleration|RW|0(0x00)|
+|4E (0x04E)|Action 1 Delceration|Action 1 Deceleration|RW|0(0x00)|
+|4F (0x04F)|Action 1 Stop|Action 1 정지 형식|RW|0(0x00)|
+|50 (0x050)|Action 2 type|Action 2 동작 형식|RW|0(0x00)|
+|51 (0x051)|Action 2 distance|Action 2 이동 거리|RW|0(0x00)|
+|52 (0x052)|Action 2 Repeat Type|Action 2 반복 형식|RW|0(0x00)|
+|53 (0x053)|Action 2 Repeat Count|Action 2 반복 횟수|RW|0(0x00)|
+|54 (0x054)|Action 2 Repeat Time|Action 2 1회 동작 시간|RW|0(0x00)|
+|55 (0x055)|Action 2 Goal Speed|Action 2 Gaol Speed|RW|0(0x00)|
+|56 (0x056)|Action 2 Gal Current|Action 2 Goal Current|RW|0(0x00)|
+|57 (0x057)|Action 2 Accleration|Action 2 Acceleration|RW|0(0x00)|
+|58 (0x058)|Action 2 Delceration|Action 2 Deceleration|RW|0(0x00)|
+|59 (0x059)|Action 2 Stop|Action 2 정지 형식|RW|0(0x00)|
+|5A (0x05A)|Action 3 type|Action 3 동작 형식|RW|0(0x00)|
+|5B (0x05B)|Action 3 distance|Action 3 이동 거리|RW|0(0x00)|
+|5C (0x05C)|Action 3 Repeat Type|Action 3 반복 형식|RW|0(0x00)|
+|5D (0x05D)|Action 3 Repeat Count|Action 3 반복 횟수|RW|0(0x00)|
+|5E (0x05E)|Action 3 Repeat Time|Action 3 1회 동작 시간|RW|0(0x00)|
+|5F (0x05F)|Action 3 Goal Speed|Action 3 Gaol Speed|RW|0(0x00)|
+|60 (0x060)|Action 3 Gal Current|Action 3 Goal Current|RW|0(0x00)|
+|61 (0x061)|Action 3 Accleration|Action 3 Acceleration|RW|0(0x00)|
+|62 (0x062)|Action 3 Delceration|Action 3 Deceleration|RW|0(0x00)|
+|63 (0x063)|Action 3 Stop|Action 3 정지 형식|RW|0(0x00)|
+|64 (0x064)|Action 4 type|Action 4 동작 형식|RW|0(0x00)|
+|65 (0x065)|Action 4 distance|Action 4 이동 거리|RW|0(0x00)|
+|66 (0x066)|Action 4 Repeat Type|Action 4 반복 형식|RW|0(0x00)|
+|67 (0x067)|Action 4 Repeat Count|Action 4 반복 횟수|RW|0(0x00)|
+|68 (0x068)|Action 4 Repeat Time|Action 4 1회 동작 시간|RW|0(0x00)|
+|69 (0x069)|Action 4 Goal Speed|Action 4 Gaol Speed|RW|0(0x00)|
+|6A (0x06A)|Action 4 Gal Current|Action 4 Goal Current|RW|0(0x00)|
+|6B (0x06B)|Action 4 Accleration|Action 4 Acceleration|RW|0(0x00)|
+|6C (0x06C)|Action 4 Delceration|Action 4 Deceleration|RW|0(0x00)|
+|6D (0x06D)|Action 4 Stop|Action 4 정지 형식|RW|0(0x00)|
 
 ## Volatile Memory(RAM)
