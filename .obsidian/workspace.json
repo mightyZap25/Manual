@@ -21,20 +21,6 @@
           }
         ],
         "stacked": true
-      },
-      {
-        "id": "282225500a6241c0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "48f4054a26cb3f04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown-table-editor-view",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +164,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "48f4054a26cb3f04",
+  "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
     "README.md",
     "UAV.md",

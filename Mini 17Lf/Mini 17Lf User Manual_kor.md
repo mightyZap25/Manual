@@ -44,8 +44,13 @@ Mini 17Lf Model은 다양한 기능을 내장한 Actuator로 효율적이고 유
 
 
 # Control Table
-## Description
-- control table 라안
+Control Table은 Actuator를 구동 및 제어하기위한 데이터와 현재 상태를 나타내는 Parameter들로 이루어져 있습니다.   
+사용자는 통신 Packet을 이용하여 특정 Parameter의 Data를  읽어 Actuator의 상태를 확인하거나, Data를 변경하여 Actuator를 제어할 수 있습니다.  
+통신 Packet에 대한 자세한 내용은 Modbus-RTU를 참고하여 주시기 바랍니다.  
+(Mini 17Lf Model은 Modbus-RTU 통신만을 제공합니다)
+## Description  
+### Memory Type (Non-Volatile, Volatile)  
+Control Table은 2가의 영역으로 구분됩니다. Data를 변경한 후 전원을 꺼도 그 Data가 유지가 되는  Non-volatile Memory
 - Memory Type
 - size
 - 접근 궎ㄴ
