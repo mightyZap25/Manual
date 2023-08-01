@@ -228,3 +228,5 @@ ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 
 - Overload  Error  
   - 전류가 한번 정격 전류를 넘어가면 I<sup>2</sup>T 방식을 이용하여 정격 전류를 넘어가면 
 i<sup>2</sup>t = i<sub>peak</sub><sup>2</sup>t - i<sub>norm</sub><sup>2</sup>t = (i<sub>peak</sub><sup>2</sup> -i<sub>norm</sub><sup>2</sup>)t
+
+06212034034
