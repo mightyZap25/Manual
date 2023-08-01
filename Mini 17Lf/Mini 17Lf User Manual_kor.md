@@ -240,5 +240,16 @@ ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 
 MightyZap은 동작 중 발생하는 위험을 스스로 감지하여 보호할 수 있습니다.   
 Shutdown 기능으로 선택된 Hardware Error는 force Enable의 값을 '0'으로 설정하여 모터의 출력을 '0'으로 합니다.  
 Shutdown 기능은 Restart를 하지 않는 이상 해지 되지 않습니다.
+
+|Bit|Name|Description|
+|---|---|---|
+|Bit 7|-|미상용|
+|Bit 6|Overload Error|일정 시간 이상 동안 부하가 발생한 경우|
+|Bit 5|-||
+|Bit 4|-||
+|Bit 3|-||
+|Bit 2|Motor Error|모터가 동작하지 않는 경우|
+|Bit 1|Potentiometer Error|Potentiometer가 정상적으로 동작하지 않는 경우|
+|Bit 0|Input Voltage Error|인가된 전압이 동작 범위를 벗어난 경우|
 > Tip   
-> Lowest input Voltage의 경우 Force Enavble
+> Lowest input Voltage의 경우 Reset을 하지 않아도 정상 전압으로 돌아오면 정상적으로 동작이 됩니다.
