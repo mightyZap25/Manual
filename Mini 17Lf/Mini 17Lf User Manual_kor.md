@@ -234,4 +234,11 @@ ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 
 - Potentiometer Error  
   Potentiometer가 정상적인 동작을 하지 않을 때 해당 bit가 set 됩니다.  Potentiometer Error 가 지속적으로 나타날 경우 A/S가 필요함으로 당사에 문의 주시기 바랍니다.
 - Input Voltage Error  
-  d
+  입력 전압의 범위가 벗어날 해당 bit 가 set 됩니다. Low voltage일 경우, 다시 정상 전압으로 변경되면 해당 Error가 clear 됩니다.  
+  하지만 high voltage Error 일 경우, 해당 Reset이 되지 않는 이상 해지 되지 않습니다.  
+### 4.7 Error Shutdow
+MightyZap은 동작 중 발생하는 위험을 스스로 감지하여 보호할 수 있습니다.   
+Shutdown 기능으로 선택된 Hardware Error는 force Enable의 값을 '0'으로 설정하여 모터의 출력을 '0'으로 합니다.  
+Shutdown 기능은 Restart를 하지 않는 이상 해지 되지 않습니다.
+> Tip   
+> Lowest input Voltage의 경우 Force Enavble
