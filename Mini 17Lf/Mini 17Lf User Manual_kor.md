@@ -229,15 +229,44 @@ Shutdown 기능은 Restart를 하지 않는 이상 해지 되지 않습니다.
 > Tip   
 > Lowest input Voltage의 경우 Reset을 하지 않아도 정상 전압으로 돌아오면 정상적으로 동작이 됩니다.
 
-### 4.6 Short Stroke Limt
-### 4.7 Long Stroke Limt
+### 4.6 Short/Long Stroke Limt  
+위치 제어에서 목표 위치의 제한 값으로 0 ~ 10000 범위 내에서 목표 위치 값를 제한합니다.
+따라서 Goal Position(203)값은 Short Stroke Limit 값보다 작을 수 없고, L해당 값보다 작거나 클 수 없습니다.
+
+|||
+|---|---|
+|||
+### 4.7  Stroke Limt
 ### 4.7 Compliance Margin
 ### 4.8 Acceleration/Deceration
 ### 4.9 Min/Max Positionm Calibration
 ### 4.10 Motor Operating Rate Limit
 ### 4.11 Speed Limit
 ### 4.12 Current Limit
-### 4.13 D
+### 4.13 Current PI Control
+### 4.14 Speed PID Control
+### 4.15 Indirect Address
+### 4.16 Extend I/O Control
+### 4.17 Action Control  
+### 4.18 Force ON/OFF?Enable
+### 4.19 Actuator Pause
+### 4.20 Actuator Stop
+### 4.21 LED
+### 4.22  Hardware Error
+### 4.23 Goal Position
+### 4.24 Goal Speed
+### 4.25 Goal Current
+### 4.26 Present Postion
+### 4.27 Present Current
+### 4.28 Present Motor PWM
+### 4.29 Present Voltage
+### 4.30 Moving
+### 4.31 Action Enable
+### 4.31 Reset
+### 4.32 Restart
+### 4.33 Indirect Data
+
+
 
 
 
