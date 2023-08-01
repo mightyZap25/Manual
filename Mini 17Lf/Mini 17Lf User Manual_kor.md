@@ -225,8 +225,13 @@ ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 
 |Bit 2|Motor Error|모터가 동작하지 않는 경우|
 |Bit 1|Potentiometer Error|Potentiometer가 정상적으로 동작하지 않는 경우|
 |Bit 0|Input Voltage Error|인가된 전압이 동작 범위를 벗어난 경우|
-- Overload  Error  
-  - Overload를 발생하는 는  I<sup>2</sup>T 방식을 이용하여 전류를 축적하여 모터를 보호하는데 사용됩니다.   I<sup>2</sup>T 보호는 모터의 열 모델링을 기반으로 한 모터 과부하 보호 방법으로, 일종의 센서리스 모터 과열 보호 장치 입니다.
-    i<sup>2</sup>t = i<sub>peak</sub><sup>2</sup>t - i<sub>norm</sub><sup>2</sup>t = (i<sub>peak</sub><sup>2</sup> -i<sub>norm</sub><sup>2</sup>)t
-	아래의 그림과 같이... 이미지는 수정 및 설명 도 추가설명
-	 ![[i2t_graph.png]] 
+- Overload  Error    
+  2가지 방식이 있음, Motor continous current Limit 연속 전류 제한  
+  Overload를 발생하는 는  I<sup>2</sup>T 방식을 이용하여 전류를 축적하여 모터를 보호하는데 사용됩니다. I<sup>2</sup>T 보호는 모터의 열 모델링을 기반으로 한 모터 과부하 보호 방법으로, 일종의 센서리스 모터 과열 보호 장치 입니다.  
+  i<sup>2</sup>t = i<sub>peak</sub><sup>2</sup>t - i<sub>norm</sub><sup>2</sup>t = (i<sub>peak</sub><sup>2</sup> -i<sub>norm</sub><sup>2</sup>)t  
+  아래의 그림과 같이... 이미지는 수정 및 설명 도 추가설명  
+   ![[i2t_graph.png]] 
+- Potentiometer Error  
+  Potentiometer가 정상적인 동작을 하지 않을 때 해당 bit가 set 됩니다.  Potentiometer Error 가 지속적으로 나타날 경우 A/S가 필요함으로 당사에 문의 주시기 바랍니다.
+- Input Voltage Error  
+  d
