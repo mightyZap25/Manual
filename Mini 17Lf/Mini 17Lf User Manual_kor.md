@@ -226,7 +226,5 @@ ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 
 |Bit 1|Potentiometer Error|Potentiometer가 정상적으로 동작하지 않는 경우|
 |Bit 0|Input Voltage Error|인가된 전압이 동작 범위를 벗어난 경우|
 - Overload  Error  
-  - 전류가 한번 정격 전류를 넘어가면 I<sup>2</sup>T 방식을 이용하여 정격 전류를 넘어가면 
-i<sup>2</sup>t = i<sub>peak</sub><sup>2</sup>t - i<sub>norm</sub><sup>2</sup>t = (i<sub>peak</sub><sup>2</sup> -i<sub>norm</sub><sup>2</sup>)t
-
-06212034034
+  - 전류가 한번 정격 전류를 넘어가면 I<sup>2</sup>T 방식을 이용하여 전류를 축적하여 모터를 보호하는데 사용됩니다.  
+    i<sup>2</sup>t = i<sub>peak</sub><sup>2</sup>t - i<sub>norm</sub><sup>2</sup>t = (i<sub>peak</sub><sup>2</sup> -i<sub>norm</sub><sup>2</sup>)t
