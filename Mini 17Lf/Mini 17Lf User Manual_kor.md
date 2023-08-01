@@ -210,6 +210,39 @@ Actuator와 통신을 하기 위한 통신 속도 입니다.
 |64(0x40)|19200bps|
 |128(0x80)|9600bps|
 
+
+### 4.5 Error Shutdow
+MightyZap은 동작 중 발생하는 위험을 스스로 감지하여 보호할 수 있습니다.   
+Shutdown 기능으로 선택된 Hardware Error는 force Enable의 값을 '0'으로 설정하여 모터의 출력을 '0'으로 합니다.  
+Shutdown 기능은 Restart를 하지 않는 이상 해지 되지 않습니다.
+
+|Bit|Name|Description|
+|---|---|---|
+|Bit 7|-|미상용|
+|Bit 6|Overload Error|일정 시간 이상 동안 부하가 발생한 경우|
+|Bit 5|-||
+|Bit 4|-||
+|Bit 3|-||
+|Bit 2|Motor Error|모터가 동작하지 않는 경우|
+|Bit 1|Potentiometer Error|Potentiometer가 정상적으로 동작하지 않는 경우|
+|Bit 0|Input Voltage Error|인가된 전압이 동작 범위를 벗어난 경우|
+> Tip   
+> Lowest input Voltage의 경우 Reset을 하지 않아도 정상 전압으로 돌아오면 정상적으로 동작이 됩니다.
+
+### 4.6 Short Stroke Limt
+### 4.7 Long Stroke Limt
+### 4.7 Compliance Margin
+### 4.8 Acceleration/Deceration
+### 4.9 Min/Max Positionm Calibration
+### 4.10 Motor Operating Rate Limit
+### 4.11 Speed Limit
+### 4.12 Current Limit
+### 4.13 D
+
+
+
+
+
 ### 4.5 Hardware Error  
 Actuator 가 동작 중 발생하는 위험 상황 중 아래의 상황에 대하여 스스로 감지하고, 다양한 방법으로 스스로를 보호할 수 있습니다.  
 각  Bit들은 중복되어 설정이 되며, Alarm Shutdown, Alarm LED,  Extend IO 기능을 이용하여 Error 발생 시에 대한 조치를 할 수 있습니다.  
@@ -237,20 +270,3 @@ ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 
 - Input Voltage Error  
   입력 전압의 범위가 벗어날 해당 bit 가 set 됩니다. Low voltage일 경우, 다시 정상 전압으로 변경되면 해당 Error가 clear 됩니다.  
   하지만 high voltage Error 일 경우, 해당 Reset이 되지 않는 이상 해지 되지 않습니다.  
-### 4.7 Error Shutdow
-MightyZap은 동작 중 발생하는 위험을 스스로 감지하여 보호할 수 있습니다.   
-Shutdown 기능으로 선택된 Hardware Error는 force Enable의 값을 '0'으로 설정하여 모터의 출력을 '0'으로 합니다.  
-Shutdown 기능은 Restart를 하지 않는 이상 해지 되지 않습니다.
-
-|Bit|Name|Description|
-|---|---|---|
-|Bit 7|-|미상용|
-|Bit 6|Overload Error|일정 시간 이상 동안 부하가 발생한 경우|
-|Bit 5|-||
-|Bit 4|-||
-|Bit 3|-||
-|Bit 2|Motor Error|모터가 동작하지 않는 경우|
-|Bit 1|Potentiometer Error|Potentiometer가 정상적으로 동작하지 않는 경우|
-|Bit 0|Input Voltage Error|인가된 전압이 동작 범위를 벗어난 경우|
-> Tip   
-> Lowest input Voltage의 경우 Reset을 하지 않아도 정상 전압으로 돌아오면 정상적으로 동작이 됩니다.
