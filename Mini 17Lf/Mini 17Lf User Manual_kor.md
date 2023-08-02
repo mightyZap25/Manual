@@ -255,26 +255,24 @@ Shutdown 기능은 Restart를 하지 않는 이상 해지 되지 않습니다.
   2. 현재 위치에서 외력 또는 내부 유격에 의해 위치가 변화가 생긴 경우  
      사용자는 Goal Position을 변경하지 않았으나 Present Position이 바뀐 경우입니다.  일반적으로 외력에 의한 밀림이나 내부 유격등의 의한 현재 위치의 변동이 생길 경우 입니다.  
 ```
- 예 1>  외부 진동에 의해 위치 편차가 발생한 겨우
-Start Compliance Margin : 20
-Goal Position : 1000
+ 예 1>  외부 진동에 의해 위치 편차가 발생한 겨우  
+Start Compliance Margin : 20  
+Goal Position : 1000  
 Present Positon : 1000 -> 1010  
--> 위치 편차가 마진 값보다 적어 위치 이동이 이루어지지 않습니다.
+-> 위치 편차가 마진 값보다 적어 위치 이동이 이루어지지 않습니다.  
+
 예 2 > 외력에 의해 위치값이 크게 변경된 경우  
-Start Compliance Margin : 20
-Goal Position : 1000
+Start Compliance Margin : 20  
+Goal Position : 1000  
 Present Positon : 1000 -> 1050  
--> 위치 편차가 마진 값보다 크게 발생하여, 위치 편차를 줄이기 위해 Actuator를 제어합니다.
+-> 위치 편차가 마진 값보다 크게 발생하여, 위치 편차를 줄이기 위해 Actuator를 제어합니다.  
 ```
-
-
-
-    
- 
 위의 예와 같이 Start Compliacne  Margin을 크게 설정할 경우, 외부 변화에 둔감하게 동작하여 위치 정밀도는 떨어질 수 있으나, 사용자가 제어하지(의도하지) 않은 모터의 잦은 동작을 막아 동작 안전성 및 내구성에 좋습니다.  
 ><font color="#ff0000">Warnning</font>  
 > default로 설정된 값은 최소한의 안전성을 위해 선정된 값으로 default 값 아래로 낮추는 것은 추천 드리지 않습니다.  
-
+### 4.8 End Compliance Margin  
+End Compliance Margin은 Acuator가 정지하기 위한 최대 위치 편차 값입니다.  
+모터가 위치 편차를 줄이기 위해 동작 중일 때 적용이 되며, Present Position과 Gaol Position과의 편차가 End Compliance Margin 보다 작을 경우 motor의 동작을 멈춥니다.  
 ### 4.8 Acceleration/Deceration
 ### 4.9 Min/Max Positionm Calibration
 ### 4.10 Motor Operating Rate Limit
