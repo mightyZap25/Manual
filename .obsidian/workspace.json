@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "19839a692afaab08",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
         ],
         "stacked": true
@@ -164,7 +174,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "719f7c1e9e32f8c6",
+  "active": "afd3ca12c0ed814a",
   "lastOpenFiles": [
     "Control Table.md",
     "Mini 17Lf/Mini 17Lf User Manual_kor.md",
