@@ -236,8 +236,30 @@ Shutdown 기능은 Restart를 하지 않는 이상 해지 되지 않습니다.
   Start Compliance Margin은 Actuator가 Goal Position 위치 값을 지키기 위해 이동 하기 위한 위치 편차(마진)의 최소 값 입니다.  
   현재 위치(Present Position)값이 Goal Position 값보다 마진값이상 크거나 작을 경우, 위치 오차를 잡기위해 모터를 제어합니다.
   Start Compliance Margin은 다음의 2가지의 경우에 적용이 됩니다.  
-  1. 현재 위치에서 다른 위치로 이동하
-
+  1. 현재 위치에서 다른 위치로 이동하기 위해 Goal Postion 값을 변경하는 경우 
+     >예 1> Goal Position을 변경한 경우
+	 - Start Compliance Margin : 20
+     >- Present Position : 1000  
+     >- Goal Position : 1000 -> 1010으로 변경할 경우
+     >위치 편차가 10으로 마진값 보다 작아 모터는 동작 되지 않습니다.
+     >예 1> Goal Position을 변경한 경우
+     >- Start Compliance Margin : 20
+     >- Present Position : 1000  
+     >- Goal Position : 1000 -> 950으로 변경할 경우
+     >위치 편차가50으로 마진값 보다 커 actuator는 위치 편차를 줄이기 위해 동작을 합니다. 
+     
+  2. 현재 위치에서 외력 또는 내부 유격에 의해 위치가 변화가 생긴 경우  
+     사용자는 Goal Position을 변경하지 않았으나 Present Position이 바뀐 경우입니다.  일반적으로 외력에 의한 밀림이나 내부 유격등의 의한 현재 위치의 변동이 생길 경우 입니다.  
+     >예 1>  외부 진동에 의해 위치 편차가 발생한 겨우
+     >Start Compliance Margin : 20
+     >Goal Position : 1000
+     >Present Positon : 1000 -> 1010  
+     >
+     >예 2 > 외력에 의해 위치값이 크게 변경된 경우  
+     >Start Compliance Margin : 20
+     >Goal Position : 1000
+     >Present Positon : 1000 -> 1050  
+ 
     
   - Start Compliance Margin 적용의 예  1  
 >  Start Compliance Margin : 20  
