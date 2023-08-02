@@ -233,12 +233,21 @@ Shutdown 기능은 Restart를 하지 않는 이상 해지 되지 않습니다.
 위치 제어에서 목표 위치의 제한 값으로 0 ~ 10000 범위 내에서 목표 위치 값을 제한합니다.
 따라서 Goal Position(203)값은 Short Stroke Limit 값보다 작을 수 없고, Long Stroke Limit 값보다 클 수 없습니다.
 ### 4.7 Compliance Margin
-Compliance Margin이란 이동 명령을 통해 액츄에이터를 구동 시작 시키거나 혹은 명령 수행을 완료시키기 위한 최소값의 크기입니다.  
-Compliance 마진을 기본값 보다 크게 변경할 경우, 위치 정밀도는 떨어지나 외부 환경요인 또는 오랜 사용에 따른 내부 마모(backlash tilt 등)에 의한 문제에서도 상대적으로 안정적으로 동작 할 수 있습니다.  
-- **Start Compliance Margin**  
+Compliance Margin이란 이동 명령을 통해 액츄에이터를 구동 시작 시키거나 혹은 명령 수행을 완료시키기 위한 최소 값의 크기입니다.  
+Compliance 마진을 기본 값 보다 크게 변경할 경우, 위치 정밀도는 떨어지나 외부 환경 요인 또는 오랜 사용에 따른 내부 마모(backlash tilt 등)에 의한 문제에서도 상대적으로 안정적으로 동작 할 수 있습니다.  
+- **Start Compliance Margin Ex 1**  
   - 서보 Actuator가 위치 이동을 시작하기 위한 최소한 마진 값 입니다.  
-  - Start Compliance Margin 적용의 예  
-    Start Compliance Margin : 20
+  - Start Compliance Margin 적용의 예  1 
+  >Start Compliance Margin : 20  
+  >Present Position : 1000  
+  >Goal Position : 1010  
+  >-> Present Position 과 Goal Positon의 차이가 10으로 Margin 값 보다 작아 움직이지 않습니다.   
+Start Compliance Margin 적용의 예  2  
+
+> Start Compliance Margin : 20  
+> Present Position : 1000  
+> Goal Position : 1030  
+> -> Present Position 과 Goal Positon의 차이가 30으로 Margin 값 보다 크게 되어 Actuator가 동작 합니다.
 ### 4.8 Acceleration/Deceration
 ### 4.9 Min/Max Positionm Calibration
 ### 4.10 Motor Operating Rate Limit
