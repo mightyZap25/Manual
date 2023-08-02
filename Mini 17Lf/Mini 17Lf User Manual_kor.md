@@ -273,6 +273,7 @@ Present Positon : 1000 -> 1050
 ### 4.8 End Compliance Margin  
 End Compliance Margin은 Acuator가 정지하기 위한 최대 위치 편차 값입니다.  
 모터가 위치 편차를 줄이기 위해 동작 중일 때 적용이 되며, Present Position과 Gaol Position과의 편차가 End Compliance Margin 보다 작을 경우 motor의 동작을 멈춥니다.  
+End Compliance Margin은 작을 수록 위치 정밀도가 높아지나, 일정 값 이하로 줄일 경우 그 효과가 미미해 집니다.
 ### 4.8 Acceleration/Deceration
 ### 4.9 Min/Max Positionm Calibration
 ### 4.10 Motor Operating Rate Limit
