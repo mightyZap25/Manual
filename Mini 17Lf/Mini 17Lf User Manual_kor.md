@@ -233,7 +233,8 @@ Shutdown 기능은 Restart를 하지 않는 이상 해지 되지 않습니다.
 위치 제어에서 목표 위치의 제한 값으로 0 ~ 10000 범위 내에서 목표 위치 값을 제한합니다.
 따라서 Goal Position(203)값은 Short Stroke Limit 값보다 작을 수 없고, Long Stroke Limit 값보다 클 수 없습니다.
 ### 4.7 Compliance Margin
-
+Compliance Margin이란 이동 명령을 통해 액츄에이터를 구동 시작 시키거나 혹은 명령 수행을 완료시키기 위한 최소값의 크기입니다.  
+Compliance 마진을 기본값 보다 크게 변경할 경우, 위치 정밀도는 떨어지나 외부 환경요인 또는 오랜 사용에 따른 내부 마모에도 안정적으로 동작 할 수 있습니다.
 ### 4.8 Acceleration/Deceration
 ### 4.9 Min/Max Positionm Calibration
 ### 4.10 Motor Operating Rate Limit
