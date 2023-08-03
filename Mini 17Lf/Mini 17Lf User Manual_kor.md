@@ -292,7 +292,8 @@ Start Margin 과 End Margin 거의 같고 부하가 적고 관성이 적은 제�
 ![[StartEndMargin2.gif]]
 
 ### 4.8 Acceleration/Deceration  
-
+각각은 Actuator의 가속과 감속을 제어하는 파라메터입니다.  
+가감속 제어는 모터의 진송,소음 부하등을 줄이기 위한 제어 방법입니다.  
 ### 4.9 Min/Max Positionm Calibration
 ### 4.10 Motor Operating Rate Limit
 ### 4.11 Speed Limit
