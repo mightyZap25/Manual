@@ -297,9 +297,12 @@ Start Margin 과 End Margin 거의 같고 부하가 적고 관성이 적은 제�
 너무 긴 시간동안 가감속을 할 경우 제어값이 충분하지 않아 정지한것 처럼 보일 수도 있습니다. 반대로 가속시간이 짧을 경우 초기 동작 시 모터 또 제어 대상에 충격을 줄 수 있으며, 모터 내구성에 좋지 않습니다.  감속 시간이 짧을 경우 감속 시간이 거의 없이 최대 속도에서 정지하여 관성에 의해 이동되는 거리가 늘어나게 됩니다.  
 일반적으로 감속 시간이 지나치게 짧을 경우 Overshoot가 잘 발생할 수 있습니다.   
 
-|Parameter||
-|---|---|
-|ㅇ|ㅇ|
+|Parameter|Description|range|Unit|
+|---|---|---|---|
+|Acceleration|가속 시간|0~1000|msec|
+|Deceleration|감속 시간|0~1000|msec|
+
+![[AccDecGraph.png]]
 
 ### 4.9 Min/Max Positionm Calibration
 ### 4.10 Motor Operating Rate Limit
