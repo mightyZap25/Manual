@@ -322,10 +322,21 @@ Min/Max Position Calibration 파라메터는 Actuator의 Goal Position이 최소
 Actuator의 모터를 제어하기 위해 사용되는 PWM의 최대 값 설정 파라메터 입니다.
 >본 가이드에서는 위치 제어 신호용 PWM과 구분하여 사용하기 위해 Motor Operating Rate 란 용어를 사용합니다.  
 
+|Parameter|Description|Range|Unit|
+|---|---|---|---|
+|Motor Operating Rate Limit|모터에 공급하는 PWM 의 최대 값 설정 |0~1000||
+
 정격 부하 시 400 이하의 낮은 값에서는 모터가 동작하지 않을 수 있습니다.  또한 Motor Operating Rate값을 변경하면 속도와 Stall Force의 값이 변경 됩니다.  
 ### 4.11 Speed Limit  
-Actuator의 최대 이동 속도 제한 값입니다. Speed Limit를 낮게 설정하여도 최대 Force에는 영향을 주지 않지만, 최대 전류까지 도달하는 시간은 다를 수 있습니다. 속도의 값이 낮을 수록 최대 전류까지 도달하는 시간이 길어집니ㅏ. 
-### 4.12 Current Limit
+Actuator의 최대 이동 속도 제한 값입니다. Speed Limit를 낮게 설정하여도 최대 Force에는 영향을 주지 않지만, 최대 전류까지 도달하는 시간은 다를 수 있습니다. 속도의 값이 낮을 수록 최대 전류까지 도달하는 시간이 길어집니다.  
+
+|Parameter|Description|Range|Unit|
+|---|---|---|---|
+|Speed Limit|Actuator의 최대 속도 제한 설정 |0~1000||
+Speed Limit를 변경할 경우, Goal Speed도 같이 변경됩니다. 또한 전원 인가 시 Speed Limit의 값을 Goal Speed에 적용합니다.  
+Goal Speed를 변경하여도 Speed Limit는 변하지 않습니다.  
+### 4.12 Current Limit  
+
 ### 4.13 Current PI Control
 ### 4.14 Speed PID Control
 ### 4.15 Indirect Address
