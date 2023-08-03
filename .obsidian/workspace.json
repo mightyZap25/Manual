@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a5fd684a14ab078c",
+        "id": "1ac5b78d4ee0f9f6",
         "type": "tabs",
         "children": [
           {
-            "id": "e7473d361dbc6279",
+            "id": "fb14ab34d4b2d69a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Mini 17Lf/img/EndComplianceMArgin2.gif"
+                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mini 17Lf/img/EndComplianceMArgin2.gif",
+                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mini 17Lf/img/EndComplianceMArgin2.gif",
+                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mini 17Lf/img/EndComplianceMArgin2.gif"
+                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md"
               }
             }
           },
@@ -162,30 +164,30 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "e7473d361dbc6279",
+  "active": "fb14ab34d4b2d69a",
   "lastOpenFiles": [
-    "Mini 17Lf/img/test.tif",
-    "Mini 17Lf/img/lu169782eo7p.tmp",
     "Mini 17Lf/img/EndComplianceMArgin1.gif",
     "Mini 17Lf/img/EndComplianceMArgin2.gif",
+    "Mini 17Lf/img/EnmMarginDec.gif",
+    "Mini 17Lf/img/EndStartMArgin.gif",
+    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+    "Mini 17Lf/img/EndMarginBasic.gif",
+    "Mini 17Lf/img/EnmMarginBasic.gif",
+    "Mini 17Lf/img/yrdy-2023-08-03_12.43.39.gif",
+    "Mini 17Lf/img/yrdy-2023-08-03_12.44.56.gif",
+    "Mini 17Lf/img/yrdy-2023-08-03_12.43.03.gif",
+    "Mini 17Lf/img/test.tif",
+    "Mini 17Lf/img/lu169782eo7p.tmp",
     "Total Manager/img/180703_sample_gif.gif",
     "Mini 17Lf/img/lu169782eo7n.tmp",
-    "Mini 17Lf/img/스크린샷 2023-07-17 17-42-53.png",
     "Mini 17Lf/img/lu169782eo7i.tmp",
-    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
     "Mini 17Lf/img/lu169782eo7g.tmp",
     "Control Table.md",
     "Total Manager/Total Manager User Manual_kor.md",
-    "Mini 17Lf/img/i2t_graph.png",
-    "Mini 17Lf/img/versioning.png",
     "README.md",
     "UAV.md",
-    "KMqY8YD.jpeg",
     "무제 파일.md",
     "무제 파일 1.canvas",
-    "Total Manager/img/Hardware Error.png",
-    "Total Manager/img/communication Error.png",
-    "Total Manager/img/parameter_control_monitoring.png",
     "e Manual Review.md",
     "Total Manager/Total Manager User Manual_eng.md",
     "Mini 17Lf User Manual_kor.md",
@@ -198,7 +200,6 @@
     "Total Manager/img/lu171134ov2k.tmp",
     "Total Manager/img/serialPort_check_win.jpg.crdownload",
     "Total Manager/img/ch340x_win_install.jpg.crdownload",
-    "Total Manager/img/windows11_version_check.jpg.crdownload",
     "().md",
     "conflict-files-obsidian-git.md",
     "2023-07-11.md",
