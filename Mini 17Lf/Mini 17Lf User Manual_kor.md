@@ -288,7 +288,7 @@ Start Compliance Margin과 End Compliance Margin과의 거리가 가깝거나 �
 아래의 이미지와 같이 Start Margin이 End Margin이 모두 작은 경우 부하가 크거나 관성이 있는 환경에서는 반대편  Start Margin까지 벗어나게 되는 경우가 발생하여 Over shoot 가 발생하게 됩니다.  
 ![[StartEndMargin.gif]]  
 <font color="#4f81bd">상황 2.  Start Margin 과 End Margin이 같은 경우</font>
-Start Margin 과 End Margin 거의 같고 부하가 적고 관성이 적은 제품을 제어할 경우 아래와 같이 정상적이 정지를 못하고 진동할 수 있습니다.  
+Start Margin 과 End Margin 거의 같고 부하가 적고 관성이 적은 제품을 제어할 경우 위치 오차와 노이즈로인해 아래와 같이 정상적이 정지를 못하고 진동할 수 있습니다.  
 ![[StartEndMargin2.gif]]
 
 ### 4.8 Acceleration/Deceration  
@@ -304,7 +304,13 @@ Start Margin 과 End Margin 거의 같고 부하가 적고 관성이 적은 제�
 
 ![[AccDecGraph.png]]
 
-### 4.9 Min/Max Positionm Calibration
+### 4.9 Min/Max Position Calibration  
+Min/Max Position Calibration 파라메터는 Actuator의 Goal Position이 최소/최대 값일 때의 Rod의 위치 값을 조절하는 파라메터이다.  
+이해를 위해 아래의 이미지를 참조하여 주시기 바랍니다.  
+![[minmaxPostion.png]]
+- Min Poisition  
+  Min Position Calibration  
+- Max Position  
 ### 4.10 Motor Operating Rate Limit
 ### 4.11 Speed Limit
 ### 4.12 Current Limit
