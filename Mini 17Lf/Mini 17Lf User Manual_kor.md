@@ -291,7 +291,8 @@ Start Compliance Margin과 End Compliance Margin과의 거리가 가깝거나 �
 Start Margin 과 End Margin 거의 같고 부하가 적고 관성이 적은 제품을 제어할 경우 아래와 같이 정상적이 정지를 못하고 진동할 수 있습니다.  
 ![[StartEndMargin2.gif]]
 
-### 4.8 Acceleration/Deceration
+### 4.8 Acceleration/Deceration  
+
 ### 4.9 Min/Max Positionm Calibration
 ### 4.10 Motor Operating Rate Limit
 ### 4.11 Speed Limit
