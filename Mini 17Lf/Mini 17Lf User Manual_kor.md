@@ -284,7 +284,7 @@ End Compliance Margin에 대한 기본적인 개념은 다음과 같습니다.
   ![[EnmMarginDec.gif]]
 **Start Compliance Margin과 End Compliance Margin과의 관계**   
 Start Compliance Margin과 End Compliance Margin과의 거리가 가깝거나 같을 경우 문제가 발생할 수 있습니다.  
-아래의 이미지와 같이 
+아래의 이미지와 같이 Start Margin 이 
 ![[EndStartMArgin.gif]]
 ![[EndStartMArgin.gif]]
 
