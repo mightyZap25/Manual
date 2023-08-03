@@ -279,7 +279,8 @@ End Compliance Margin은 작을 수록 위치 정밀도가 높아지나, 일정 
 End Compliance Margin에 대한 기본적인 개념은 다음과 같습니다.
 진행 방향에서의 End Complilance Marign 위치에서 Actuator 는 전기적 브레이크 명령을 내립니다. 이때 Actuator는 전기적 인 브레이크와 내부적인 마찰과 관성등에 의해 일정 거리를 이동한 후 정지하게 됩니다.  이때 이동한 정지 거리가 End Compliance Margin의 값과 동일하게 하는것이 가장 좋습니다.  
 ![[EndMarginBasic.gif]]  
-**기본 개념**  
+**End Compliance 줄이기**    
+반복 정밀도를 높이기 위해 End Compliance의 값을 줄일 경우 
   ![[EnmMarginDec.gif]]
 이미지 3
 ![[EndStartMArgin.gif]]
