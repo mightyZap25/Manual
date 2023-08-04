@@ -340,7 +340,8 @@ Goal Speed를 변경하여도 Speed Limit는 변하지 않습니다.
 ### 4.12 Current Limit  
 
 ### 4.13 Current PI Control
-### 4.14 Speed PID Control
+### 4.14 Speed PID Control  
+속도 PID 제어의 Gaim 값입니다. 
 ### 4.15 Indirect Address
 ### 4.16 Extend I/O Control
 ### 4.17 Action Control  
