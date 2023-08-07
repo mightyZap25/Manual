@@ -394,8 +394,9 @@ Action Setting은 모터가 움직이는 방식을 설정하며 아래와 같습
 #### Repeat Setting
 반복 횟수 또는 1회 동작에 대한 동작 시간 등을 설정하는 Parameter 입니다.  
 **Repeat type**
- - Interval : Repeat Time에 의해 설정된 시간 간격마다 Action을 수행합니다. 
- - dWellTime : Action 명령에 의해 위치 이동이 완료된 다음 시간을 카운트 합니다. 
+ - Interval : Repeat Time에 의해 설정된 시간 간격마다 Action을 수행합니다.   일정한 시간마다 동작이 필요할 경우 사용합니다. 
+ - dWellTime : Action 명령에 의해 위치 이동이 완료된 다음 시간을 카운트 합니다.   
+   위치 이동을 완료한 후 특정 시간동안 대기해야 할 경우 사용합니다.
    <이미지 그래프로 표현>
 
 ### 4.18 Force ON/OFF?Enable
