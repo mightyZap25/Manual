@@ -360,9 +360,14 @@ Mini 17Lf 시리즈에는 Extended I/O Port가 존재합니다. 해당 기능은
 - IO Port 2: Switch, JOG, Action Next, Force Off, Stop, Pause, Alarm Out, Restart  
 - IO Port 3: Force Off, Stop, Pause, Alarm Out, Restart  
 - IO Port 4 : Force Off, Stop, Pause, Alarm Out, Restart  
+Extended I/O의 회로 구성은 각 기능에 따라 다르게 구성이 되며 외부 전원이 필요하지 않습니다.  각 기능 설명에 명시된 회로 구성대로 연결해야 Actuator 에 문제가 발생하지 않습니다.  
+(connector 구성 이미지)
 
 **Funtion Switch** 
-	ㅑㅒ
+	IO Port 1 또는 2번을 Switch 기능으로 지정지 나머지 IO Port도 자동으로 지징됩니다.  해당 기능은 그림과 같이 회로를 구성하였을 경우 각 버튼에 따라 short stroke Limit/Long Stroke Limit 값으로 이동을 합니다.
+	(회로 구성)  
+**Function JOG**
+	IO Port 1 또는 2번을 Jog 기능으로 지정 시 나머지 IO Port도 잗동으로 지정됩니다. 해당 기능은 그림과 같이 회로를 구성해야하며 각 버튼을 누를 경우 Short/Long 방향으로 모터가 동작 하다가 버튼을 놓았을 때 정지하게 됩니다.
 
 ### 4.17 Action Control  
 ### 4.18 Force ON/OFF?Enable
