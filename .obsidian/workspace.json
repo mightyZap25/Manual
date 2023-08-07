@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IRROBOT DATASHEET_17Lfe 양식.md",
+                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
                 "mode": "source",
                 "source": false
               }
@@ -21,20 +21,6 @@
           }
         ],
         "stacked": true
-      },
-      {
-        "id": "3875589d57cc5642",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "219cb38ac18c1306",
-            "type": "leaf",
-            "state": {
-              "type": "markdown-table-editor-view",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IRROBOT DATASHEET_17Lfe 양식.md",
+                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IRROBOT DATASHEET_17Lfe 양식.md",
+                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IRROBOT DATASHEET_17Lfe 양식.md"
+                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md"
               }
             }
           },
@@ -178,8 +164,9 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "219cb38ac18c1306",
+  "active": "fb14ab34d4b2d69a",
   "lastOpenFiles": [
+    "IRROBOT DATASHEET_17Lfe 양식.md",
     "Mini 17Lf/Mini 17Lf User Manual_kor.md",
     "feature1.txt",
     "menuList.json",
@@ -198,7 +185,6 @@
     "Mini 17Lf User Manual_kor.md",
     "Pasted image 20230803153813.png",
     "무제 파일 1.canvas",
-    "IRROBOT DATASHEET_17Lfe 양식.md",
     "Pasted image 20230721144713.png",
     "흡입시키지.md",
     "Pasted image 20230721144728.png",

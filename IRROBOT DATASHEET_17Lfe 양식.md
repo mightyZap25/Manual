@@ -49,12 +49,13 @@
 
 ### Currents / 전류
 
-|   <div>Maximum peak Current /&nbsp;</div><div>최대 피크 전류</div>                  |      |  ≤1.7&nbsp;  |      | A     | Stall Current                                                                                             |
-|:------------------------------------------------------------------------------|:-----|:-------------|:-----|:------|:----------------------------------------------------------------------------------------------------------|
-|   No Load Current / 무부하전류&nbsp;                                               |      |  ≤300        |      | mA    | No Load                                                                                                   |
-|   <div>Rated Load Current /&nbsp;</div><div>정격 부하시 전류</div>                   |      | ≤400         |      | mA    | <div>at over Goal current&nbsp;</div><div>800mA setting / 골</div><div>커런트 800mA 이상</div><div>설정</div>     |
-|   <div>Max Applicable Load Current&nbsp;</div><div>/ 최대 허용 부하시 전류</div>       |      | ≤600         |      |       | <div>at Goal current 1.6A&nbsp;</div><div>setting / 골커런트</div><div>1.6A설정 시</div>                         |
-|   Idle Current&nbsp;                                                          |      | ≤35          |      | mA    |                                                                                                           |  
+|                                                                                                                                                                                                               |  Min  |  Norm            |  Max     |  Unit     |  Note                                                                                                         |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------|:-----------------|:---------|:----------|:--------------------------------------------------------------------------------------------------------------|
+|     <div>**Maximum peak Current** /&nbsp;</div><div>**최대 피크 전류**</div>                                                                                                                                        |       |    ≤1.7&nbsp;    |          |   A       |   Stall Current                                                                                               |
+| **No Load Current** / **무부하전류**; |       |    ≤300          |          |   mA      |   No Load                                                                                                     |
+|     <div>**Rated Load Current** /&nbsp;</div><div>**정격 부하시 전류**</div>                                                                                                                                         |       |   ≤400           |          |   mA      |   <div>at over Goal current&nbsp;</div><div>800mA setting / 골</div><div>커런트 800mA 이상</div><div>설정</div>       |
+|     <div>**Max Applicable Load Current**&nbsp;</div><div>/ **최대 허용 부하시 전류**</div>                                                                                                                             |       |   ≤600           |          |           |   <div>at Goal current 1.6A&nbsp;</div><div>setting / 골커런트</div><div>1.6A설정 시</div>                           |
+| **Idle Current**                                                                                                                                                                                              |       |   ≤35            |          |   mA      |                                                                                                               |  
 
 ### Temperatures / 온도
 
