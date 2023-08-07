@@ -457,7 +457,10 @@ ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 
 Actuator를 이동 시키고자 하는 위치 값입니다. Goal Position은 Short/Long stroke limit 설정치에 영향을 받습니다. (즉, stroke limit 범위 밖으로는 위치 명령을 내려도 stroke limit위치까지만 움직임)
 
 ### 4.24 Goal Speed
-모터의 평균 이동속도 목표값(0~1023). 액츄에이터의 동작 중 속도변경을 원하는 경우 사용합니다.
+액츄에이터의 동작 속도를 변경할 때 사용합니다. [범위 : 0~ 1000]  
+각 actuator의 최대 속도에 대해 비율로 제어하며 약 10%의 오차가 있습니다.
+value : 0 ~ 1000 [+-10%]
+![[Pasted image 20230807184527.png]]
 초기 전원 인가시 비휘발성 Speed Limit에서 값을 불러와 Goal Speed에 저장합니다.
 Speed Limit 명령보다 빠르게 반응하며, 가동 중 실시간으로 속도를 변경하는 데 사용할 수 있습니다.
 0일 때 기동력 OFF 상태이고 1023일 때 최대 속도를 냅니다.
