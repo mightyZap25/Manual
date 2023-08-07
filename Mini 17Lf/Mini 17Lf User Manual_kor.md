@@ -399,7 +399,8 @@ Action Setting은 모터가 움직이는 방식을 설정하며 아래와 같습
    위치 이동을 완료한 후 특정 시간 동안 대기해야 할 경우 사용합니다.
    <이미지 그래프로 표현>
 
-### 4.18 Force ON/OFF?Enable
+### 4.18 Force ON/OFF?Enable  
+모터의 공급되는 PWM을 '0'으로 할 때 사용합니다.
 ### 4.19 Actuator Pause
 ### 4.20 Actuator Stop
 ### 4.21 LED
