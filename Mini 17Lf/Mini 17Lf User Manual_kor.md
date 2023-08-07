@@ -53,7 +53,9 @@ Control Table은 Actuator를 구동 및 제어하기위한 데이터와 현재 �
 (Mini 17Lf Model은 Modbus-RTU 통신만을 제공합니다)
 ## 1 Description  
 ### 1.1 Memory Type (Non-Volatile, Volatile)  
-Control Table은 2가의 영역으로 구분됩니다. Data를 변경한 후 전원을 꺼도 그 Data가 유지가 되는  Non-volatile Memory(ROM)와 전원이 꺼지면 Data가 초기화 되는 Volatile Memory(RAM)가 있습니다.  
+Control Table은 2가의 영역으로 구분됩니다. Data를 변경한 후 전원을 꺼도 그 Data가 유지가 되는  Non-volatile Memory(ROM)와 전원이 꺼지면 Data가 초기화 되는 Volatile Memory(RAM)가 있습니다.    
+- Non-Volatile Memory (ROM) : 데
+- Volatile Memeory(RAM) 
 ### 1.2 Address  
 본 문서에서의 Address는 control Table에서의 Data Adress를 의미합니다.
 ### 1.3 Size  
