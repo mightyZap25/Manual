@@ -352,10 +352,18 @@ Indirect Address에 특정 주소를 세팅하면, Indirect Data에 해당 주�
 >![[indirectAddrss.gif]]
 
 예제 1 : 3개의 Parameter를 연속적으로 적용  
+.... 추가 설명 넣기
 
+### 4.16 Extend I/O Control  
+Mini 17Lf 시리즈에는 Extended I/O Port가 존재합니다. 해당 기능은 4개의 I/O Port를 제공하며 , 각각은 아래와 같은 기능을 제공합니다.  
+- IO Port 1 : Switch, JOG, Action Next, Force Off, Stop, Pause, Alarm Out, Restart 
+- IO Port 2: Switch, JOG, Action Next, Force Off, Stop, Pause, Alarm Out, Restart  
+- IO Port 3: Force Off, Stop, Pause, Alarm Out, Restart  
+- IO Port 4 : Force Off, Stop, Pause, Alarm Out, Restart  
 
+**Funtion Switch** 
+	ㅑㅒ
 
-### 4.16 Extend I/O Control
 ### 4.17 Action Control  
 ### 4.18 Force ON/OFF?Enable
 ### 4.19 Actuator Pause
