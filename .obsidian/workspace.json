@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "IRROBOT DATASHEET_17Lfe 양식.md",
                 "mode": "source",
                 "source": false
               }
@@ -21,6 +21,20 @@
           }
         ],
         "stacked": true
+      },
+      {
+        "id": "3875589d57cc5642",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "219cb38ac18c1306",
+            "type": "leaf",
+            "state": {
+              "type": "markdown-table-editor-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 481.5
+    "width": 200
   },
   "right": {
     "id": "7ccabca408164915",
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "IRROBOT DATASHEET_17Lfe 양식.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "IRROBOT DATASHEET_17Lfe 양식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md"
+                "file": "IRROBOT DATASHEET_17Lfe 양식.md"
               }
             }
           },
@@ -164,47 +178,47 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "fb14ab34d4b2d69a",
+  "active": "219cb38ac18c1306",
   "lastOpenFiles": [
     "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+    "feature1.txt",
+    "menuList.json",
+    "Control Table.md",
+    "UAV.md",
+    "Pasted image 20230721150751.png",
+    "README.md",
+    "feature2.txt",
+    "1..md",
+    "2023-07-11.md",
+    "Pasted image 20230721144658.png",
+    "[[.md",
+    "무제 파일.md",
+    "test.txt",
+    "Pasted image 20230724112426.png",
+    "Mini 17Lf User Manual_kor.md",
+    "Pasted image 20230803153813.png",
+    "무제 파일 1.canvas",
+    "IRROBOT DATASHEET_17Lfe 양식.md",
+    "Pasted image 20230721144713.png",
+    "흡입시키지.md",
+    "Pasted image 20230721144728.png",
+    "Pasted image 20230803153824.png",
+    "무제 파일.canvas",
+    "Untitled Diagram.drawio",
+    "edit.css",
+    "e Manual Review.md",
+    "17FC BlockDioagram.drawio",
+    "KMqY8YD.jpeg",
     "Mini 17Lf/img/minmaxPostion.png",
     "Mini 17Lf/img/스크린샷 2023-08-03 15-38-42.png",
-    "Pasted image 20230803153824.png",
-    "Pasted image 20230803153813.png",
-    "Mini 17Lf/img/AccDecGraph.png",
-    "Mini 17Lf/img/StartEndMargin.gif",
-    "Mini 17Lf/img/StartEndMargin2.gif",
-    "Mini 17Lf/img/EnmMarginDec.gif",
-    "Mini 17Lf/img/yrdy-2023-08-03_14.21.11.gif",
-    "Mini 17Lf/img/yrdy-2023-08-03_14.15.14.gif",
     "Mini 17Lf/img/test.tif",
     "Mini 17Lf/img/lu169782eo7p.tmp",
     "Mini 17Lf/img/lu169782eo7n.tmp",
-    "Mini 17Lf/img/lu169782eo7i.tmp",
-    "Mini 17Lf/img/lu169782eo7g.tmp",
-    "Control Table.md",
     "Total Manager/Total Manager User Manual_kor.md",
-    "README.md",
-    "UAV.md",
-    "무제 파일.md",
-    "무제 파일 1.canvas",
-    "e Manual Review.md",
     "Total Manager/Total Manager User Manual_eng.md",
-    "Mini 17Lf User Manual_kor.md",
-    "[[.md",
     "Total Manager/Parameter.md",
-    "IRROBOT DATASHEET_17Lfe 양식.md",
-    "Total Manager/img/180703_sample_gif.gif.crdownload",
     "[.md",
-    "Total Manager/img/scanningpng",
-    "Total Manager/img/lu171134ov2k.tmp",
-    "Total Manager/img/serialPort_check_win.jpg.crdownload",
-    "Total Manager/img/ch340x_win_install.jpg.crdownload",
     "().md",
-    "conflict-files-obsidian-git.md",
-    "2023-07-11.md",
-    "1..md",
-    "흡입시키지.md",
-    "무제 파일.canvas"
+    "conflict-files-obsidian-git.md"
   ]
 }
