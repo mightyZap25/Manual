@@ -356,10 +356,10 @@ Indirect Address에 특정 주소를 세팅하면, Indirect Data에 해당 주�
 
 ### 4.16 Extend I/O Control  
 Mini 17Lf 시리즈에는 Extended I/O Port가 존재합니다. 해당 기능은 4개의 I/O Port를 제공하며 , 각각은 아래와 같은 기능을 제공합니다.  
-- IO Port 1 : Switch, JOG, Action Next, Force Off, Stop, Pause, Alarm Out, Restart 
-- IO Port 2: Switch, JOG, Action Next, Force Off, Stop, Pause, Alarm Out, Restart  
-- IO Port 3: Force Off, Stop, Pause, Alarm Out, Restart  
-- IO Port 4 : Force Off, Stop, Pause, Alarm Out, Restart  
+- IO Port 1 : Switch, JOG, Action Next, <font color="#ff0000">Action Enable</font>, Force Off, Stop, Pause, Alarm Out, Restart 
+- IO Port 2: Switch, JOG, Action Next, <font color="#ff0000">Action Enable</font>,Force Off, Stop, Pause, Alarm Out, Restart  
+- IO Port 3: Force Off, Stop, Pause, <font color="#ff0000">Action Enable</font>,Alarm Out, Restart  
+- IO Port 4 : Force Off, Stop, Pause, <font color="#ff0000">Action Enable</font>,Alarm Out, Restart  
 Extended I/O의 회로 구성은 각 기능에 따라 다르게 구성이 되며 외부 전원이 필요하지 않습니다.  각 기능 설명에 명시된 회로 구성대로 연결해야 Actuator 에 문제가 발생하지 않습니다.  
 (connector 구성 이미지)
 
@@ -372,7 +372,15 @@ Extended I/O의 회로 구성은 각 기능에 따라 다르게 구성이 되며
 	Action Next 기능 Action 기능을 사용할 때 사용됩니다. 해당 I/O Pin에 스위치 입력이 들어와야 다음 Action 기능을 진행합니다. 자세한 내용은 4.17 Action Control을 참조하여 주시기 바랍니다.
 **Force Off**  
 	해당 기능은 입력 기능으로 force off 기능을 해당 I/O Port에 적용합니다. 선택한 i/o port에 스위치 회로를 연결하여 버튼을 누르면 Force On/Off toggle 기능을 수행합니다.  
-**Function Stop**
+**Function Stop**  
+	해당 기능은 입력 기능으로 Stop 기능을 해당 I/O Port에 적용합니다. 선택한 i/o port에 스위치 회로를 연결하여 버튼을 누르면 Actuator가 정지 됩니다.  
+**Function Pause** 
+	해당 기능은 입력 기능으로 Pause 기능을 해당 I/O Port에 적용합니다. 선택한 i/o port에 스위치 회로를 연결하여 버튼을 누르면 Pause toggle 기능을 수행합니다.  
+**Function Alarm Out**  
+	해당 기능은 출력 기능으로 Hardware Error 가 발생 시 'High' 신호를 내보냅니다.  
+**Restart**  
+	해당 기능은 입력 기능으로 Restart 기능을 담당합니다.  Hardware Error 등의 문제로 Actuator가 정지한 경우 도는 시스템을 재 시작해야 ㅎ
+  
 ### 4.17 Action Control  
 ### 4.18 Force ON/OFF?Enable
 ### 4.19 Actuator Pause

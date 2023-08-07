@@ -6,6 +6,7 @@
       {
         "id": "1ac5b78d4ee0f9f6",
         "type": "tabs",
+        "dimension": 84.41734417344173,
         "children": [
           {
             "id": "fb14ab34d4b2d69a",
@@ -25,6 +26,7 @@
       {
         "id": "05bab88070f145b8",
         "type": "tabs",
+        "dimension": 15.582655826558264,
         "children": [
           {
             "id": "089c2a0b302c6757",
@@ -178,7 +180,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "089c2a0b302c6757",
+  "active": "fb14ab34d4b2d69a",
   "lastOpenFiles": [
     "Mini 17Lf/img/indirectAddrss.gif",
     "Mini 17Lf/img/ezgif.com-video-to-gif.gif",
