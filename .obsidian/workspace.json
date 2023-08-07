@@ -21,6 +21,20 @@
           }
         ],
         "stacked": true
+      },
+      {
+        "id": "9154bd6203477847",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22fed10a020a08a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown-table-editor-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +178,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "fb14ab34d4b2d69a",
+  "active": "22fed10a020a08a5",
   "lastOpenFiles": [
     "Mini 17Lf/img/indirectAddrss.gif",
     "Mini 17Lf/img/ezgif.com-video-to-gif.gif",

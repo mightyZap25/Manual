@@ -348,7 +348,13 @@ Indirect Address에 특정 주소를 저장하면 해당 Indirect Address는 특
 예를 들어 Indirect Address 0에 '205'(Goal Position)을 쓰고, Indirect Data 0에 '5000'을 쓰면, Actuator가 '5000'의 값으로 이동을 합니다. 또한 Goal Position 값 또한 '5000'으로 변동된것을 확인 할 수 있습니다.   
 Indirect Address에 특정 주소를 세팅하면, Indirect Data에 해당 주소와 동일한 Parameter 가 됩니다.    
 >Total Manager를 통해 Indricet Address 설정을 쉽게 사용할 수 있습니다.   
+>사용 빈도가 높은 Parameter는 Select Box에 Option으로 추가 하였으며, 등록되지 않은 주소의 경우 'User Input' Option을 선택 하신 Select Box 옆 Test Box에 직접 작성하여 저장하여 주시면 됩니다.   
 >![[indirectAddrss.gif]]
+
+예제 1 : 3개의 Parameter를 연속적으로 적용  
+
+
+
 ### 4.16 Extend I/O Control
 ### 4.17 Action Control  
 ### 4.18 Force ON/OFF?Enable
