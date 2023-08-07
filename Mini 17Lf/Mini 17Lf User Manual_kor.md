@@ -345,7 +345,9 @@ Goal Speed를 변경하여도 Speed Limit는 변하지 않습니다.
 ### 4.15 Indirect Address
 인접하지 않은 여러 파라메터를 모아서 이용할 수 있습니다.  
 Indirect Address에 특정 주소를 저장하면 해당 Indirect Address는 특정 주소와 동일한 기능을 가지게 됩니다.  
-예를 들어 Indirect Address 0에 '205'(Goal Position)을 Tm
+예를 들어 Indirect Address 0에 '205'(Goal Position)을 쓰고, Indirect Data 0에 '5000'을 쓰면, Actuator가 '5000'의 값으로 이동을 합니다. 또한 Goal Position 값 또한 '5000'으로 변동된것을 확인 할 수 있습니다.   
+Indirect Address에 특정 주소를 세팅하면, Indirect Data에 해당 주소와 동일한 Parameter 가 됩니다.    
+>Total Manager를 통해 Indricet를 쉽게 사용할 수 있습니다. 
 ### 4.16 Extend I/O Control
 ### 4.17 Action Control  
 ### 4.18 Force ON/OFF?Enable
