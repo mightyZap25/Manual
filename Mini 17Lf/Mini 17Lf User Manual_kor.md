@@ -427,26 +427,6 @@ Error가 표시 되지 않을 때 사용자가 임의로 LED를 제어하여 디
 |0|RED LED |
 |1|GREEN LED|
 ### 4.22  Hardware Error
-### 4.23 Goal Position
-### 4.24 Goal Speed
-### 4.25 Goal Current
-### 4.26 Present Postion
-### 4.27 Present Current
-### 4.28 Present Motor PWM
-### 4.29 Present Voltage
-### 4.30 Moving
-### 4.31 Action Enable
-### 4.31 Reset
-### 4.32 Restart
-### 4.33 Indirect Data
-
-
-
-
-
-
-
-### 4.5 Hardware Error  
 Actuator 가 동작 중 발생하는 위험 상황 중 아래의 상황에 대하여 스스로 감지하고, 다양한 방법으로 스스로를 보호할 수 있습니다.  
 각  Bit들은 중복되어 설정이 되며, Alarm Shutdown, Alarm LED,  Extend IO 기능을 이용하여 Error 발생 시에 대한 조치를 할 수 있습니다.  
 일반적으로 추천하는 방법은 Alarm Shutdown 기능을 이용하여 해당 Error가 발생 할 경우, Force On/Off를 '0'으로 하여,  Actuator 와  사용자의 system을 보호하는것이 좋습니다.  
@@ -472,4 +452,29 @@ ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 
   Potentiometer가 정상적인 동작을 하지 않을 때 해당 bit가 set 됩니다.  Potentiometer Error 가 지속적으로 나타날 경우 A/S가 필요함으로 당사에 문의 주시기 바랍니다.
 - Input Voltage Error  
   입력 전압의 범위가 벗어날 해당 bit 가 set 됩니다. Low voltage일 경우, 다시 정상 전압으로 변경되면 해당 Error가 clear 됩니다.  
-  하지만 high voltage Error 일 경우, 해당 Reset이 되지 않는 이상 해지 되지 않습니다.  
+  하지만 high voltage Error 일 경우, 해당 Reset이 되지 않는 이상 해지 되지 않습니다. 
+### 4.23 Goal Position
+Actuator를 이동 시키고자 하는 위치 값입니다. Goal Position은 Short/Long stroke limit 설정치에 영향을 받습니다. (즉, stroke limit 범위 밖으로는 위치 명령을 내려도 stroke limit위치까지만 움직임)
+
+### 4.24 Goal Speed
+모터의 평균 이동속도 목표값(0~1023). 액츄에이터의 동작 중 속도변경을 원하는 경우 사용합니다.
+초기 전원 인가시 비휘발성 Speed Limit에서 값을 불러와 Goal Speed에 저장합니다.
+Speed Limit 명령보다 빠르게 반응하며, 가동 중 실시간으로 속도를 변경하는 데 사용할 수 있습니다.
+0일 때 기동력 OFF 상태이고 1023일 때 최대 속도를 냅니다.
+Goal Speed를 변경해도 Force에 영향을 주지 않습니다.
+다만, 너무 낮은 값을 설정 시 모터의 반응이 늦어지거나 움직이지 못할 수 있습니다.
+### 4.25 Goal Current
+### 4.26 Present Postion
+### 4.27 Present Current
+### 4.28 Present Motor PWM
+### 4.29 Present Voltage
+### 4.30 Moving
+### 4.31 Action Enable
+### 4.31 Reset
+### 4.32 Restart
+### 4.33 Indirect Data
+
+
+
+
+
