@@ -407,10 +407,25 @@ Force ON/OFF를 실행 합니다. 전원이 인가 되면 자동으로 Force ON�
 |0| 모터의 전원을 차단하여 기동력이 발생 되지 않도록 합니다.|
 |1|모터의 전원을 인가하여 기동력이 발생하도록 합니다.|
 ### 4.19 Actuator Pause
-Actuator의 정지 명령으로 이동 중 Pause 명령이 내려지면, 현재 위치에서 정지하고, 현재 위치를 유지합니다. Pause 명령이 해지 되면 Goal Position 위치로 다시 이동합니다.  
+Actuator의 일시 정지 명령으로 이동 중 Pause 명령이 내려지면, 현재 위치에서 정지하고, 현재 위치를 유지합니다. Pause 명령이 해지 되면 Goal Position 위치로 다시 이동합니다.  
+
+|value|동작 상태|
+|---|---|
+|0|Goal Position 위치로 이동합니다.|
+|1|모터가 일시 정지하고 현재 위치를 유지합니다.|
 
 ### 4.20 Actuator Stop
+Actuator가 완전 정지하고, Goal Position 위치가 현재 위치로 변경됩니다.  
+Actuator가 정지 한 후에는 자동으로 Stop Paremeter가 리셋 됩니다.  
+
 ### 4.21 LED
+Error가 표시 되지 않을 때 사용자가 임의로 LED를 제어하여 디스플레이 효과를 낼 수 있습니다.  
+(Error 표시가 우선)  
+
+|bit|동작 상태|
+|---|---|
+|0|RED LED |
+|1|GREEN LED|
 ### 4.22  Hardware Error
 ### 4.23 Goal Position
 ### 4.24 Goal Speed
