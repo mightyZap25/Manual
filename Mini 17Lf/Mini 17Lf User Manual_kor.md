@@ -385,7 +385,15 @@ Extended I/O의 회로 구성은 각 기능에 따라 다르게 구성이 되며
   
 ### 4.17 Action Control  
 Action 기능은 통신 및 외부 제어기 없이 Actuator를 제어하기 위한 방법으로 총 5개의 Action을 작성 할 수 있습니다.  
-하나의 Action에는 총10개 Parameter 속성을 가지고 있으며, 크게 Action Setting, Repeat Setting, Mo
+하나의 Action에는 총10개 Parameter 속성을 가지고 있으며, 크게 Action Setting, Repeat Setting, Moving Setting으로 나뉠 수 있습니다.  
+(full shot 이미지)
+#### Action Setting 
+Action Setting은 모터가 움직이는 방식을 설정하며 아래와 같습니다.
+ -  Goal Position : Action Data에 값을 >Goal Position에 입력하여 한번에 해당 위치까지 이동합니다.
+ - Goal Distance : 현재 위치에서 Action Data값을 가감하여 위치 이동을 합니다. Goal Position 과 다르게 절대 위치값이 아닌 상대적인 값으로 동작합니다.
+#### Repeat Setting
+반복 횟수 또는 1회 동작에 대한 동작 시간 등을 설정하는 Parameter 입니다.  
+
 ### 4.18 Force ON/OFF?Enable
 ### 4.19 Actuator Pause
 ### 4.20 Actuator Stop
