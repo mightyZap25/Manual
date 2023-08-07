@@ -355,7 +355,7 @@ Indirect Address에 특정 주소를 세팅하면, Indirect Data에 해당 주�
 .... 추가 설명 넣기
 
 ### 4.16 Extend I/O Control  
-Mini 17Lf 시리즈에는 Extended I/O Port가 존재합니다. 해당 기능은 4개의 I/O Port를 제공하며 , 각각은 아래와 같은 기능을 제공합니다.  
+Mini 17Lf 시리즈에는 Extended I/O Port가 존재합니다. 해당 기능은 통신 4개의 I/O Port를 제공하며 , 각각은 아래와 같은 기능을 제공합니다.  
 - IO Port 1 : Switch, JOG, Action Next, <font color="#ff0000">Action Enable</font>, Force Off, Stop, Pause, Alarm Out, Restart 
 - IO Port 2: Switch, JOG, Action Next, <font color="#ff0000">Action Enable</font>,Force Off, Stop, Pause, Alarm Out, Restart  
 - IO Port 3: Force Off, Stop, Pause, <font color="#ff0000">Action Enable</font>,Alarm Out, Restart  
@@ -368,6 +368,8 @@ Extended I/O의 회로 구성은 각 기능에 따라 다르게 구성이 되며
 	(회로 구성)  
 **Function JOG**
 	IO Port 1 또는 2번을 Jog 기능으로 지정 시 나머지 IO Port도 잗동으로 지정됩니다. 해당 기능은 그림과 같이 회로를 구성해야하며 각 버튼을 누를 경우 Short/Long 방향으로 모터가 동작 하다가 버튼을 놓았을 때 정지하게 됩니다.
+**Action Enable**  
+	Action Enable 기능 Action 기능을 사용할 때 사용됩니다. 
 **Action Next**  
 	Action Next 기능 Action 기능을 사용할 때 사용됩니다. 해당 I/O Pin에 스위치 입력이 들어와야 다음 Action 기능을 진행합니다. 자세한 내용은 4.17 Action Control을 참조하여 주시기 바랍니다.
 **Force Off**  
@@ -379,9 +381,11 @@ Extended I/O의 회로 구성은 각 기능에 따라 다르게 구성이 되며
 **Function Alarm Out**  
 	해당 기능은 출력 기능으로 Hardware Error 가 발생 시 'High' 신호를 내보냅니다.  
 **Restart**  
-	해당 기능은 입력 기능으로 Restart 기능을 담당합니다.  Hardware Error 등의 문제로 Actuator가 정지한 경우 도는 시스템을 재 시작해야 ㅎ
+	해당 기능은 입력 기능으로 Restart 기능을 담당합니다.  Hardware Error 등의 문제로 Actuator가 정지한 경우 또는 시스템을 재 시작해야 해야하는 경우 해당 기능을 이용하여 외부에서 restart 기능을 사용할 수 있습니다.
   
 ### 4.17 Action Control  
+Action 기능은 통신 및 외부 제어기 없이 Actuator를 제어하기 위한 방법으로 총 5개의 Action을 작성 할 수 있습니다.  
+하나의 Action에는 총10개 Parameter 속성을 가지고 있으며, 크게 Action Setting, Repeat Setting, Mo
 ### 4.18 Force ON/OFF?Enable
 ### 4.19 Actuator Pause
 ### 4.20 Actuator Stop
