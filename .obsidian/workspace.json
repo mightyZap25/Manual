@@ -6,7 +6,7 @@
       {
         "id": "1ac5b78d4ee0f9f6",
         "type": "tabs",
-        "dimension": 84.41734417344173,
+        "dimension": 72.49322493224932,
         "children": [
           {
             "id": "fb14ab34d4b2d69a",
@@ -24,12 +24,12 @@
         "stacked": true
       },
       {
-        "id": "05bab88070f145b8",
+        "id": "cbb8349bf6263389",
         "type": "tabs",
-        "dimension": 15.582655826558264,
+        "dimension": 27.506775067750677,
         "children": [
           {
-            "id": "089c2a0b302c6757",
+            "id": "d0b257793f41e0f4",
             "type": "leaf",
             "state": {
               "type": "markdown-table-editor-view",
@@ -180,7 +180,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "fb14ab34d4b2d69a",
+  "active": "d0b257793f41e0f4",
   "lastOpenFiles": [
     "Mini 17Lf/img/indirectAddrss.gif",
     "Mini 17Lf/img/ezgif.com-video-to-gif.gif",

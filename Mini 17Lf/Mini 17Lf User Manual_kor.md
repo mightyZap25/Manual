@@ -393,6 +393,10 @@ Action Setting은 모터가 움직이는 방식을 설정하며 아래와 같습
  - Goal Distance : 현재 위치에서 Action Data값을 가감하여 위치 이동을 합니다. Goal Position 과 다르게 절대 위치값이 아닌 상대적인 값으로 동작합니다.
 #### Repeat Setting
 반복 횟수 또는 1회 동작에 대한 동작 시간 등을 설정하는 Parameter 입니다.  
+**Repeat type**
+ - Interval : Repeat Time에 의해 설정된 시간 간격마다 Action을 수행합니다. 
+ - dWellTime : Action 명령에 의해 위치 이동이 완료된 다음 시간을 카운트 합니다. 
+   <이미지 그래프로 표현>
 
 ### 4.18 Force ON/OFF?Enable
 ### 4.19 Actuator Pause
