@@ -19,8 +19,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e9f6205d2bccca30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Motor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       },
       {
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Motor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Motor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md"
+                "file": "Motor.md"
               }
             }
           },
@@ -180,14 +193,16 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "fb14ab34d4b2d69a",
+  "active": "e9f6205d2bccca30",
   "lastOpenFiles": [
+    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+    "Motor.md",
+    "Technical Note",
     "Pasted image 20230807184527.png",
     "Mini 17Lf/img/indirectAddrss.gif",
     "Mini 17Lf/img/ezgif.com-video-to-gif.gif",
     "Mini 17Lf/img/IndirectAddress1.png",
     "IRROBOT DATASHEET_17Lfe 양식.md",
-    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
     "feature1.txt",
     "menuList.json",
     "Control Table.md",
@@ -199,7 +214,6 @@
     "2023-07-11.md",
     "Pasted image 20230721144658.png",
     "[[.md",
-    "무제 파일.md",
     "test.txt",
     "Pasted image 20230724112426.png",
     "Mini 17Lf User Manual_kor.md",
@@ -208,7 +222,6 @@
     "Pasted image 20230721144713.png",
     "흡입시키지.md",
     "Pasted image 20230721144728.png",
-    "Pasted image 20230803153824.png",
     "무제 파일.canvas",
     "Untitled Diagram.drawio",
     "edit.css",
@@ -216,7 +229,6 @@
     "17FC BlockDioagram.drawio",
     "Mini 17Lf/img/test.tif",
     "Mini 17Lf/img/lu169782eo7p.tmp",
-    "Mini 17Lf/img/lu169782eo7n.tmp",
     "Total Manager/Total Manager User Manual_kor.md",
     "Total Manager/Total Manager User Manual_eng.md",
     "Total Manager/Parameter.md",
