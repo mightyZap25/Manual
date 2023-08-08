@@ -6,7 +6,7 @@
       {
         "id": "1ac5b78d4ee0f9f6",
         "type": "tabs",
-        "dimension": 72.49322493224932,
+        "dimension": 85.56910569105692,
         "children": [
           {
             "id": "fb14ab34d4b2d69a",
@@ -37,12 +37,12 @@
         "stacked": true
       },
       {
-        "id": "cbb8349bf6263389",
+        "id": "00aaf61d3edfdff3",
         "type": "tabs",
-        "dimension": 27.506775067750677,
+        "dimension": 14.43089430894309,
         "children": [
           {
-            "id": "d0b257793f41e0f4",
+            "id": "a109c8878d5e8fcf",
             "type": "leaf",
             "state": {
               "type": "markdown-table-editor-view",
