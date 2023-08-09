@@ -471,17 +471,19 @@ Goal Speed를 변경해도 Force에 영향을 주지 않습니다.
 ### 4.25 Goal Current  
 모터의 최대 전류를 제한합니다. 전류 값을 제한하여 Actuator의 최대 Force를 제한 할 수 있습니다. 각 Goal Current 값에 대한 Stall Force는 Datasheet를 참조하여 주시기 바랍니다.  
 초기 전원 인가시 비휘발성 Current Limit의 값을 Goal Current의 초기값으로 적용합니다.  
-
 > **Tip** <font color="#4f81bd">Goal Current를 이용한 Force 제한</font>
 > Goal Current를 조절하면 모터가 낼 수 있는 최대 힘을 조절할 수 있습니다. 제어 대상 및 사용자의 어플리케이션에 따라 특정 Force를 이상 넘어가는 것을 제한하고 자 할 때 사용하시면 됩니다.   
-
->**Tip** <font color="#4f81bd">Goal Current를 이용한 Force 제한</font>
-> Goal Current를 조절하면 모터가 낼 수 있는 최대 힘을 조절할 수 있습니다. 제어 대상 및 사용자의 어플리케이션에 따라 특정 Force를 이상 넘어가는 것을 제한하고 자 할 때 사용하시면 됩니다.   
+> 지나치게 낮은 Goal Current는 모터의 부하를 이기지 못해 동작하지 않을 수 있습니다. 
+> Datasheet의 Goal Current Vs Force 표를 참조하신 후 적절한 값을 적용하시기 바랍니다. 또한 해당 값은 약 15%의 오차를 포함합니다.  
 
 >**Warnning** <font color="#ff0000">Over Current</font>
->Goal Current 800  이상 또는 1600- 설정일 경우 모터에 무리가 발생한다. 지속적으로 사용하는 구간이 아닌 특정상황 잠시 사용하는 구간이다.  지속 적으로 사용할경우 overload Error가 발생하거나 모터의 수명이 짧아지게 됩니다.
+>Goal Current 800  이상 또는 1600- 설정일 경우 모터에 무리가 발생한다. 지속적으로 사용하는 구간이 아닌 특정상황 잠시 사용하는 구간이다.  지속 적으로 사용할 경우 overload Error가 발생하거나 모터의 수명이 짧아지게 됩니다.
 ### 4.26 Present Postion
+현재 stroke의 위치 값을 나타냅니다. 사용하고 계신 Stoke 의 최대 길이를 참조하시여 위치 값을 계산하시기 바랍니다.   
+![[Pasted image 20230809113927.png]]  
+정지한 이후에도 미세한 위치 변동은 나타날 수 있으며 이는 정상 동작입니다. 
 ### 4.27 Present Current
+모터의 현재 전류 사용 값입니다. 
 ### 4.28 Present Motor PWM
 ### 4.29 Present Voltage
 ### 4.30 Moving
