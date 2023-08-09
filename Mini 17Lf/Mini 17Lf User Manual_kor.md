@@ -491,10 +491,24 @@ Goal Speed를 변경해도 Force에 영향을 주지 않습니다.
 present Current는 오차를 포함하고 있음으로 참고 용으로 사용하여 주시기 바랍니다.
 ### 4.28 Present Motor Operating Rate
 모터에 공급되는 PWM값을 나타냅니다. (통신용 PWM과의 오해를 방지하기 위해 Motor Operating Rate(모터 가동율)이라는 용어를 사용합니다. )  
-Motor Operating Rate는 Goal Speed, Goal Current
-### 4.29 Present Voltage
+Motor Operating Rate는 Goal Speed, Goal Current 등에 따라 값이 달라집니다.   
+'0'은 모터가 정지한 상태를 나타냅니다.
+
+|value|range|dfd|
+|---|---|---|
+|-10000~1000|0~1600mA|mA|
+
+### 4.29 Present Voltage  
+입력 전압 값을 나타 냅니다. 
+
+|value|range|dfd|
+|---|---|---|
+|0~130|0~13.0|[v]|
 ### 4.30 Moving
+모터의 동작 유무를 나타냅니다. 정확히는 모터의 목표 도달 유무를 나타냅니다.  
+Motor Operating Rate 값이 '0'이어도 목표 위치 도달 완료 상태가 아니면 Moving값은 '0'이 되지 않습니다. 
 ### 4.31 Action Enable
+Action Parameter로 작성된 Action을 실행할 때 사용합니다. Action Paramter 를 작성하였어도 Action Enable을 활성화 하지 않으면 Action은 동작하지 않습니다. 
 ### 4.31 Reset
 ### 4.32 Restart
 ### 4.33 Indirect Data
