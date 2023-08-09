@@ -490,7 +490,7 @@ Goal Speed를 변경해도 Force에 영향을 주지 않습니다.
 |0~16000|0~1600mA|mA|
 present Current는 오차를 포함하고 있음으로 참고 용으로 사용하여 주시기 바랍니다.
 ### 4.28 Present Motor Operating Rate
-모터에 공급되는 PWM값을 나타냅니다.  통신용 PWM과의 오해를 방지하기 위해 여기에서는 Motor Operating Rate(모터 가동율)이라는 용어를 사용합니다.    
+모터에 공급되는 PWM값을 나타냅니다.  통신용 PWM과의 오해를 방지하기 위해 Motor Operating Rate(모터 가동율)이라는 용어를 사용합니다.    
 ### 4.29 Present Voltage
 ### 4.30 Moving
 ### 4.31 Action Enable
