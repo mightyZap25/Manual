@@ -6,7 +6,7 @@
       {
         "id": "1ac5b78d4ee0f9f6",
         "type": "tabs",
-        "dimension": 85.56910569105692,
+        "dimension": 85.5691056910569,
         "children": [
           {
             "id": "fb14ab34d4b2d69a",
@@ -33,13 +33,12 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       },
       {
         "id": "00aaf61d3edfdff3",
         "type": "tabs",
-        "dimension": 14.43089430894309,
+        "dimension": 14.430894308943088,
         "children": [
           {
             "id": "a109c8878d5e8fcf",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Motor의 특성도 이해.md",
+                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Motor의 특성도 이해.md",
+                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Motor의 특성도 이해.md"
+                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md"
               }
             }
           },
@@ -193,12 +192,12 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "e9f6205d2bccca30",
+  "active": "fb14ab34d4b2d69a",
   "lastOpenFiles": [
+    "Motor의 특성도 이해.md",
     "스크린샷 2023-08-08 13-57-39.png",
     "스크린샷 2023-08-08 13-16-16.png",
     "Mini 17Lf/Mini 17Lf User Manual_kor.md",
-    "Motor의 특성도 이해.md",
     "Technical Note",
     "Pasted image 20230807184527.png",
     "Mini 17Lf/img/indirectAddrss.gif",
@@ -221,7 +220,6 @@
     "Mini 17Lf User Manual_kor.md",
     "Pasted image 20230803153813.png",
     "무제 파일 1.canvas",
-    "Pasted image 20230721144713.png",
     "흡입시키지.md",
     "무제 파일.canvas",
     "Untitled Diagram.drawio",
