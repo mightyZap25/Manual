@@ -483,8 +483,14 @@ Goal Speed를 변경해도 Force에 영향을 주지 않습니다.
 ![[Pasted image 20230809113927.png]]  
 정지한 이후에도 미세한 위치 변동은 나타날 수 있으며 이는 정상 동작입니다. 
 ### 4.27 Present Current
-모터의 현재 전류 사용 값입니다. 
-### 4.28 Present Motor PWM
+모터의 현재 전류 사용 값입니다.
+
+|value|range|dfd|
+|---|---|---|
+|0~16000|0~1600mA|mA|
+present Current는 오차를 포함하고 있음으로 참고 용으로 사용하여 주시기 바랍니다.
+### 4.28 Present Motor Operating Rate
+모터에 공급되는 PWM값을 나타냅니다.  통신용 PWM과의 오해를 방지하기 위해 여기에서는 Motor Operating Rate(모터 가동율)이라는 용어를 사용합니다.    
 ### 4.29 Present Voltage
 ### 4.30 Moving
 ### 4.31 Action Enable
