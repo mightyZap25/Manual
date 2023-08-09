@@ -468,7 +468,8 @@ Speed Limit 명령보다 빠르게 반응하며, 가동 중 실시간으로 속�
 0일 때 기동력 OFF 상태이고 1023일 때 최대 속도를 냅니다.
 Goal Speed를 변경해도 Force에 영향을 주지 않습니다.
 다만, 너무 낮은 값을 설정 시 모터의 반응이 늦어지거나 움직이지 못할 수 있습니다.
-### 4.25 Goal Current
+### 4.25 Goal Current  
+모터의 최대 전류를 제한합니다. 
 ### 4.26 Present Postion
 ### 4.27 Present Current
 ### 4.28 Present Motor PWM
