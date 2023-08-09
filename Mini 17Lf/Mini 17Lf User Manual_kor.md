@@ -509,10 +509,16 @@ Motor Operating Rate는 Goal Speed, Goal Current 등에 따라 값이 달라집�
 Motor Operating Rate 값이 '0'이어도 목표 위치 도달 완료 상태가 아니면 Moving값은 '0'이 되지 않습니다. 
 ### 4.31 Action Enable
 Action Parameter로 작성된 Action을 실행할 때 사용합니다. Action Paramter 를 작성하였어도 Action Enable을 활성화 하지 않으면 Action은 동작하지 않습니다. 
+
+|value|range|dfd|
+|---|---|---|
+|0|Action disable||
+|1|Action Enable||
+
 ### 4.31 Reset
 ### 4.32 Restart
 ### 4.33 Indirect Data
-
+indirect Address로 설정된 Paramter들의 Data를 읽고 쓸 수 있는 Parameter입니다.
 
 
 
