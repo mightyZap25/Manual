@@ -32,6 +32,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Motor의 특성도 이해.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Motor의 특성도 이해.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md"
+                "file": "Motor의 특성도 이해.md"
               }
             }
           },
@@ -176,10 +177,10 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "8326d637edc67dcf",
+  "active": "e9f6205d2bccca30",
   "lastOpenFiles": [
-    "Motor의 특성도 이해.md",
     "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+    "Motor의 특성도 이해.md",
     "Pasted image 20230809113927.png",
     "스크린샷 2023-08-08 13-57-39.png",
     "스크린샷 2023-08-08 13-16-16.png",
