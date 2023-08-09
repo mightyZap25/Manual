@@ -1,9 +1,11 @@
 # 주의 사항
 이 문서는 사용자가 M?ini 17Lf 제품을 사용하는데 도움이 되도록 작성되었습니다.   
-사용자는 기본적으로 Coreless Motor, 모션제어와 Modbus RTU에 대한 기본적인 이해를 가지고 있다고 가정합니다.   
+사용자는 기본적으로 Coreless Motor, 모션제어 등과 같은 기본적인 이해를 가지고 있다고 가정합니다.   
+추가적인 정보가 필요하신 분들은 아래의 문서를 먼저 확인 하신 후 아래의 가이드를 확인 해 주시거나, 본 가이드를 읽는 중에 관련 링크를 클릭하시어 추가적인 정보를 읽어보시기 바랍니다. 
+ - CLDC Motor의 특성과 이해
+ - Motion 제어
+ -
 [[#Control Table]]
-
-McAfee
 
 # 1. Introduction
 Mini 17Lf Model은 다양한 기능을 내장한 Actuator로 효율적이고 유연한 모션 제어 어플리케이션을 위한 완볍한 솔루션입니다. <문구 수정>
@@ -42,9 +44,6 @@ Mini 17Lf Model은 다양한 기능을 내장한 Actuator로 효율적이고 유
 	 - 케이블 및 커넥터
 	 - 통신 회로
 	 - 악세사리
-
-
-
 
 # Control Table
 Control Table은 Actuator를 구동 및 제어하기위한 데이터와 현재 상태를 나타내는 Parameter들로 이루어져 있습니다.   
