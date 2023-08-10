@@ -13,40 +13,7 @@ MightyZap Actuator를 안정적으로 사용하기 위해서는 몇가지 주의
 [[#주의사항]]
 
 ## 1.1 Overview
-- RS-485 Modbus RTU
-- 17Pi Coreless Motor
-- Extend I/O Port (Joystick, Switch Contorl, etc)
-- Current Feedback Control
-- Speed Control
-- 12bit(4096) Position Resolution
-- 역전압 및 ESD 방지 회로 ...
-- 내부 Motion Action 기능
 
-- 전기적 특성
-	- 동작 전압 소 tyupe 대
-	- 입력전압 소 대
-	- 보호기능
-	- 제어방식
-	- 인터페이스
-	- 환경조건
-	- 온습도
-	- 온도
-	- 진동
-	- 질량
-
-- 주요사항 
-	- 성능 곡선
-
-아코디언 폴더
- - 유저 매뉴얼
- - 프로토콜 매뉴얼
- - 데이터시트
- - 참고자료
-	 - 인증 자료
-	 - 도면
-	 - 케이블 및 커넥터
-	 - 통신 회로
-	 - 악세사리
 
 # Control Table
 Control Table은 Actuator를 구동 및 제어하기위한 데이터와 현재 상태를 나타내는 Parameter들로 이루어져 있습니다.   
