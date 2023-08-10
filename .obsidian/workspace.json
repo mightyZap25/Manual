@@ -21,6 +21,20 @@
           }
         ],
         "stacked": true
+      },
+      {
+        "id": "7efa9897953efe02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "285e8f696938e658",
+            "type": "leaf",
+            "state": {
+              "type": "markdown-table-editor-view",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +179,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb14ab34d4b2d69a",
+  "active": "285e8f696938e658",
   "lastOpenFiles": [
     "Motor의 특성도 이해.md",
     "Mini 17Lf/Mini 17Lf User Manual_kor.md",
