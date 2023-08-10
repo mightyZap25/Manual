@@ -13,13 +13,11 @@ MightyZap Actuator를 안정적으로 사용하기 위해서는 몇가지 주의
 [[#주의사항]]
 
 ## 1.1 Overview
-### 주요 사양
-| Voltage              |  12 Vdc |
-|:---------------------|:--------|
-| Rated Load           |    35 N |
-| Speed - No load      | 86 mm/s |
-| Current - rated Load |   350mA |  
-
+### 17Lf 시리즈 상세 스펙표
+|정격부하|최고속도(무부하)|스트로크|통신 타입|Mechanical  <br>Self Lock  <br>(Z축 사용)|
+|---|---|---|---|---|
+|35N|85mm/s|27mm 12Lf-35F-27  <br>37mm 12Lf-35F-37  <br>50mm 12Lf-35F-50  <br>87mm 12Lf-35F-87|RS-485|없음  <br>(Z축 적용 주의)|
+|70N|85mm/s|27mm 12Lf-70F-27  <br>37mm 12Lf-70F-37  <br>50mm 12Lf-70F-50  <br>87mm 12Lf-70F-87|RS-485|없음  <br>(Z축 적용 주의)|
 ### Product Specifications
 
 # Control Table
