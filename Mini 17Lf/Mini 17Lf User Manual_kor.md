@@ -28,6 +28,20 @@ MightyZap Actuator를 안정적으로 사용하기 위해서는 몇가지 주의
 | 70N      | 85mm/s               | 27mm&nbsp;&nbsp;[17Lf-70F-27]<br>37mm&nbsp;[17Lf-70F-37]<br>50mm&nbsp;[17Lf-70F-50]<br>87mm&nbsp;&nbsp;[17Lf-70F-87] | 30um<br>30um<br>40um<br>50um | RS-485    |         없음  <br>(Z축 적용 주의)         |
 
 ### 17Lf 시리즈 공통 사양
+| 동작 전압         | 8~13V [12Vdc]       |
+|:----------------- |:------------------- |
+| Idle Current      | 20mA                |
+| Rated Current     | 350mA               |
+| Motor type        | Coreless DC Mtoor   |
+| Motor 출력        | 26W                 |
+| Duty Cycle        | 50%                 |
+| Communication     | RS-485 (Modbus-RTU) |
+| Sensor Type       | Potentiometer       |
+| Sensor Resolution | 10000               |
+| Noise             | 40dB at 1m          |
+| Connector         | Molex 0510650400    |
+
+### Motor 성능 곡선
 
 # Control Table
 Control Table은 Actuator를 구동 및 제어하기위한 데이터와 현재 상태를 나타내는 Parameter들로 이루어져 있습니다.   
