@@ -13,7 +13,14 @@ MightyZap Actuator를 안정적으로 사용하기 위해서는 몇가지 주의
 [[#주의사항]]
 
 ## 1.1 Overview
+### 주요 사양
+| Voltage              |  12 Vdc |
+|:---------------------|:--------|
+| Rated Load           |    35 N |
+| Speed - No load      | 86 mm/s |
+| Current - rated Load |   350mA |  
 
+### Product Specifications
 
 # Control Table
 Control Table은 Actuator를 구동 및 제어하기위한 데이터와 현재 상태를 나타내는 Parameter들로 이루어져 있습니다.   
