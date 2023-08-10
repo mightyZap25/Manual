@@ -42,7 +42,8 @@ MightyZap Actuator를 안정적으로 사용하기 위해서는 몇가지 주의
 | Connector         | Molex 0510650400    |
 
 ### Motor 성능 곡선
-![[스크린샷 2023-08-10 18-04-36.png]]
+![[스크린샷 2023-08-10 18-04-36.png]]  
+
 # Control Table
 Control Table은 Actuator를 구동 및 제어하기위한 데이터와 현재 상태를 나타내는 Parameter들로 이루어져 있습니다.   
 사용자는 통신 Packet을 이용하여 특정 Parameter의 Data를  읽어 Actuator의 상태를 확인하거나, Data를 변경하여 Actuator를 제어할 수 있습니다.  
