@@ -6,7 +6,7 @@
       {
         "id": "1ac5b78d4ee0f9f6",
         "type": "tabs",
-        "dimension": 85.25073746312685,
+        "dimension": 71.90265486725663,
         "children": [
           {
             "id": "fb14ab34d4b2d69a",
@@ -24,12 +24,12 @@
         "stacked": true
       },
       {
-        "id": "586e34f6dc2f5ec6",
+        "id": "49e55eaaf04f84f7",
         "type": "tabs",
-        "dimension": 14.749262536873156,
+        "dimension": 28.097345132743364,
         "children": [
           {
-            "id": "f7055394263213bb",
+            "id": "2ebbb2136b1a1503",
             "type": "leaf",
             "state": {
               "type": "markdown-table-editor-view",
@@ -180,7 +180,7 @@
       "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
-  "active": "fb14ab34d4b2d69a",
+  "active": "2ebbb2136b1a1503",
   "lastOpenFiles": [
     "Motor의 특성도 이해.md",
     "Mini 17Lf/Mini 17Lf User Manual_kor.md",

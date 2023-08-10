@@ -12,13 +12,29 @@ Mini 17Lf Model은 다양한 기능을 내장한 Actuator로 효율적이고 유
 MightyZap Actuator를 안정적으로 사용하기 위해서는 몇가지 주의 사항이 있습니다. 다음의 링크를 클릭하시여 주의 사항을 확안하여 주시기 바랍니다.
 [[#주의사항]]
 
-## 1.1 Overview
-### 17Lf 시리즈 상세 스펙표
-|정격부하|최고속도(무부하)|스트로크|통신 타입|Mechanical  <br>Self Lock  <br>(Z축 사용)|
-|---|---|---|---|---|
-|35N|85mm/s|27mm 12Lf-35F-27  <br>37mm 12Lf-35F-37  <br>50mm 12Lf-35F-50  <br>87mm 12Lf-35F-87|RS-485|없음  <br>(Z축 적용 주의)|
-|70N|85mm/s|27mm 12Lf-70F-27  <br>37mm 12Lf-70F-37  <br>50mm 12Lf-70F-50  <br>87mm 12Lf-70F-87|RS-485|없음  <br>(Z축 적용 주의)|
-### Product Specifications
+## 1.2 사양
+### 17Lf 시리즈 주요사양
+<table>
+<tr>
+
+</tr>
+</table>
+
+<table>
+  <tr>
+    <td>내용</td>
+    <td>내용</td>
+  </tr>
+  <tr>
+    <td colspan="2">내용</td>
+  </tr>
+</table>
+
+| 정격부하 | 최고속도(무부하) | 스트로크                                           | 통신 타입  | Mechanical  <br>Self Lock  <br>(Z축 사용) |
+|:-----|:----------|:-----------------------------------------------|:-------|:---------------------------------------|
+|  35N |    85mm/s |                27mm / 37mm / 50mm / 87mm&nbsp; || 없음  <br>(Z축 적용 주의)                     |
+|  70N |    85mm/s | 27mm /&nbsp;37mm /&nbsp;50mm /&nbsp;87mm&nbsp; | RS-485 | 없음  <br>(Z축 적용 주의)                     |  
+### 17Lf 시리즈 공통 사양서
 
 # Control Table
 Control Table은 Actuator를 구동 및 제어하기위한 데이터와 현재 상태를 나타내는 Parameter들로 이루어져 있습니다.   
