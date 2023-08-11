@@ -6,7 +6,7 @@
  - Motion 제어
 
 # 1. Introduction
-Mini 17Lf Model은 다양한 기능을 내장한 Actuator로 효율적이고 유연한 모션 제어 어플리케이션을 위한 완볍한 솔루션입니다. <문구 수정>
+Mini 17Lf Model은 다양한 기능을 내장한 Actuator로 효율적이고 유연한 모션 제어 어플리케이션을 위한 완볍한 솔루션입니다. Mightyzap Mini Linear Actuator는 협소한 공간에서 효유ㅠㄹ적인 선형 운동이 필요한 어플리케이션에 활용 가능한 제품이며<문구 수정>
 
 ### <font color="#ff0000">주의 사항</font>
 MightyZap Actuator를 안정적으로 사용하기 위해서는 몇가지 주의 사항이 있습니다. 다음의 링크를 클릭하시여 주의 사항을 확안하여 주시기 바랍니다.
