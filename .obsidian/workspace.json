@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Motor의 특성도 이해.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Motor의 특성도 이해.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Motor의 특성도 이해.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md"
+                "file": "Motor의 특성도 이해.md"
               }
             }
           },
@@ -183,9 +183,9 @@
   },
   "active": "fb14ab34d4b2d69a",
   "lastOpenFiles": [
+    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
     "Protocl/Modbus RTU.md",
     "Protocl/IR Protocol.md",
-    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
     "Protocl",
     "menuList.json",
     "스크린샷 2023-08-10 18-04-36.png",
