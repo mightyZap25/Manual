@@ -182,11 +182,11 @@ Control Table Data는 'R', 'RW'로 표기됩니다. 'R'은 읽기 전용(Read On
 
 ## 2.4 Control Table Discription
 ### 2.4.1  Model Serial Number
-MightyZap Model을 구별하기 위한 번호입니다.
+MightyZap Model을 식별하기 위한 번호입니다.
 ### 2.4.2 Firmware Version  
 해당 제품의 펌웨어 버전이 표기되며, Semantic Versioning 방식으로 표기합니다. 
 **Semantic Versioning**
-	major.mijnor.patch
+	<font color="#12bc20">major</font>.<font color="#e36c09">minor</font>.<font color="#096cec">patch</font>
 	- major : 전반적인 펌웨어 개편 또는 주요 기능 수정 및 추가
 	- minor : 기능 수정 및 기능이 추가된 경우
 	- patch :  버그 및 코드 보완이 추가된 경우
@@ -194,7 +194,7 @@ MightyZap Model을 구별하기 위한 번호입니다.
    ![[versioning.png]]
 ### 4.3 Actuator ID
 통신 상에서 Actuator를 식별 하기 위한 고유 번호, Daisy-chain 방식으로 연결된 Actuator들은 서로 다른 ID가 할당되어야 합니다.  
-ID 값읜 1~243입니다. ID 0은 Broadcase ID로 특수하게 사용 됩니다.
+ID 값은 1~243입니다. ID 0은 Broadcase ID로 특수하게 사용 됩니다.
 > <font color="#ff0000">주의사항</font>  
 > 연결된 Actuator의 ID가 중복되지 않도록 주의해야 합니다. 중복된 ID가 있을 경우 통신 오류가 발생하여 정상적인 통신이 이루어지지 않습니다.  
 
@@ -208,8 +208,6 @@ Actuator와 통신을 하기 위한 통신 속도 입니다.
 |32(0x20)|38400bps|
 |64(0x40)|19200bps|
 |128(0x80)|9600bps|
-
-
 ### 4.5 Error Shutdow
 MightyZap은 동작 중 발생하는 위험을 스스로 감지하여 보호할 수 있습니다.   
 Shutdown 기능으로 선택된 Hardware Error는 force Enable의 값을 '0'으로 설정하여 모터의 출력을 '0'으로 합니다.  
