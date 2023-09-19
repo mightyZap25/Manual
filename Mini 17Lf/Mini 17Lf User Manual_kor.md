@@ -413,7 +413,7 @@ Actuator의 일시 정지 명령으로 이동 중 Pause 명령이 내려지면, 
 |1|모터가 일시 정지하고 현재 위치를 유지합니다.|
 
 ### 4.20 Actuator Stop
-Actuator가 완전 정지하고, Goal Position 위치가 현재 위치로 변경됩니다.  
+Actuator가 완전 정지하고, Goal Position 위치가 정지한 현재 위치로 변경됩니다.  
 Actuator가 정지 한 후에는 자동으로 Stop Paremeter가 리셋 됩니다.  
 
 ### 4.21 LED
@@ -424,6 +424,7 @@ Error가 표시 되지 않을 때 사용자가 임의로 LED를 제어하여 디
 |---|---|
 |0|RED LED |
 |1|GREEN LED|
+
 ### 4.22  Hardware Error
 Actuator 가 동작 중 발생하는 위험 상황 중 아래의 상황에 대하여 스스로 감지하고, 다양한 방법으로 스스로를 보호할 수 있습니다.  
 각  Bit들은 중복되어 설정이 되며, Alarm Shutdown, Alarm LED,  Extend IO 기능을 이용하여 Error 발생 시에 대한 조치를 할 수 있습니다.  
