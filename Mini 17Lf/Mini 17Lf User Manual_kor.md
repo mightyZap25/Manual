@@ -354,12 +354,12 @@ Indirect Address에 특정 주소를 세팅하면, Indirect Data에 해당 주�
 
 ### 4.16 Extend I/O Control  
 Mini 17Lf 시리즈에는 Extended I/O Port가 존재합니다. 해당 기능은 통신 4개의 I/O Port를 제공하며 , 각각은 아래와 같은 기능을 제공합니다.  
-- IO Port 1 : Switch, JOG, Action Next, <font color="#ff0000">Action Enable</font>, Force Off, Stop, Pause, Alarm Out, Restart 
-- IO Port 2: Switch, JOG, Action Next, <font color="#ff0000">Action Enable</font>,Force Off, Stop, Pause, Alarm Out, Restart  
-- IO Port 3: Force Off, Stop, Pause, <font color="#ff0000">Action Enable</font>,Alarm Out, Restart  
-- IO Port 4 : Force Off, Stop, Pause, <font color="#ff0000">Action Enable</font>,Alarm Out, Restart  
+- IO Port 1 : Switch, JOG, Action Next, Action Enable, Force Off, Stop, Pause, Alarm Out, Restart 
+- IO Port 2: Switch, JOG, Action Next, Action Enable,Force Off, Stop, Pause, Alarm Out, Restart  
+- IO Port 3: Force Off, Stop, Pause, Action Enable, Alarm Out, Restart  
+- IO Port 4 : Force Off, Stop, Pause, Action Enable, Alarm Out, Restart  
 Extended I/O의 회로 구성은 각 기능에 따라 다르게 구성이 되며 외부 전원이 필요하지 않습니다.  각 기능 설명에 명시된 회로 구성대로 연결해야 Actuator 에 문제가 발생하지 않습니다.  
-(connector 구성 이미지)
+(connector 기구 이미지 사이드 뷰)
 
 **Funtion Switch** 
 	IO Port 1 또는 2번을 Switch 기능으로 지정 시 나머지 IO Port도 자동으로 지정 됩니다.  해당 기능은 그림과 같이 회로를 구성하였을 경우 각 버튼에 따라 short stroke Limit/Long Stroke Limit 값으로 이동을 합니다.
@@ -388,7 +388,7 @@ Action 기능은 통신 및 외부 제어기 없이 Actuator를 제어하기 위
 #### Action Setting 
 Action Setting은 모터가 움직이는 방식을 설정하며 아래와 같습니다.
  -  Goal Position : Action Data에 값을 >Goal Position에 입력하여 한번에 해당 위치까지 이동합니다.
- - Goal Distance : 현재 위치에서 Action Data값을 가감하여 위치 이동을 합니다. Goal Position 과 다르게 절대 위치값이 아닌 상대적인 값으로 동작합니다.
+ - Goal Distance : 현재 위치에서 Action Data값을 가감하여 위치 이동을 합니다. Goal Position 과 다르게 절대 위치 값이 아닌 상대적인 값으로 동작합니다.
 #### Repeat Setting
 반복 횟수 또는 1회 동작에 대한 동작 시간 등을 설정하는 Parameter 입니다.  
 **Repeat type**
