@@ -314,9 +314,10 @@ Min/Max Position Calibration 파라메터는 Actuator의 Goal Position이 최소
 ![[minmaxPostion.png]]
 - Min Poisition  
   Min Position Calibration 값을 늘릴 경우 Goal Position '0'일 때의 Min Position 길이가 늘어나게 되며 전체 동작 stroke가 줄어들게 됩니다.
-  Min Position Calibration 값을 줄일 경우 Goal Position '0'일 때의 Min Position 길이가 늘어나게 되며 전체 동작 stroke가 줄어들게 됩니다.
+  Min Position Calibration 값을 줄일 경우 Goal Position '0'일 때의 Min Position 길이가 줄어들게 되며 전체 동작 stroke가 늘어나게 됩니다. 하지만 비선형 구간이 늘어나게 됩니다.
 - Max Position  
-  Max Position Calibration 값을 늘릴 결우 Goal Position 최대 값일 때의 Max Position 길이가 줄어들게 됩니다.  
+  Max Position Calibration 값을 늘릴 경우 Goal Position 최대 값일 때의 Max Position 길이가 줄어들게 되며 전체 동작 Stroke가 줄어들게 됩니다.   
+  Max Position Calibration 값을 줄일 경우 Goal Position 최대 값일 때의 Max Position 길이가 줄어들게 되며 전체 동작 stroke가 늘어나게 됩니다. 하지만 비선형 구간이 늘어나게 됩니다.
 ### 4.10 Motor Operating Rate Limit  
 Actuator의 모터를 제어하기 위해 사용되는 PWM의 최대 값 설정 파라메터 입니다.
 >본 가이드에서는 위치 제어 신호용 PWM과 구분하여 사용하기 위해 Motor Operating Rate 란 용어를 사용합니다.  
