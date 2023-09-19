@@ -336,6 +336,9 @@ Actuator의 최대 이동 속도 제한 값입니다. Speed Limit를 낮게 설�
 Speed Limit를 변경할 경우, Goal Speed도 같이 변경됩니다. 또한 전원 인가 시 Speed Limit의 값을 Goal Speed에 적용합니다.  
 Goal Speed를 변경하여도 Speed Limit는 변하지 않습니다.  
 ### 4.12 Current Limit  
+모터 가동 중 최대 전류값을 제한 합니다. 해당 기능을 이용하여 Actuator의 최대 Force를 제한 할 수 있습니다.   
+Current Limit는 전원이 끊어져도 
+
 
 ### 4.13 Current PI Control
 ### 4.14 Speed PID Control  
