@@ -337,12 +337,18 @@ Speed Limit를 변경할 경우, Goal Speed도 같이 변경됩니다. 또한 �
 Goal Speed를 변경하여도 Speed Limit는 변하지 않습니다.  
 ### 4.12 Current Limit  
 모터 가동 중 최대 전류값을 제한 합니다. 해당 기능을 이용하여 Actuator의 최대 Force를 제한 할 수 있습니다.   
-Current Limit는 비휘발성 파라메터로 전원이 끊어져도 변경된 Data 를 유지합니다. Current Limit 값이 변경되면 Gaol Current 값도 같이 변경됩니다. 
-Current Limit/Goal current 값에 대한 동작 특성은  모터 성능 곡선 및 Datasheet를 참조하여 주시기 바랍니다.
+Current Limit는 비 휘발성 Parameter로 전원이 끊어져도 변경된 Data 를 유지합니다. Current Limit 값이 변경되면 Gaol Current 값도 같이 변경됩니다. 
+>Current Limit/Goal current 값에 대한 동작 특성은  모터 성능 곡선 및 Datasheet를 참조하여 주시기 바랍니다.
 
-### 4.13 Current PI Control
+### 4.13 Current PI Control  
+모터의 전류 제어를 위한 PI Gain값입니다. 
+정해진 값이 보다 큰 PI값을 적용할 경우 Goal Current와의 오차에 대해 거칠게 동작할 수 있습니다.   
+정해진 값보다 작은 PI값을 적용할 경우 Goal Current와의 오차에 부드럽게 동작하나 Goal Current 값 과의 오차가 크게 나타날 수 있습니다.
+>수정 시 작은 변화 값부터 적용 하신 후 테스트 해주시기 바랍니다.
 ### 4.14 Speed PID Control  
-속도 PID 제어의 Gaim 값입니다. 
+속도 PID 제어의 Gaim 값입니다.  PID 제어에 대한 자세한 설명은 다른 문서를 참조하여 주시기 바랍니다. Gain보다 큰 값을 넣을 경우 속도 및 위치 오차에 대해 빠르게 반응하여 목표한 위치에 도달하여 정지하는 데 가지의 시간이 줄어 들게 됩니다. 
+하지만, 너무 큰 Gain값을 적용할 경우  오차에 대해 거칠게 동작하여 Overshoot 도는 과도응답 상태로 정해진 위치 값을 정지하지 못하고 모터가 진동할 수 있습니다.
+반대로 Gain값을 적게 적용할 경우 목표 위치까지 도달하는 시간이 증가 할 수 있지만, 모터의 동작이 부드러워 질 수 있습니다. 하지만 과도하게 적은 Gaimㅏ
 ### 4.15 Indirect Address
 인접하지 않은 여러 파라메터를 모아서 이용할 수 있습니다.  
 Indirect Address에 특정 주소를 저장하면 해당 Indirect Address는 특정 주소와 동일한 기능을 가지게 됩니다.  
