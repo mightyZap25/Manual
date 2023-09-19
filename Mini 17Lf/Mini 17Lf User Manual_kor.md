@@ -362,10 +362,10 @@ Extended I/O의 회로 구성은 각 기능에 따라 다르게 구성이 되며
 (connector 구성 이미지)
 
 **Funtion Switch** 
-	IO Port 1 또는 2번을 Switch 기능으로 지정지 나머지 IO Port도 자동으로 지징됩니다.  해당 기능은 그림과 같이 회로를 구성하였을 경우 각 버튼에 따라 short stroke Limit/Long Stroke Limit 값으로 이동을 합니다.
+	IO Port 1 또는 2번을 Switch 기능으로 지정 시 나머지 IO Port도 자동으로 지정 됩니다.  해당 기능은 그림과 같이 회로를 구성하였을 경우 각 버튼에 따라 short stroke Limit/Long Stroke Limit 값으로 이동을 합니다.
 	(회로 구성)  
 **Function JOG**
-	IO Port 1 또는 2번을 Jog 기능으로 지정 시 나머지 IO Port도 잗동으로 지정됩니다. 해당 기능은 그림과 같이 회로를 구성해야하며 각 버튼을 누를 경우 Short/Long 방향으로 모터가 동작 하다가 버튼을 놓았을 때 정지하게 됩니다.
+	IO Port 1 또는 2번을 Jog 기능으로 지정 시 나머지 IO Port도 작동으로 지정됩니다. 해당 기능은 그림과 같이 회로를 구성해야하며 각 버튼을 누를 경우 Short/Long 방향으로 모터가 동작 하다가 버튼을 놓았을 때 정지하게 됩니다.
 **Action Enable**  
 	Action Enable 기능 Action 기능을 사용할 때 사용됩니다. 
 **Action Next**  
