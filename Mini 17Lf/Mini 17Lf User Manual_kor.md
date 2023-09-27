@@ -316,14 +316,16 @@ Min/Max Position Calibration Parameter는 Actuator의 Goal Position이 최소/�
 - Max Position  
   Max Position Calibration 값을 늘릴 경우 Goal Position 최대 값일 때의 Max Position 위치가 줄어들게 되며 전체 동작 Stroke가 줄어들게 됩니다.   
   Max Position Calibration 값을 줄일 경우 Goal Position 최대 값일 때의 Max Position 위치가 줄어들게 되며 전체 동작 stroke가 늘어나게 됩니다. 하지만 비선형 구간이 늘어나게 됩니다.
+  ![[minmaxCalibration.gif]]
   
 ### 4.10 Motor Operating Rate Limit  
-Actuator의 모터를 제어하기 위해 사용되는 PWM의 최대 값 설정 파라메터 입니다.
->본 가이드에서는 위치 제어 신호용 PWM과 구분하여 사용하기 위해 Motor Operating Rate 란 용어를 사용합니다.  
+Actuator의 모터를 제어하기 위해 사용되는 PWM의 최대 값 설정 Parameter 입니다.
 
 |Parameter|Description|Range|Unit|
 |---|---|---|---|
 |Motor Operating Rate Limit|모터에 공급하는 PWM 의 최대 값 설정 |0~1000||
+
+>본 가이드에서는 위치 제어 신호용 PWM과 구분하여 사용하기 위해 Motor Operating Rate 란 용어를 사용합니다.  
 
 정격 부하 시 400 이하의 낮은 값에서는 모터가 동작하지 않을 수 있습니다.  또한 Motor Operating Rate값을 변경하면 속도와 Stall Force의 값이 변경 됩니다.  
 ### 4.11 Speed Limit  
@@ -345,6 +347,7 @@ Current Limit는 비 휘발성 Parameter로 전원이 끊어져도 변경된 Dat
 정해진 값보다 작은 PI값을 적용할 경우 Goal Current와의 오차에 부드럽게 동작하나 Goal Current 값 과의 오차가 크게 나타날 수 있습니다.
 >수정 시 작은 변화 값부터 적용 하신 후 테스트 해주시기 바랍니다.
 >PID 값을 수정하기 전에 
+
 ### 4.14 Speed PID Control  
 속도 PID 제어의 Gain 값입니다.  PID 제어에 대한 자세한 설명은 다른 문서를 참조하여 주시기 바랍니다. Gain보다 큰 값을 넣을 경우 속도 및 위치 오차에 대해 빠르게 반응하여 목표한 위치에 도달하여 정지하는 데 가지의 시간이 줄어 들게 됩니다. 
 하지만, 너무 큰 Gain값을 적용할 경우  오차에 대해 거칠게 동작하여 Overshoot 도는 과도 응답 상태로 정해진 위치 값을 정지하지 못하고 모터가 진동할 수 있습니다.
