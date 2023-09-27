@@ -225,7 +225,7 @@ Actuator와 통신을 하기 위한 통신 속도 입니다.
 
 ### 4.6 Short/Long Stroke Limt  
 위치 제어에서 목표 위치의 제한 값으로 0 ~ 10000 범위 내에서 목표 위치 값을 제한합니다.
-	따라서 Goal Position(203)값은 Short Stroke Limit 값보다 작을 수 없고, Long Stroke Limit 값보다 클 수 없습니다.
+따라서 Goal Position(203)값은 Short Stroke Limit 값보다 작을 수 없고, Long Stroke Limit 값보다 커서는 안됩니다.
 ![[스크린샷 2023-09-26 17-14-28.png]]
 ### 4.7 Start Compliance Margin  
   Start Compliance Margin은 Actuator가 Goal Position 위치 값을 지키기 위해 이동 하기 위한 위치 편차(마진)의 최소 값 입니다.  
