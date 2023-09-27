@@ -6,7 +6,7 @@
       {
         "id": "1ac5b78d4ee0f9f6",
         "type": "tabs",
-        "dimension": 82.89085545722715,
+        "dimension": 65.85545722713864,
         "children": [
           {
             "id": "fb14ab34d4b2d69a",
@@ -24,12 +24,12 @@
         "stacked": true
       },
       {
-        "id": "7efa9897953efe02",
+        "id": "b3cb6d4b6f961590",
         "type": "tabs",
-        "dimension": 17.10914454277286,
+        "dimension": 34.14454277286136,
         "children": [
           {
-            "id": "285e8f696938e658",
+            "id": "3061601a877174dc",
             "type": "leaf",
             "state": {
               "type": "markdown-table-editor-view",
@@ -163,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -183,6 +183,8 @@
   },
   "active": "fb14ab34d4b2d69a",
   "lastOpenFiles": [
+    "스크린샷 2023-09-26 18-46-52.png",
+    "스크린샷 2023-09-26 17-14-28.png",
     "Mini 17Lf/img/PID_Compensation_Animated.gif",
     "Pasted image 20230919114224.png",
     "Pasted image 20230919113922.png",
@@ -199,8 +201,6 @@
     "스크린샷 2023-08-08 13-57-39.png",
     "스크린샷 2023-08-08 13-16-16.png",
     "Technical Note",
-    "Pasted image 20230807184527.png",
-    "Mini 17Lf/img/indirectAddrss.gif",
     "IRROBOT DATASHEET_17Lfe 양식.md",
     "feature1.txt",
     "Control Table.md",
