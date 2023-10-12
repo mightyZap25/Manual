@@ -4,6 +4,7 @@
 추가적인 정보가 필요하신 분들은 아래의 문서를 먼저 확인 하신 후 아래의 가이드를 확인 해 주시거나, 본 가이드를 읽는 중에 관련 링크를 클릭하시어 추가적인 정보를 읽어보시기 바랍니다. 
  - CLDC Motor의 특성과 이해
  - Motion 제어
+<iframe src='https://script.google.com/macros/s/AKfycbyxvv5sj0MBz7zhn16C2cACsiQozvMsi_O9B0W7k5uRsvFelmia/exec?id=10JNzOozVTuXCWuMgaAv5yh8oRY3dFkr1mdK-rQ9GFTQ' height='550' width='1200' style='border:none;'></iframe>
 
 # 1. Introduction
 Mini 17Lf Model은 다양한 기능을 내장한 Actuator로 효율적이고 유연한 모션 제어 어플리케이션을 위한 완벽한 솔루션입니다. Mightyzap Mini Linear Actuator는 협소한 공간에서 효율적인 선형 운동이 필요한 어플리케이션에 활용 가능한 제품이며, 산업, 의료, 로봇연구, UAV 분양 등 다양한 방면에서 활용이 가능한 제품입니다.
