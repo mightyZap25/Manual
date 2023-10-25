@@ -62,94 +62,94 @@ Control Table Data는 'R', 'RW'로 표기됩니다. 'R'은 읽기 전용(Read On
 기본 값은 초기 설정 값(공장 출하 설정 값)입니다. Non-Volatile Memory 영역의 값은 사용자가 수정할 경우 변경한 값으로 적용되며, Volatile Memory 영역은 전원이 인가 되었을 때의 값을 의미합니다.  
 ## 2.2 Non-volatile Memory (ROM)  
 
-|Address|Name|Description|Access|Default|
-|---|---|---|---|---|
-|0 (0x00)|Serial Number|Model Serial Nu mber|R||
-|1 (0x01)|Firmware Version|펌웨어 버전 정보|R||
-|4 (0x04)|Actuator ID|Actuator ID|RW|1(0x01)|
-|5 (0x05)|Actuator Baudrate|통신 속도|RW|32(0x20)|
-|9 (0x09)|Alarm Led|하드웨어 에러 알랍 LED 표시|RW|33(0x21)|
-|10 (0x0A)|Alarm Shutdown|하드웨어 에러 셧다운 기능|RW|33(0x21)|
-|11 (0x0B)|Short Stroke Limit|수축 방향 한계 위치 값|RW|0(0x00)|
-|12 (0x0C)|Long Stroke Limit|확장 방향 한계 위치값|RW|개별 Spec|
-|13 (0x0D)|Start Compliance Margin|시작 Compliance Margin|RW|20(0x14)|
-|14 (0x0E)|End Compliance Margin|종료 Compliance Margin|RW|8(0x08)|
-|15 (0x0F)|Acceleration|가속도|RW|개별 Spec|
-|16 (0x10)|Deceleration|감속도|RW|개별 Spec|
-|17 (0x11)|Min Position Calibration|Min Position Trim|RW|개별 Spec|
-|18 (0x12)|Max Position Calibration|Max Position Trim|RW|개별 Spec|
-|19 (0x13)|Motor Operating Rate Limt|모터 가동률 한계값(PWM)|RW|1000|
-|20 (0x14)|Speed Limit|속도 상한 값|RW|1000|
-|21 (0x15)|Current Limit|전류 상한 값|RW|800|
-|22 (0x16)|Current I Gain|전류 I Gain|RW|개별 Spec|
-|23 (0x17)|Current P Gain|전류 P Gain|RW|개별 Spec|
-|24 (0x18)|Speed D Gain|속도 D Gain|RW|개별 Spec|
-|25 (0x19)|Speed I Gain|속도 I Gain|RW|개별 Spec|
-|26 (0x1A)|Speed P Gain|속도 P Gain|RW|개별 Spec|
-|40 (0x28)|Internal Addess 0|간접 주소 0|RW|0(0x00)|
-|41 (0x29)|Internal Addess 1|간접 주소 1|RW|0(0x00)|
-|42 (0x2A)|Internal Addess 2|간접 주소 2|RW|0(0x00)|
-|43 (0x2B)|Internal Addess 3|간접 주소 3|RW|0(0x00)|
-|44 (0x2C)|Internal Addess 4|간접 주소 4|RW|0(0x00)|
-|45 (0x2D)|Internal Addess 5|간접 주소 5|RW|0(0x00)|
-|46 (0x2E)|Internal Addess 6|간접 주소 6|RW|0(0x00)|
-|47 (0x2F)|Internal Addess 7|간접 주소 7|RW|0(0x00)|
-|48 (0x30)|Internal Addess 8|간접 주소 8|RW|0(0x00)|
-|49 (0x31)|Internal Addess 9|간접 주소 9|RW|0(0x00)|
-|50 (0x32)|Extened Port Setting 0|확장 Port 0 기능 설정|RW|0(0x00)|
-|51 (0x33)|Extened Port Setting 1|확장 Port 1 기능 설정|RW|0(0x00)|
-|52 (0x34)|Extened Port Setting 2|확장 Port 2 기능 설정|RW|0(0x00)|
-|53 (0x35)|Extened Port Setting 3|확장 Port 3 기능 설정|RW|0(0x00)|
-|60 (0x3C)|Action 0 type|Action 0 동작 형식|RW|0(0x00)|
-|61 (0x3D)|Action 0 distance|Action 0 이동 거리|RW|0(0x00)|
-|62 (0x3E)|Action 0 Repeat Type|Action 0 반복 형식|RW|0(0x00)|
-|63 (0x3F)|Action 0 Repeat Count|Action 0 반복 횟수|RW|0(0x00)|
-|64 (0x40)|Action 0 Repeat Time|Action 0 1회 동작 시간|RW|0(0x00)|
-|65 (0x41)|Action 0 Goal Speed|Action 0 Gaol Speed|RW|0(0x00)|
-|66 (0x42)|Action 0 Gal Current|Action 0 Goal Current|RW|0(0x00)|
-|67 (0x43)|Action 0 Accleration|Action 0 Acceleration|RW|0(0x00)|
-|68 (0x44)|Action 0 Delceration|Action 0 Deceleration|RW|0(0x00)|
-|69 (0x45)|Action 0 Stop|Action 0 정지 형식|RW|0(0x00)|
-|70 (0x46)|Action 1 type|Action 1 동작 형식|RW|0(0x00)|
-|71 (0x47)|Action 1 distance|Action 1 이동 거리|RW|0(0x00)|
-|72 (0x48)|Action 1 Repeat Type|Action 1 반복 형식|RW|0(0x00)|
-|73 (0x49)|Action 1 Repeat Count|Action 1 반복 횟수|RW|0(0x00)|
-|74 (0x4A)|Action 1 Repeat Time|Action 1 1회 동작 시간|RW|0(0x00)|
-|75 (0x4B)|Action 1 Goal Speed|Action 1 Gaol Speed|RW|0(0x00)|
-|76 (0x4C)|Action 1 Gal Current|Action 1 Goal Current|RW|0(0x00)|
-|77 (0x4D)|Action 1 Accleration|Action 1 Acceleration|RW|0(0x00)|
-|78 (0x4E)|Action 1 Delceration|Action 1 Deceleration|RW|0(0x00)|
-|79 (0x4F)|Action 1 Stop|Action 1 정지 형식|RW|0(0x00)|
-|80 (0x50)|Action 2 type|Action 2 동작 형식|RW|0(0x00)|
-|81 (0x51)|Action 2 distance|Action 2 이동 거리|RW|0(0x00)|
-|82 (0x52)|Action 2 Repeat Type|Action 2 반복 형식|RW|0(0x00)|
-|83 (0x53)|Action 2 Repeat Count|Action 2 반복 횟수|RW|0(0x00)|
-|84 (0x54)|Action 2 Repeat Time|Action 2 1회 동작 시간|RW|0(0x00)|
-|85 (0x55)|Action 2 Goal Speed|Action 2 Gaol Speed|RW|0(0x00)|
-|86 (0x56)|Action 2 Gal Current|Action 2 Goal Current|RW|0(0x00)|
-|87 (0x57)|Action 2 Accleration|Action 2 Acceleration|RW|0(0x00)|
-|88 (0x58)|Action 2 Delceration|Action 2 Deceleration|RW|0(0x00)|
-|89 (0x59)|Action 2 Stop|Action 2 정지 형식|RW|0(0x00)|
-|90 (0x5A)|Action 3 type|Action 3 동작 형식|RW|0(0x00)|
-|91 (0x5B)|Action 3 distance|Action 3 이동 거리|RW|0(0x00)|
-|92 (0x5C)|Action 3 Repeat Type|Action 3 반복 형식|RW|0(0x00)|
-|93 (0x5D)|Action 3 Repeat Count|Action 3 반복 횟수|RW|0(0x00)|
-|94 (0x5E)|Action 3 Repeat Time|Action 3 1회 동작 시간|RW|0(0x00)|
-|95 (0x5F)|Action 3 Goal Speed|Action 3 Gaol Speed|RW|0(0x00)|
-|96 (0x60)|Action 3 Gal Current|Action 3 Goal Current|RW|0(0x00)|
-|97 (0x61)|Action 3 Accleration|Action 3 Acceleration|RW|0(0x00)|
-|98 (0x62)|Action 3 Delceration|Action 3 Deceleration|RW|0(0x00)|
-|99 (0x63)|Action 3 Stop|Action 3 정지 형식|RW|0(0x00)|
-|100 (0x64)|Action 4 type|Action 4 동작 형식|RW|0(0x00)|
-|101 (0x65)|Action 4 distance|Action 4 이동 거리|RW|0(0x00)|
-|102 (0x66)|Action 4 Repeat Type|Action 4 반복 형식|RW|0(0x00)|
-|103 (0x67)|Action 4 Repeat Count|Action 4 반복 횟수|RW|0(0x00)|
-|104 (0x68)|Action 4 Repeat Time|Action 4 1회 동작 시간|RW|0(0x00)|
-|105 (0x69)|Action 4 Goal Speed|Action 4 Gaol Speed|RW|0(0x00)|
-|106 (0x6A)|Action 4 Gal Current|Action 4 Goal Current|RW|0(0x00)|
-|107 (0x6B)|Action 4 Accleration|Action 4 Acceleration|RW|0(0x00)|
-|108 (0x6C)|Action 4 Delceration|Action 4 Deceleration|RW|0(0x00)|
-|109 (0x6D)|Action 4 Stop|Action 4 정지 형식|RW|0(0x00)|
+| Rergister Number | Address    | Name                      | Description           | Access | Default  |
+|:-----------------|:-----------|:--------------------------|:----------------------|:-------|:---------|
+|            40001 |   0 (0x00) | Serial Number             | Model Serial Nu mber  | R      |          |
+|            40002 |   1 (0x01) | Firmware Version          | 펌웨어 버전 정보             | R      |          |
+|            40005 |   4 (0x04) | Actuator ID               | Actuator ID           | RW     |  1(0x01) |
+|            40006 |   5 (0x05) | Actuator Baudrate         | 통신 속도                 | RW     | 32(0x20) |
+|            40010 |   9 (0x09) | Alarm Led                 | 하드웨어 에러 알랍 LED 표시     | RW     | 33(0x21) |
+|            40011 |  10 (0x0A) | Alarm Shutdown            | 하드웨어 에러 셧다운 기능        | RW     | 33(0x21) |
+|            40012 |  11 (0x0B) | Short Stroke Limit        | 수축 방향 한계 위치 값         | RW     |  0(0x00) |
+|            40013 |  12 (0x0C) | Long Stroke Limit         | 확장 방향 한계 위치값          | RW     | 개별 Spec  |
+|            40014 |  13 (0x0D) | Start Compliance Margin   | 시작 Compliance Margin  | RW     | 20(0x14) |
+|            40015 |  14 (0x0E) | End Compliance Margin     | 종료 Compliance Margin  | RW     |  8(0x08) |
+|            40016 |  15 (0x0F) | Acceleration              | 가속도                   | RW     | 개별 Spec  |
+|            40017 |  16 (0x10) | Deceleration              | 감속도                   | RW     | 개별 Spec  |
+|            40018 |  17 (0x11) | Min Position Calibration  | Min Position Trim     | RW     | 개별 Spec  |
+|            40019 |  18 (0x12) | Max Position Calibration  | Max Position Trim     | RW     | 개별 Spec  |
+|            40020 |  19 (0x13) | Motor Operating Rate Limt | 모터 가동률 한계값(PWM)       | RW     |     1000 |
+|            40021 |  20 (0x14) | Speed Limit               | 속도 상한 값               | RW     |     1000 |
+|            40022 |  21 (0x15) | Current Limit             | 전류 상한 값               | RW     |      800 |
+|            40023 |  22 (0x16) | Current I Gain            | 전류 I Gain             | RW     | 개별 Spec  |
+|            40024 |  23 (0x17) | Current P Gain            | 전류 P Gain             | RW     | 개별 Spec  |
+|            40025 |  24 (0x18) | Speed D Gain              | 속도 D Gain             | RW     | 개별 Spec  |
+|            40026 |  25 (0x19) | Speed I Gain              | 속도 I Gain             | RW     | 개별 Spec  |
+|            40027 |  26 (0x1A) | Speed P Gain              | 속도 P Gain             | RW     | 개별 Spec  |
+|            40041 |  40 (0x28) | Internal Addess 0         | 간접 주소 0               | RW     |  0(0x00) |
+|            40042 |  41 (0x29) | Internal Addess 1         | 간접 주소 1               | RW     |  0(0x00) |
+|            40043 |  42 (0x2A) | Internal Addess 2         | 간접 주소 2               | RW     |  0(0x00) |
+|            40044 |  43 (0x2B) | Internal Addess 3         | 간접 주소 3               | RW     |  0(0x00) |
+|            40045 |  44 (0x2C) | Internal Addess 4         | 간접 주소 4               | RW     |  0(0x00) |
+|            40046 |  45 (0x2D) | Internal Addess 5         | 간접 주소 5               | RW     |  0(0x00) |
+|            40047 |  46 (0x2E) | Internal Addess 6         | 간접 주소 6               | RW     |  0(0x00) |
+|            40048 |  47 (0x2F) | Internal Addess 7         | 간접 주소 7               | RW     |  0(0x00) |
+|            40049 |  48 (0x30) | Internal Addess 8         | 간접 주소 8               | RW     |  0(0x00) |
+|            40050 |  49 (0x31) | Internal Addess 9         | 간접 주소 9               | RW     |  0(0x00) |
+|            40051 |  50 (0x32) | Extened Port Setting 0    | 확장 Port 0 기능 설정       | RW     |  0(0x00) |
+|            40052 |  51 (0x33) | Extened Port Setting 1    | 확장 Port 1 기능 설정       | RW     |  0(0x00) |
+|            40053 |  52 (0x34) | Extened Port Setting 2    | 확장 Port 2 기능 설정       | RW     |  0(0x00) |
+|            40054 |  53 (0x35) | Extened Port Setting 3    | 확장 Port 3 기능 설정       | RW     |  0(0x00) |
+|            40061 |  60 (0x3C) | Action 0 type             | Action 0 동작 형식        | RW     |  0(0x00) |
+|            40062 |  61 (0x3D) | Action 0 distance         | Action 0 이동 거리        | RW     |  0(0x00) |
+|            40063 |  62 (0x3E) | Action 0 Repeat Type      | Action 0 반복 형식        | RW     |  0(0x00) |
+|            40064 |  63 (0x3F) | Action 0 Repeat Count     | Action 0 반복 횟수        | RW     |  0(0x00) |
+|            40065 |  64 (0x40) | Action 0 Repeat Time      | Action 0 1회 동작 시간     | RW     |  0(0x00) |
+|            40066 |  65 (0x41) | Action 0 Goal Speed       | Action 0 Gaol Speed   | RW     |  0(0x00) |
+|            40067 |  66 (0x42) | Action 0 Gal Current      | Action 0 Goal Current | RW     |  0(0x00) |
+|            40068 |  67 (0x43) | Action 0 Accleration      | Action 0 Acceleration | RW     |  0(0x00) |
+|            40069 |  68 (0x44) | Action 0 Delceration      | Action 0 Deceleration | RW     |  0(0x00) |
+|            40070 |  69 (0x45) | Action 0 Stop             | Action 0 정지 형식        | RW     |  0(0x00) |
+|            40071 |  70 (0x46) | Action 1 type             | Action 1 동작 형식        | RW     |  0(0x00) |
+|            40072 |  71 (0x47) | Action 1 distance         | Action 1 이동 거리        | RW     |  0(0x00) |
+|            40073 |  72 (0x48) | Action 1 Repeat Type      | Action 1 반복 형식        | RW     |  0(0x00) |
+|            40074 |  73 (0x49) | Action 1 Repeat Count     | Action 1 반복 횟수        | RW     |  0(0x00) |
+|            40075 |  74 (0x4A) | Action 1 Repeat Time      | Action 1 1회 동작 시간     | RW     |  0(0x00) |
+|            40076 |  75 (0x4B) | Action 1 Goal Speed       | Action 1 Gaol Speed   | RW     |  0(0x00) |
+|            40077 |  76 (0x4C) | Action 1 Gal Current      | Action 1 Goal Current | RW     |  0(0x00) |
+|            40078 |  77 (0x4D) | Action 1 Accleration      | Action 1 Acceleration | RW     |  0(0x00) |
+|            40079 |  78 (0x4E) | Action 1 Delceration      | Action 1 Deceleration | RW     |  0(0x00) |
+|            40080 |  79 (0x4F) | Action 1 Stop             | Action 1 정지 형식        | RW     |  0(0x00) |
+|            40081 |  80 (0x50) | Action 2 type             | Action 2 동작 형식        | RW     |  0(0x00) |
+|            40082 |  81 (0x51) | Action 2 distance         | Action 2 이동 거리        | RW     |  0(0x00) |
+|            40083 |  82 (0x52) | Action 2 Repeat Type      | Action 2 반복 형식        | RW     |  0(0x00) |
+|            40084 |  83 (0x53) | Action 2 Repeat Count     | Action 2 반복 횟수        | RW     |  0(0x00) |
+|            40085 |  84 (0x54) | Action 2 Repeat Time      | Action 2 1회 동작 시간     | RW     |  0(0x00) |
+|            40086 |  85 (0x55) | Action 2 Goal Speed       | Action 2 Gaol Speed   | RW     |  0(0x00) |
+|            40087 |  86 (0x56) | Action 2 Gal Current      | Action 2 Goal Current | RW     |  0(0x00) |
+|            40088 |  87 (0x57) | Action 2 Accleration      | Action 2 Acceleration | RW     |  0(0x00) |
+|            40089 |  88 (0x58) | Action 2 Delceration      | Action 2 Deceleration | RW     |  0(0x00) |
+|            40090 |  89 (0x59) | Action 2 Stop             | Action 2 정지 형식        | RW     |  0(0x00) |
+|            40091 |  90 (0x5A) | Action 3 type             | Action 3 동작 형식        | RW     |  0(0x00) |
+|            40092 |  91 (0x5B) | Action 3 distance         | Action 3 이동 거리        | RW     |  0(0x00) |
+|            40093 |  92 (0x5C) | Action 3 Repeat Type      | Action 3 반복 형식        | RW     |  0(0x00) |
+|            40094 |  93 (0x5D) | Action 3 Repeat Count     | Action 3 반복 횟수        | RW     |  0(0x00) |
+|            40095 |  94 (0x5E) | Action 3 Repeat Time      | Action 3 1회 동작 시간     | RW     |  0(0x00) |
+|            40096 |  95 (0x5F) | Action 3 Goal Speed       | Action 3 Gaol Speed   | RW     |  0(0x00) |
+|            40097 |  96 (0x60) | Action 3 Gal Current      | Action 3 Goal Current | RW     |  0(0x00) |
+|            40098 |  97 (0x61) | Action 3 Accleration      | Action 3 Acceleration | RW     |  0(0x00) |
+|            40099 |  98 (0x62) | Action 3 Delceration      | Action 3 Deceleration | RW     |  0(0x00) |
+|            40100 |  99 (0x63) | Action 3 Stop             | Action 3 정지 형식        | RW     |  0(0x00) |
+|            40101 | 100 (0x64) | Action 4 type             | Action 4 동작 형식        | RW     |  0(0x00) |
+|            40102 | 101 (0x65) | Action 4 distance         | Action 4 이동 거리        | RW     |  0(0x00) |
+|            40103 | 102 (0x66) | Action 4 Repeat Type      | Action 4 반복 형식        | RW     |  0(0x00) |
+|            40104 | 103 (0x67) | Action 4 Repeat Count     | Action 4 반복 횟수        | RW     |  0(0x00) |
+|            40105 | 104 (0x68) | Action 4 Repeat Time      | Action 4 1회 동작 시간     | RW     |  0(0x00) |
+|            40106 | 105 (0x69) | Action 4 Goal Speed       | Action 4 Gaol Speed   | RW     |  0(0x00) |
+|            40107 | 106 (0x6A) | Action 4 Gal Current      | Action 4 Goal Current | RW     |  0(0x00) |
+|            40108 | 107 (0x6B) | Action 4 Accleration      | Action 4 Acceleration | RW     |  0(0x00) |
+|            40109 | 108 (0x6C) | Action 4 Delceration      | Action 4 Deceleration | RW     |  0(0x00) |
+|            40110 | 109 (0x6D) | Action 4 Stop             | Action 4 정지 형식        | RW     |  0(0x00) |  
 
 ## 2.3 Volatile Memory(RAM)
 
