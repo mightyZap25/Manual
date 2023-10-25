@@ -543,5 +543,7 @@ indirect Address로 설정된 Paramter들의 Data를 읽고 쓸 수 있는 Param
 - 통신 회로
 - 핀배역
 - 도면
+-[[27mm 코어레스버전(FC버전)-inch.pdf]]
+[file](./Docu/27mm 코어레스버전(FC버전)-mm-inch.dxf)
 -
 

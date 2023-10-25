@@ -6,7 +6,7 @@
       {
         "id": "1ac5b78d4ee0f9f6",
         "type": "tabs",
-        "dimension": 85.25073746312685,
+        "dimension": 85.25073746312687,
         "children": [
           {
             "id": "fb14ab34d4b2d69a",
@@ -26,7 +26,7 @@
       {
         "id": "d03b2e53d61778f5",
         "type": "tabs",
-        "dimension": 14.749262536873156,
+        "dimension": 14.749262536873152,
         "children": [
           {
             "id": "0556098e89a7b0a8",
@@ -163,7 +163,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -183,9 +183,16 @@
   },
   "active": "fb14ab34d4b2d69a",
   "lastOpenFiles": [
+    "Mini 17Lf/27mm 코어레스버전(FC버전)-inch.pdf",
+    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+    "Docu/27mm.md",
+    "Docu",
+    "27mm 코어레스버전(FC버전)-inch.dwg.md",
+    "Mini 17Lf/Docu/27mm 코어레스버전(FC버전)-mm-inch.dxf",
+    "Mini 17Lf/Docu/27mm 코어레스버전(FC버전)-mm-inch.dwg",
+    "Mini 17Lf/Docu",
     "Mini 17Lf/img/minmaxCalibration.gif",
     "Mini 17Lf/img/minmaxPostion.png",
-    "Mini 17Lf/Mini 17Lf User Manual_kor.md",
     "스크린샷 2023-09-26 18-46-52.png",
     "스크린샷 2023-09-26 17-14-28.png",
     "Mini 17Lf/img/PID_Compensation_Animated.gif",
@@ -199,7 +206,6 @@
     "Protocl",
     "menuList.json",
     "스크린샷 2023-08-10 18-04-36.png",
-    "Pasted image 20230809113927.png",
     "Technical Note",
     "IRROBOT DATASHEET_17Lfe 양식.md",
     "feature1.txt",
@@ -210,16 +216,11 @@
     "1..md",
     "2023-07-11.md",
     "[[.md",
-    "test.txt",
     "Mini 17Lf User Manual_kor.md",
     "무제 파일 1.canvas",
     "흡입시키지.md",
     "무제 파일.canvas",
-    "Untitled Diagram.drawio",
-    "edit.css",
     "e Manual Review.md",
-    "17FC BlockDioagram.drawio",
-    "Mini 17Lf/img/test.tif",
     "Total Manager/Total Manager User Manual_kor.md",
     "Total Manager/Total Manager User Manual_eng.md",
     "Total Manager/Parameter.md",
