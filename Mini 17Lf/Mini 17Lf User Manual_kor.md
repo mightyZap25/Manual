@@ -398,7 +398,7 @@ Extended I/O의 회로 구성은 각 기능에 따라 다르게 구성이 되며
 **Restart**  
 	해당 기능은 입력 기능으로 Restart 기능을 담당합니다.  Hardware Error 등의 문제로 Actuator가 정지한 경우 또는 시스템을 재 시작해야 해야하는 경우 해당 기능을 이용하여 외부에서 restart 기능을 사용할 수 있습니다.
   
-### 4.17 Action Control  
+### 2.4.16 Action Control  
 Action 기능은 통신 및 외부 제어기 없이 Actuator를 제어하기 위한 방법으로 총 5개의 Action을 작성 할 수 있습니다.  
 하나의 Action에는 총10개 Parameter 속성을 가지고 있으며, 크게 Action Setting, Repeat Setting, Moving Setting으로 나뉠 수 있습니다.  
 (full shot 이미지)
@@ -414,14 +414,14 @@ Action Setting은 모터가 움직이는 방식을 설정하며 아래와 같습
    위치 이동을 완료한 후 특정 시간 동안 대기해야 할 경우 사용합니다.
    <이미지 그래프로 표현>
 
-### 4.18 Force On/Off  
+### 2.4.17 Force On/Off  
 Force ON/OFF를 실행 합니다. 전원이 인가 되면 자동으로 Force ON으로 설정됩니다.  
 
 |value|동작 상태|
 |---|---|
 |0| 모터의 전원을 차단하여 기동력이 발생 되지 않도록 합니다.|
 |1|모터의 전원을 인가하여 기동력이 발생하도록 합니다.|
-### 4.19 Actuator Pause
+### 2.4.18 Actuator Pause
 Actuator의 일시 정지 명령으로 이동 중 Pause 명령이 내려지면, 현재 위치에서 정지하고, 현재 위치를 유지합니다. Pause 명령이 해지 되면 Goal Position 위치로 다시 이동합니다.  
 
 |value|동작 상태|
@@ -429,11 +429,11 @@ Actuator의 일시 정지 명령으로 이동 중 Pause 명령이 내려지면, 
 |0|Goal Position 위치로 이동합니다.|
 |1|모터가 일시 정지하고 현재 위치를 유지합니다.|
 
-### 4.20 Actuator Stop
+### 2.4.19 Actuator Stop
 Actuator가 완전 정지하고, Goal Position 위치가 정지한 현재 위치로 변경됩니다.  
 Actuator가 정지 한 후에는 자동으로 Stop Paremeter가 리셋 됩니다.  
 
-### 4.21 LED
+### 2.4.20 LED
 Error가 표시 되지 않을 때 사용자가 임의로 LED를 제어하여 디스플레이 효과를 낼 수 있습니다.  
 (Error 표시가 우선)  
 
@@ -442,7 +442,7 @@ Error가 표시 되지 않을 때 사용자가 임의로 LED를 제어하여 디
 |0|RED LED |
 |1|GREEN LED|
 
-### 4.22  Hardware Error
+### 2.4.21  Hardware Error
 Actuator 가 동작 중 발생하는 위험 상황 중 아래의 상황에 대하여 스스로 감지하고, 다양한 방법으로 스스로를 보호할 수 있습니다.  
 각  Bit들은 중복되어 설정이 되며, Alarm Shutdown, Alarm LED,  Extend IO 기능을 이용하여 Error 발생 시에 대한 조치를 할 수 있습니다.  
 일반적으로 추천하는 방법은 Alarm Shutdown 기능을 이용하여 해당 Error가 발생 할 경우, Force On/Off를 '0'으로 하여,  Actuator 와  사용자의 system을 보호하는것이 좋습니다.  
@@ -469,10 +469,10 @@ ShutDown 기능을 설정하였을 경우 Restart 기능을 사용하지 않는 
 - Input Voltage Error  
   입력 전압의 범위가 벗어날 해당 bit 가 set 됩니다. Low voltage일 경우, 다시 정상 전압으로 변경되면 해당 Error가 clear 됩니다.  
   하지만 high voltage Error 일 경우, 해당 Reset이 되지 않는 이상 해지 되지 않습니다. 
-### 4.23 Goal Position
+### 2.4.22 Goal Position
 Actuator를 이동 시키고자 하는 위치 값입니다. Goal Position은 Short/Long stroke limit 설정치에 영향을 받습니다. (즉, stroke limit 범위 밖으로는 위치 명령을 내려도 stroke limit위치까지만 움직임)
 
-### 4.24 Goal Speed
+### 2.4.23 Goal Speed
 액츄에이터의 동작 속도를 변경할 때 사용합니다. [범위 : 0~ 1000]  
 각 actuator의 최대 속도에 대해 비율로 제어하며 약 10%의 오차가 있습니다.
 value : 0 ~ 1000 [+-10%]
@@ -482,7 +482,7 @@ Speed Limit 명령보다 빠르게 반응하며, 가동 중 실시간으로 속�
 0일 때 기동력 OFF 상태이고 1023일 때 최대 속도를 냅니다.
 Goal Speed를 변경해도 Force에 영향을 주지 않습니다.
 다만, 너무 낮은 값을 설정 시 모터의 반응이 늦어지거나 움직이지 못할 수 있습니다.
-### 4.25 Goal Current  
+### 2.4.24 Goal Current  
 모터의 최대 전류를 제한합니다. 전류 값을 제한하여 Actuator의 최대 Force를 제한 할 수 있습니다. 각 Goal Current 값에 대한 Stall Force는 Datasheet를 참조하여 주시기 바랍니다.  
 초기 전원 인가시 비휘발성 Current Limit의 값을 Goal Current의 초기값으로 적용합니다.  
 > **Tip** <font color="#4f81bd">Goal Current를 이용한 Force 제한</font>
@@ -492,18 +492,18 @@ Goal Speed를 변경해도 Force에 영향을 주지 않습니다.
 
 >**Warnning** <font color="#ff0000">Over Current</font>
 >Goal Current 800  이상 또는 1600- 설정일 경우 모터에 무리가 발생한다. 지속적으로 사용하는 구간이 아닌 특정상황 잠시 사용하는 구간이다.  지속 적으로 사용할 경우 overload Error가 발생하거나 모터의 수명이 짧아지게 됩니다.
-### 4.26 Present Postion
+### 2.4.25 Present Postion
 현재 stroke의 위치 값을 나타냅니다. 사용하고 계신 Stoke 의 최대 길이를 참조하시여 위치 값을 계산하시기 바랍니다.   
 ![[Pasted image 20230809113927.png]]  
 정지한 이후에도 미세한 위치 변동은 나타날 수 있으며 이는 정상 동작입니다. 
-### 4.27 Present Current
+### 2.4.26 Present Current
 모터의 현재 전류 사용 값입니다.
 
 |value|range|dfd|
 |---|---|---|
 |0~16000|0~1600mA|mA|
 present Current는 오차를 포함하고 있음으로 참고 용으로 사용하여 주시기 바랍니다.
-### 4.28 Present Motor Operating Rate
+### 2.4.27 Present Motor Operating Rate
 모터에 공급되는 PWM값을 나타냅니다. (통신용 PWM과의 오해를 방지하기 위해 Motor Operating Rate(모터 가동율)이라는 용어를 사용합니다. )  
 Motor Operating Rate는 Goal Speed, Goal Current 등에 따라 값이 달라집니다.   
 '0'은 모터가 정지한 상태를 나타냅니다.
@@ -512,16 +512,16 @@ Motor Operating Rate는 Goal Speed, Goal Current 등에 따라 값이 달라집�
 |---|---|---|
 |-10000~1000|0~1600mA|mA|
 
-### 4.29 Present Voltage  
+### 2.4.28 Present Voltage  
 입력 전압 값을 나타 냅니다. 
 
 |value|range|dfd|
 |---|---|---|
 |0~130|0~13.0|[v]|
-### 4.30 Moving
+### 2.4.29 Moving
 모터의 동작 유무를 나타냅니다. 정확히는 모터의 목표 도달 유무를 나타냅니다.  
 Motor Operating Rate 값이 '0'이어도 목표 위치 도달 완료 상태가 아니면 Moving값은 '0'이 되지 않습니다. 
-### 4.31 Action Enable
+### 2.4.30 Action Enable
 Action Parameter로 작성된 Action을 실행할 때 사용합니다. Action Paramter 를 작성하였어도 Action Enable을 활성화 하지 않으면 Action은 동작하지 않습니다. 
 
 |value|range|dfd|
@@ -529,11 +529,19 @@ Action Parameter로 작성된 Action을 실행할 때 사용합니다. Action Pa
 |0|Action disable||
 |1|Action Enable||
 
-### 4.31 Reset
-### 4.32 Restart
-### 4.33 Indirect Data
+### 2.4.31 Reset
+### 2.4.32 Restart
+### 2.4.33 Indirect Data
 indirect Address로 설정된 Paramter들의 Data를 읽고 쓸 수 있는 Parameter입니다.
 
-
-
+### 유의사항
+### 악세사리
+### 보증 및 수리
+### 참고자료
+- 인증
+- 커넥터 자료
+- 통신 회로
+- 핀배역
+- 도면
+-
 
