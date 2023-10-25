@@ -547,3 +547,4 @@ indirect Address로 설정된 Paramter들의 Data를 읽고 쓸 수 있는 Param
 [file](./Docu/27mm 코어레스버전(FC버전)-mm-inch.dxf)
 -
 
+[test](https://www.robotis.com/service/download.php?no=1256)
