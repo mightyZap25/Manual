@@ -534,10 +534,10 @@ Action Parameter로 작성된 Action을 실행할 때 사용합니다. Action Pa
 ### 2.4.33 Indirect Data
 indirect Address로 설정된 Paramter들의 Data를 읽고 쓸 수 있는 Parameter입니다.
 
-### 유의사항
-### 악세사리
-### 보증 및 수리
-### 참고자료
+# 3. 유의사항
+# 4. 악세사리
+# 5. 보증 및 수리
+# 6. 참고자료
 - 인증
 - 커넥터 자료
 - 통신 회로
