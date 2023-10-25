@@ -192,13 +192,13 @@ MightyZap Model을 식별하기 위한 번호입니다.
 	- patch :  버그 및 코드 보완이 추가된 경우
 
    ![[versioning.png]]
-### 4.3 Actuator ID
+2.### 4.3 Actuator ID
 통신 상에서 Actuator를 식별 하기 위한 고유 번호, Daisy-chain 방식으로 연결된 Actuator들은 서로 다른 ID가 할당되어야 합니다.  
 ID 값은 1~243입니다. ID 0은 Broadcase ID로 특수하게 사용 됩니다.
 > <font color="#ff0000">주의사항</font>  
 > 연결된 Actuator의 ID가 중복되지 않도록 주의해야 합니다. 중복된 ID가 있을 경우 통신 오류가 발생하여 정상적인 통신이 이루어지지 않습니다.  
 
-### 4.4 Baudrate  
+### 2.4.3 Baudrate  
 Actuator와 통신을 하기 위한 통신 속도 입니다.
 
 | 설정값       | 통신 속도      |
@@ -223,11 +223,11 @@ Actuator와 통신을 하기 위한 통신 속도 입니다.
 > **Tip**   
 > Lowest input Voltage의 경우 Reset을 하지 않아도 정상 전압으로 돌아오면 정상적으로 동작이 됩니다.
 
-### 4.6 Short/Long Stroke Limt  
+### 2.4.4 Short/Long Stroke Limt  
 위치 제어에서 목표 위치의 제한 값으로 0 ~ 10000 범위 내에서 목표 위치 값을 제한합니다.
 따라서 Goal Position(203)값은 Short Stroke Limit 값보다 작을 수 없고, Long Stroke Limit 값보다 커서는 안됩니다.
 ![[스크린샷 2023-09-26 17-14-28.png]]
-### 4.7 Start Compliance Margin  
+### 2.4.5 Start Compliance Margin  
   Start Compliance Margin은 Actuator가 Goal Position 위치 값을 지키기 위해 이동 하기 위한 위치 편차(마진)의 최소 값 입니다.  
   현재 위치(Present Position)값이 Goal Position 값보다 마진값이상 크거나 작을 경우, 위치 오차를 잡기위해 모터를 제어합니다.
   
@@ -266,7 +266,7 @@ Present Positon : 1000 -> 1050
 ><font color="#ff0000">Warnning</font>  
 > default로 설정된 값은 최소한의 안전성을 위해 선정된 값으로 default 값 아래로 낮추는 것은 추천 드리지 않습니다.  
 
-### 4.8 End Compliance Margin  
+### 2.4.6 End Compliance Margin  
 End Compliance Margin은 Acuator가 정지하기 위한 최대 위치 편차 값입니다.  
 Actuator가 위치 편차를 줄이기 위해 동작 중일 때 적용이 되며, Present Position과 Gaol Position과의 편차가 End Compliance Margin 보다 작을 경우 motor의 동작을 멈춥니다.  
 End Compliance Margin은 작을 수록 위치 정밀도가 높아지나, 일정 값 이하로 줄일 경우 그 효과가 미미해 집니다.  
