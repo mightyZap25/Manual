@@ -322,10 +322,10 @@ Factory Reset에 대한 Option은 2가지로 ID Remind와 Baudrate Reminde 입�
 Factopry Reset 후에도 유지하고 싶은 Option을 선택하시면 됩니다.  
 **Factory Reset**  
 하단의 Factory Reset 버튼을 클릭하면, Factory Reset을 실행합니다. 실행중 진행되는 사항을 Option 선택 아래의 Text Area 창에 표시합니다. 
-
+![[Pasted image 20231027135548.png]]
 Factory Reset 진행이 되면서 Actuator가 몇번의 시스템 제시작을 하면서 LED가 깜빡입니다. 또한 Potenmtiometer Calibration 시에는 Actuator가 최대로 확장 및 수축 행동을 하면서 Calibration 을 진행합니다.  
 최종적으로 Factory Reset이 완료되면 하단의 Close 버튼이 활성화 되면서 Parameter 창으로 이동하여 reset된 Data를 보여줍니다.
-
+![[Pasted image 20231027135707.png]]
 
 
 
