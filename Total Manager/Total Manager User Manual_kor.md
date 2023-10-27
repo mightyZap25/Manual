@@ -234,24 +234,20 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
   Volatile Memory 의 Select Control Box에는 TextBox가 존재하지 않습니다.
   Select 기능을 이용하여 선택된 Data를 즉시 적용합니다.
   ![[Pasted image 20231027111510.png]]
-- **button Control box** : <font color="#4f81bd">Volatile Memory</font>   
-   Button control Box 기능은 Volatilte Memory에만 있는 기능으로 Motor의 동작을 정지하기 위해 사용됩니다.
-   아래의 그림과같이 Button은 활성화 비활성화에 따라 2가지의 이미지를 가지고 있으며, 해당 파라메터에 대한 자세한 설명은 해당 제품의 사용자 매뉴얼을 참조하여 주시기 바랍니다.
-   ![[parameter_control_button.png]]  
+- **Button Control Box** : <font color="#4f81bd">Volatile Memory</font>   
+   Button control Box 기능은 Volatilte Memory에 만 있는 기능으로 Motor의 동작을 정지하기 위해 사용됩니다.
+   아래의 그림과 같이 Button은 활성화 비활성화에 따라 2가지의 이미지를 가지고 있으며, 해당 Parameter에 대한 자세한 설명은 해당 제품의 사용자 매뉴얼을 참조하여 주시기 바랍니다.
+   ![[Pasted image 20231027111843.png]]
 ### 3.3.3 Monitoring
-Monitoring 기능은 MightyZap Actuator의 현재 위치, 모터 입력값, 전류 등을 실시간으로 확인하는 기능을 가지고 있습니다.  
-최대 하나의 Parameter만 확인이 가능하며, 통신 속도에 따라 읽는 속도가 달라집니다.
-Parameter는 Model에 따라 다르게 표시되며, check box를 통해 하나의 Paramter만 선택하실 수 있습니다.
+Monitoring 기능은 MightyZap Actuator의 현재 위치, 모터 입력 값, 전류 등을 실시간으로 확인하는 기능을 가지고 있습니다.  
+Parameter 항목은 Model에 따라 다르게 표시되며, Check box를 통해 하나의 Paramter만 선택하실 수 있습니다.
 Monitoring 기능은 아래와 같이 구성 되어있습니다.
 - Data 범위  
-  Data 표현 범위는 선택된 Paramter떼라 변경이 됩니다.
+  Data 표현 범위는 선택된 Paramter의 표현 범위에 맞게 변경이 됩니다.
 - Sample 표현 갯 수
-  100 개의 Sample을 표시하며, 이전 Data는 볼 수 없습니다.
-- Parameter Select  
-  Model에 따라 선택할 수 있는 Parameter가 변경됩니다. 일반적으로 Parameter 명 앞부분에 'Present'가 들어있는 Paramter가 표시 됩니다.
+  최대 Display Sample 갯 수는 200개이며 이전 Data는 확인할 수 없습니다.
 - Interval  
-  Interval은 Data Sample 당 읽어오는 시간 간격을 의미합니다.  
-  38400bps 이상일 경우 25ms 19200bps 이하 일경우에는 50ms로 동작합니다.  
+  Interval은 Data Sample 당 읽어오는 시간 간격을 의미하며 약 50ms 간격으로 동작 합니다.  
 ### 3.3.4 Error State  
 Error state는 매니저 하단 Footer 영역 중앙에 표시됩니다.   
 Error 상태는 아래와 같이 2가지를 표시합니다.    
