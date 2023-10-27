@@ -240,23 +240,17 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
    ![[Pasted image 20231027111843.png]]
 ### 3.3.3 Monitoring
 Monitoring 기능은 MightyZap Actuator의 현재 위치, 모터 입력 값, 전류 등을 실시간으로 확인하는 기능을 가지고 있습니다.  
-Parameter 항목은 Model에 따라 다르게 표시되며, Check box를 통해 하나의 Paramter만 선택하실 수 있습니다.
+Parameter 항목은 Model에 따라 다르게 표시되며, Check box를 통해 하나의 Paramter만 선택하실 수 있습니다.  
+![[Pasted image 20231027113502.png]]
 Monitoring 기능은 아래와 같이 구성 되어있습니다.
 - Data 범위  
   Data 표현 범위는 선택된 Paramter의 표현 범위에 맞게 변경이 됩니다.
 - Sample 표현 갯 수
-  최대 Display Sample 갯 수는 200개이며 이전 Data는 확인할 수 없습니다.
+  최대 Display되는 Sample 갯 수는 200개이며 이전 Data는 확인할 수 없습니다. Sample Coun의 최대 표현 수는 899이며 이보다 클 경우 0으로 리셋이 됩니다.
 - Interval  
-  Interval은 Data Sample 당 읽어오는 시간 간격을 의미하며 약 50ms 간격으로 동작 합니다.  
-### 3.3.4 Error State  
-Error state는 매니저 하단 Footer 영역 중앙에 표시됩니다.   
-Error 상태는 아래와 같이 2가지를 표시합니다.    
- - **Hardware Error**    
-   Actuator의 동작 에러 상태를 의미합니다. Input Voltage, Overload 등 모델에 따라 설정되어 이있는 Error 들을 의미하며, Actuator 자체에 문제가 있는 경우를 의미합니다.    
-   ![[Hardware Error.png]]
- - **Communcation Error**    
-   통신 에러를 의미하며 통신 중 발생할 수 있는 Packet Error, Time Out등을 표시합니다.    
-   일시적인 Error의 경우 통신 중 상태를 Text로 표시하는데 그치지만, 일정 시간 이상 Error가 지속되거나 잦은 Error 발생 시 mionitoring 기능이 정지 되고 팝업창으로 경고 글이 표시됩니다.    ![[communication Error.png]]   
+  Interval은 Data Sample 당 읽어오는 시간 간격을 의미하며 약 50ms 간격으로 동작 합니다.     
+- Hover 기능
+  마우스를 그래프 위에 놓으면 해당 위치의 데이터 값과 Sample Counter 값을 표기합니다.
 ## 3.4 Update    
 펌웨어를 업데이트 하는 페이지 입니다.  Firmware의 버전은 최신 버전을 유지하는 것을 추천 드립니다. 다만 수정된 펌웨어를 적용하기 전에  변경 사항이 사용자의 Apllication과 적합한지 테스트 하신 후에 적용하시기 바랍니다.   
 펌웨어 파일은 당사의 homepage에서 다운로드 받으시기 바랍니다.  
