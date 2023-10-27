@@ -293,9 +293,10 @@ Recovery 진행 사항은 각 단계마다 이미지 또는  Text로 그 단계�
  - **Actuator Search**  
    검색 단계에서는 각 모든 Baudrate와 Protocol로 서보모터를 검색합니다. 이때 서보모터가 검색이 될 경우 Recovery를 완료하고 서보머터를 Servo List에 자동으로 추가합니다,.
    ![[Pasted image 20231027131044.png]]
-   하지만 검색이 되지 않았을 경우 아래의 팝업 창이 나타나면서 복원할 서보모터의 펌웨어를 선택해야 합니다.  
-   
-미겁색시 펌웨어 업데이트 진행  
+
+- **Restart**   
+   검색이 되지 않았을 경우 아래의 팝업 창이 나타나면서 커넥터를 다시 연결하라는 문구가 나타납니다. Close 버튼을 누르면 업데이트 창에 "Reconnect Actuator" 문구가 서보모터의 연결된 커넥터를 재거 한 후 다시 연결하여 주시기 바랍니다.
+  ![[Pasted image 20231027133454.png]]
 calibration 진행  
 완료
 ### 3.4.4 Factory Reset   
