@@ -1,9 +1,8 @@
 
 # 1 Total Manager 시작하기
 MightyZap Total Manager 사용자 가이드  
-<p align="right">LAST REVISION: 2023.07.22</p>
 
-mightyZap Total Manager는 다양한 운영!체제에서 MightyZap Actuator를 쉽게 관리 및 제어할 수 있는 Software입니다.
+mightyZap Total Manager는 다양한 운영체제에서 MightyZap Actuator를 쉽게 관리 및 제어할 수 있는 Software입니다.
 Total Manager에서는 다양한 OS를 제공하고, 사용자 인터페이스를 개선하고 신규 MightyZap 모델을 추가로 지원하는 신규MightyZap Manager 입니다.
 
 이 가이드에서는 Total Manager의 설치와 각 기능의 사용법에 대한 기본 사항을 다룹니다  
@@ -58,20 +57,6 @@ OS 버전을 확인하신 후 버전에 맞게 다운로드하여 주시기 바�
 ![[window_install.jpg]]
 이제 Window에서 MightyZap Total Manager를 사용하실 수 있습니다.  
 
-
-### 2.2.2 Mac OS
-Mac OS 전용 패키지를 다운도르 합니다.  
-[MAC OS Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
-macOS에서 MightyZap Total Manager를 설치하려면 다운로드한 파일을 어플리케이션 폴더에 복사하기만 하면 됩니다.  
-![[Pasted image 20230721150751.png]]
-이제 macOS에서 MightyZap Total Manager를 사용하실 수 있습니다.  
-### 2.2.3 Linux
-Linux 전용 패키지를 다운도르 합니다.
-	- [Linux Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
-terminal  창을 열고 다음과 같이 설치를 합니다.
-Ubnuntu (>=22.04)
->sudo dpkg total-manager
-
 ## 2.3 화면 구성
 화면 구성은 크게 4가지로  Header 부분과 Side bar, Contents, Fotter로 구성되어있다.  
 ![[mainView-description.jpg]]
@@ -112,37 +97,13 @@ USB Interface Board를 PC와 연결합니다.
 [시스템]-[장치관리자]-[port]에서 Serial Port가 정상적으로 연결되었는지 확인합니다.  
 정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.
 ![[serialPort_check_win.jpg]]
-### 2.4.2 mac OS
-USB Interface Board Driver를 다운로드 합니다.  
-	-  [USB Interface Board Window Driver]  
-다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.  
-	[이미지 ]  
-USB Interface Board를 PC와 연결합니다.  
-[시스템 정보]-[Hardware]-[USB]에서 Serial Port가 정상적으로 연결되었는지 확인합니다.    
-정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.  
-[이미지]  
-
-### 2.4.3 Linux[ubuntu 22.04]
-Manual installation is not necessary, all FTDI devices are now supported in Ubuntu 11.10, kernel 3.0.0-19.  
-만양ㄱ
-USB Interface Board Driver를 다운로드 합니다.    
-  [USB Interface Board Window Driver]   
-다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.    
-  [이미지 ]  
-USB Interface Board를 PC와 연결합니다.    
-[시스템 정보]-[Hardware]-[USB]에서 Serial Port가 정상적으로 연결되었는지 확인합니다.  
-정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.    
-[이미지]  
-터미널 창을 열고 아래와 같이 port 권한 설정을 사용자 계정에 추가해 주어야  Serial Port의 사용이 가능하게 됩니다.     
-- USB Interface Board 03 - FTDI Install Guide  
-   - [FTDI Install Fuide Link](https://ftdichip.com/document/installation-guides/https://ftdichip.com/document/installation-guides/)  
 
 # 3 Total Manager Description
 ## 3.1 통신 연결 및 검색
-아래의 이미지와같이 프로그램을 실행 한 후 상단 매뉴바에서 Scan 버튼을 누르면 Actuator Scan을 위한 팝업창이 활성화 됩니다.   
+아래의 이미지와 같이 프로그램을 실행 한 후 상단 매뉴에서 Scan 버튼을 누르면 Actuator Scan을 위한 팝업 창이 활성화 됩니다.   
 ![[Pasted image 20231027100657.png]]
 ### 3.1.1 화면 구성
-Actuaotor Scan 팝업창이 나오면  위의 OS별 Serial Port 확인을 참조하여 연결된 Comport를 확인한 후 Open 버튼을 클릭합니다.    
+Actuaotor Scan 팝업 창이 나오면  위의 OS별 Serial Port 확인을 참조하여 연결된 Comport를 확인한 후 Open 버튼을 클릭합니다.    
 정상적으로 comport 연결 되었을 경우 오른쪽 그림과 같이 비활성화 되었던 창이 활성화가 되며 Actutor를 검색 할 준비가 됩니다.
 ![[scanning.png]]
 Scan Actuator 창은 아래와 같이 구성되어있습니다.
@@ -218,13 +179,13 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
   > 	'a' : 최소 stroke로 이동
   > 	's' : stroke 중간 위치로 이동
   > 	'd' : 최대 Stroke로 이동  
-- **check Control Box** : <font color="#4f81bd">Non-volatile Memory</font>   
+- **Check Control Box** : <font color="#4f81bd">Non-volatile Memory</font>   
   Check Control은 check 기능을 이용하여 Data를 변경 가능하며, 이때 Textbox는 Read Only 상태로 Data값과 상태만을 확인할 수 있습니다.  
   ![[Pasted image 20231027110812.png]]
   checkbox는 모두 선택, 모두 해제, 부분 선택 모두 가능하며,선택 값이 변경되었을 경우 TestBox의 font가 푸른색으로 변경됩니다.  
   수정한 값을 적용하기 위해서는 S 버튼을 눌러 수정된 값을 저장해야 합니다.  
   버튼을 클릭하지 않고 다른 Parameter를 변경하려 할 경우 Data는 원래 상태로 복구 되며 TextBox의 font가 다시 흰색으로 변경됩니다.   
-- **select Control box** : <font color="#4f81bd">Non-volatile Memory</font>   
+- **Select Control box** : <font color="#4f81bd">Non-volatile Memory</font>   
    Select Control box는 Select 기능을 이용하여 Data를 변경 가능하며, 이때 Textbox는 Read Only 상태로 Data값과 상태만을 확인할 수 있습니다.
   select 값이 변경되었을 경우 TestBox의 font가 푸른색으로 변경되며, 
   수정한 값을 적용하기 위해서는 S 버튼을 눌러 수정된 값을 저장해야 합니다.
@@ -259,7 +220,7 @@ www.mightyzap.com
 Update Page는 이미지와 같이 펌웨어 업데이트, Actuator Recovery 영역으로 되어있으며, 각각의 실행은 상단 header의 메뉴에서 해당 아이콘을 선택하여 실행할 수 있습니다.  
 ![[Pasted image 20231027113746.png]]
 ### 3.4.2 Firmware Update   
-**액츄에이터 연결**  
+**Actuator 연결**  
 업데이트를 진행할 서보 모터를 연결하고 SCAN 을 합니다.  
 ><font color="red">주의 사항  </font>  
 >펌웨어 업데이트 시에는 업데이트를 진행할 actuator 하나만 연결하고 SCAN 작업을 진행하여 Actuator List에 하나의 actuator만 남아 있어야 합니다.  하나 이상의 actuator 가 연결 된 상태에서 업데이트를 진행하면 업데이트가 비정상적으로 진행되어 실패하게 되고 해당  actuator 는 동작이 되지 않게 됩니다.  
