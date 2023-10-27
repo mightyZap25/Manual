@@ -187,18 +187,19 @@ Footer에 표시된 정보는 information Page가 아닌 다른 Page에서도 �
 ## 3.3 Parameter
 MightyZap Actuator를 설정 및 간단한 동작 테스트를 하고, 동작 상태를 모니터링하는 페이지 입니다.  
 Menu 선택 창에서 아래의 그림과 같은 아이콘을 클릭하면 해당 페이지로 이동합니다.
-<이미지>
+![[Pasted image 20231027103618.png]]
 사용자 환경에 맞게 Stroke, ID, Baudrate 등을 설정하고 간단한 동작 테스트를 진행할 수 있습니다.  
-각 Parameter에 대한 설명은 해당 모델의 사용자 매뉴얼에서 Parameter 설명을 참조하시 바랍니다.
+각 Parameter에 대한 설명은 해당 모델의 사용자 매뉴얼에서 Parameter 설명을 참조하시기 바랍니다.
 ### 3.3.1 화면 구성
 Parameter 페이지의 구성은 Non-Volatile Memory 영역과 Volatile Memory 영역으로 나뉩니다.
-Non-volatile Meomory는 비휘발성 메모리 영역의 Parameter로 수정 및 저장된 Data가 전원 off 되도 지워지지 않고 저장되어있습니다.  
-Volatile Memory는 휘발성 메모리 영역으로 전원이 꺼지기 전까지는 해당 Data를 저장하고 있지만, 전원이 꺼지게 되면 해당 Data는 초기화 됩니다.  
-Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지는 Volatile-Memeory 영역이 상단으로 이동합니다.
-<gif 이미지>  
+Non-volatile Meomory는 비 휘발성 메모리 영역의 Parameter로 수정 및 저장된 Data가 내부 Falsh Memeory에 저장이 되며, 모터의 전원이 꺼지게 되어도 지워지지 않고 저장되어있습니다.  
+Volatile Memory는 휘발성 메모리 영역으로 내부 Ram에 저장이 되며, 전원이 꺼지기 전까지는 해당 Data를 저장하고 있지만, 전원이 꺼지게 되면 해당 Data는 초기화 됩니다.  
+Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지는 Volatile-Memeory 영역이 상단으로 이동합니다.   
+![[Pasted image 20231027104017.png]]
 
 **Tooltip 기능**
-각 Paremater 이름의 옆에는 (?)를 한 아이콘이 있습니다. 해당 아이콘에  mouse를 가져가 대면 해당 파라메터에 대한 간단한 설명이 표시됩니다.
+각 Paremater 이름의 옆에는 (?)를 한 아이콘이 있습니다. 해당 아이콘에  mouse를 가져가 대면 해당 파라메터에 대한 간단한 설명이 표시됩니다.  
+![[Pasted image 20231027104205.png]]
 ### 3.3.2 Parameter Control
 - **Slide Control** : <font color="#4f81bd">Non-volatile Memory</font>  
   Non-Volatile Memeory의 가장 일반적인 Data 변경 방식으로 Slide bar의 Drag 또는 TextBox에 직접 Data를 입력하는 방법으로 Data를 변경 합니다.  
