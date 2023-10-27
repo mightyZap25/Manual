@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,7 +26,7 @@
       {
         "id": "d03b2e53d61778f5",
         "type": "tabs",
-        "dimension": 14.749262536873152,
+        "dimension": 14.74926253687315,
         "children": [
           {
             "id": "0556098e89a7b0a8",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mini 17Lf/Mini 17Lf User Manual_kor.md"
+                "file": "Total Manager/Total Manager User Manual_kor.md"
               }
             }
           },
@@ -183,8 +183,8 @@
   },
   "active": "fb14ab34d4b2d69a",
   "lastOpenFiles": [
-    "Protocl/Modbus RTU.md",
     "Mini 17Lf/Mini 17Lf User Manual_kor.md",
+    "Protocl/Modbus RTU.md",
     "Mini 17Lf/27mm 코어레스버전(FC버전)-inch.pdf",
     "Docu/27mm.md",
     "Docu",

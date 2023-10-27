@@ -75,21 +75,21 @@ Ubnuntu (>=22.04)
 ## 2.3 화면 구성
 화면 구성은 크게 4가지로  Header 부분과 Side bar, Contents, Fotter로 구성되어있다.  
 ![[mainView-description.jpg]]
-- **Main Toolbar**    
+**1)uMain Toolbar**    
   Actuator의 Reset, Restart, Data Undo/Redo 등을 수행하는 매뉴
-- **SCAN**  
+**2) SCAN**  
   Software의 통신을 연결하고 mightyZap을 검색하는 창을 불러 옵니다.
-- **Main Menu**  
+**3) Main Menu**  
   Information, control, Update, Manager Setting 등 Manager에서 제공하는 기능을 선택하는 메뉴
-- **Actuator List**  
+**4) Actuator List**  
   검색된 MightyZap의 이름이 통신 속도와 Protocol에 따라 분류되어 표시
-- **Main contents**  
+**5) Main contents**  
   매니저에 제공하는 Main 기능을 표시합니다.
-- **Actuator Information**  
+**6) Actuator Information**  
   선택된 Actuator의 모델명, Firmware Version, 통신 방식 등이 표기 됩니다.
-- **통신 상태**  
+**7) 통신 상태**  
   통신 Protocol 및 송수신 Error 등 통신 상태를 나타냅니다.
-- **Manager Status**  
+**8) Manager Status**  
   Manager 의 버전 및 Language 를 표시합니다.
 ## 2.4 USB Interface Board 
 Total Manager와 MightyZap Actuator와의 통신을 위하여 Serail convertor 가 필요합니다.  
