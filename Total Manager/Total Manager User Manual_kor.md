@@ -177,14 +177,13 @@ Manager가 실행이 되면 처음 표시하는 창이  창이며, 아래의 이
 ![[Pasted image 20231027100550.png]]
 ### 3.2.1 서보모터 List 확인
 아래의 그림과 같이 매니저에 왼쪽에는 검색된 서보모터가 Display 됩니다.  
-Actuator List는 Baudrate와 Protocol에 따라 분류되어 표시 되며,  Baudrate 별로 접거나 펼 수 있다.
-<이미지>
+Actuator List는 Baudrate와 Protocol에 따라 분류되어 표시 되며,  Baudrate 별로 접거나 펼 수 있다.  
+![[Pasted image 20231027102021.png]]
 
 ### 3.2.2 정보 확인
-Actuator List를 선택하면 해당 Actuator의 정보가 표시되며, 이중 중요한 읿부 정보가 Manager의 하단 Footer에 표시됩니다.
-<이미지>
+Actuator List를 선택하면 해당 Actuator의 정보가 표시되며, 이중 중요한 일부 정보가 Manager의 하단 Footer에 표시됩니다.
+![[Pasted image 20231027102100.png]]
 Footer에 표시된 정보는 information Page가 아닌 다른 Page에서도 볼 수 있습니다. 
-<이미지>
 ## 3.3 Parameter
 MightyZap Actuator를 설정 및 간단한 동작 테스트를 하고, 동작 상태를 모니터링하는 페이지 입니다.  
 Menu 선택 창에서 아래의 그림과 같은 아이콘을 클릭하면 해당 페이지로 이동합니다.
