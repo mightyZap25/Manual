@@ -140,7 +140,7 @@ USB Interface Board를 PC와 연결합니다.
 # 3 Total Manager Description
 ## 3.1 통신 연결 및 검색
 아래의 이미지와같이 프로그램을 실행 한 후 상단 매뉴바에서 Scan 버튼을 누르면 Actuator Scan을 위한 팝업창이 활성화 됩니다.   
-![[scanbutton.png]]
+![[Pasted image 20231027100657.png]]
 ### 3.1.1 화면 구성
 Actuaotor Scan 팝업창이 나오면  위의 OS별 Serial Port 확인을 참조하여 연결된 Comport를 확인한 후 Open 버튼을 클릭합니다.    
 정상적으로 comport 연결 되었을 경우 오른쪽 그림과 같이 비활성화 되었던 창이 활성화가 되며 Actutor를 검색 할 준비가 됩니다.
@@ -169,12 +169,12 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
 ### 3.1.3 Actuator 검색
  SCAN 버튼을 누르게 되면 선택한 옵션에 따라 차례로 검색을 시작하여 해당 결과를 표시합니다.
  원하는 Actuator 가 모두 검색 되었을 경우, 완료를 기다리지 않고 STOP 버튼을 click하면 검색을 종료하면 됩니다.  
- (검색하는 gif 이미지)
- 검색이 완료되었으면 Close 버튼을 click하여 팝업창을 닫습니다.
+![[Pasted image 20231027100637.png]]
+ 검색이 완료되었으면 Close 버튼을 click하여 Popup 창을 닫습니다.
 ## 3.2 Information
 MightyZap Actuator의 Model명, Rated Load, Stroke, firmware Version등 관련된 정보를 표시하는 페이지 입니다.  
-매니저가 실행이 되면 처음 표시하는 창이  창이며, 아래의 이미지와 같이 사이드 바 매뉴의 첫번째 아이콘을 클릭하면 해당 페이지로 이동합니다.
-<이미지>
+Manager가 실행이 되면 처음 표시하는 창이  창이며, 아래의 이미지와 같이 사이드 바 매뉴의 첫번째 아이콘을 클릭하면 해당 페이지로 이동합니다.
+![[Pasted image 20231027100550.png]]
 ### 3.2.1 서보모터 List 확인
 아래의 그림과 같이 매니저에 왼쪽에는 검색된 서보모터가 Display 됩니다.  
 Actuator List는 Baudrate와 Protocol에 따라 분류되어 표시 되며,  Baudrate 별로 접거나 펼 수 있다.
