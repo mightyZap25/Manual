@@ -286,11 +286,15 @@ firmware update를 진행 할 경우 그림과 같이 Select file 버튼을 눌�
 **펌웨어 업데이트 실패**  
 ### 3.4.3 Recovery  
 Firmware 가 업데이트 실패 또는 SCAN을 통해 서보 모터를 검색하지 못할 경우 Recovery를 진행합니다. 문제가 발생한 Actuator 만을 연결한 후 상단 매뉴의 Recovery 아이콘을 클릭합니다.  
-![[Pasted image 20231027130303.png]]
+![[Pasted image 20231027130532.png]]
 
 Recovery 진행 사항은 각 단계마다 이미지 또는  Text로 그 단계를 표시합니다.
-
-검색시  
+![[Pasted image 20231027130612.png]]
+ - **Actuator Search**  
+   검색 단계에서는 각 모든 Baudrate와 Protocol로 서보모터를 검색합니다. 이때 서보모터가 검색이 될 경우 Recovery를 완료하고 서보머터를 Servo List에 자동으로 추가합니다,.
+   ![[Pasted image 20231027131044.png]]
+   하지만 검색이 되지 않았을 경우 아래의 팝업 창이 나타나면서 복원할 서보모터의 펌웨어를 선택해야 합니다.  
+   
 미겁색시 펌웨어 업데이트 진행  
 calibration 진행  
 완료
