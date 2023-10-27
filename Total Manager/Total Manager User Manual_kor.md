@@ -279,8 +279,8 @@ firmware update를 진행 할 경우 그림과 같이 Select file 버튼을 눌�
 ![[Pasted image 20231027125533.png]]
 
 **업데이트 완료**
-업데이트가 진행되면 그림과 같이 prograss bar가 진행이 됩니다. 100%까지 완료되면 update 완료 메세지가 나타납니다.   
-![[Pasted image 20231027125246.png]]
+업데이트가 진행되면 그림과 같이 prograss bar가 진행이 됩니다. 100%까지 완료되면 update 완료 메세지가 나타납니다.    
+![[Pasted image 20231027134349.png]]
 필요에 따라 reset이나 Factory Rest을 추가적으로 진행하시면 됩니다.  
   
 **펌웨어 업데이트 실패**  
@@ -295,10 +295,14 @@ Recovery 진행 사항은 각 단계마다 이미지 또는  Text로 그 단계�
    ![[Pasted image 20231027131044.png]]
 
 - **Restart**   
-   검색이 되지 않았을 경우 아래의 팝업 창이 나타나면서 커넥터를 다시 연결하라는 문구가 나타납니다. Close 버튼을 누르면 업데이트 창에 "Reconnect Actuator" 문구가 서보모터의 연결된 커넥터를 재거 한 후 다시 연결하여 주시기 바랍니다.
+   검색이 되지 않았을 경우 아래의 팝업 창이 나타나면서 커넥터를 다시 연결하라는 문구가 나타납니다. Close 버튼을 누르면 업데이트 창에 "Reconnect Actuator" 문구가 나타납니다. 이때 서보모터의 연결된 커넥터를 재거 한 후 다시 연결하여 주시기 바랍니다.
   ![[Pasted image 20231027133454.png]]
-calibration 진행  
-완료
+- **Check Bootloader &&Update Firmware**  
+  커넥터를 다시 연결하면 Bootloader를 확인 한 후 복구할 Actuator의 Update 파일을 선택하라는 팝업 창이 나타납니다. Select 버튼을 누른 후 Update대와 같이 업데이트 파일을 선택하시면  업데이트가 진행이 됩니다.
+  ![[Pasted image 20231027133800.png]]
+- **Calibration**  
+  Recovery는 Update와는 다르게 Update 후 Calibration 작업을 진행합니다. Calibration 단계에서는 서보모터의 Stroke가 수축 및 확장 작업을 진행하며 완료 될 때 까지 기다라시면 됩니다.  
+  완료가 되면 업데이트 완료 팝업이 나타나고, SCAN 창이 활성화 됩니다.
 ### 3.4.4 Factory Reset   
 Actuator의  상태를 공장 출하 시의 초기 상태로 돌리고, 위치 값을 결정하는 Potentiometer의 Calibration을 진행합니다.  
 ><font color="#ff0000">주의사항</font>  
