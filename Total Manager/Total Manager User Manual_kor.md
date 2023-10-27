@@ -219,21 +219,21 @@ Parameter 영역은 매니저의 크기를 줄일 경우, 주로 사용되어지
   > 	's' : stroke 중간 위치로 이동
   > 	'd' : 최대 Stroke로 이동  
 - **check Control Box** : <font color="#4f81bd">Non-volatile Memory</font>   
-  Check Control은 check 기능을 이용하여 Data를 변경 가능하며, 이때 Textbox는 Read Only 상태로 Data값과 상태만을 확인할 수 있습니다.
+  Check Control은 check 기능을 이용하여 Data를 변경 가능하며, 이때 Textbox는 Read Only 상태로 Data값과 상태만을 확인할 수 있습니다.  
+  ![[Pasted image 20231027110812.png]]
   checkbox는 모두 선택, 모두 해제, 부분 선택 모두 가능하며,선택 값이 변경되었을 경우 TestBox의 font가 푸른색으로 변경됩니다.  
   수정한 값을 적용하기 위해서는 S 버튼을 눌러 수정된 값을 저장해야 합니다.  
-  ![[parameter_control_checkbox.png]]   
   버튼을 클릭하지 않고 다른 Parameter를 변경하려 할 경우 Data는 원래 상태로 복구 되며 TextBox의 font가 다시 흰색으로 변경됩니다.   
 - **select Control box** : <font color="#4f81bd">Non-volatile Memory</font>   
    Select Control box는 Select 기능을 이용하여 Data를 변경 가능하며, 이때 Textbox는 Read Only 상태로 Data값과 상태만을 확인할 수 있습니다.
   select 값이 변경되었을 경우 TestBox의 font가 푸른색으로 변경되며, 
   수정한 값을 적용하기 위해서는 S 버튼을 눌러 수정된 값을 저장해야 합니다.
-  ![[parameter_control_selectbox.png]]    
+  ![[Pasted image 20231027111059.png]]  
   버튼을 클릭하지 않고 다른 Parameter를 변경하려 할 경우 Data는 원래 상태로 복구 되며 TextBox의 font가 다시 흰색으로 변경됩니다.  
-- **select box** : <font color="#4f81bd">Volatile Memory</font>   
+- **Select box** : <font color="#4f81bd">Volatile Memory</font>   
   Volatile Memory 의 Select Control Box에는 TextBox가 존재하지 않습니다.
   Select 기능을 이용하여 선택된 Data를 즉시 적용합니다.
-  ![[parameter_control_selectbox2.png]]
+  ![[Pasted image 20231027111510.png]]
 - **button Control box** : <font color="#4f81bd">Volatile Memory</font>   
    Button control Box 기능은 Volatilte Memory에만 있는 기능으로 Motor의 동작을 정지하기 위해 사용됩니다.
    아래의 그림과같이 Button은 활성화 비활성화에 따라 2가지의 이미지를 가지고 있으며, 해당 파라메터에 대한 자세한 설명은 해당 제품의 사용자 매뉴얼을 참조하여 주시기 바랍니다.
