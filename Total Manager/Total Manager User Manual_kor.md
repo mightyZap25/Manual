@@ -182,7 +182,7 @@ Actuator List는 Baudrate와 Protocol에 따라 분류되어 표시 되며,  Bau
 
 ### 3.2.2 정보 확인
 Actuator List를 선택하면 해당 Actuator의 정보가 표시되며, 이중 중요한 일부 정보가 Manager의 하단 Footer에 표시됩니다.
-![[Pasted image 20231027102100.png]]
+![[Pasted image 20231027103448.png]]
 Footer에 표시된 정보는 information Page가 아닌 다른 Page에서도 볼 수 있습니다. 
 ## 3.3 Parameter
 MightyZap Actuator를 설정 및 간단한 동작 테스트를 하고, 동작 상태를 모니터링하는 페이지 입니다.  
