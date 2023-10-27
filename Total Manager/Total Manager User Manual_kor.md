@@ -302,7 +302,9 @@ Recovery 진행 사항은 각 단계마다 이미지 또는  Text로 그 단계�
   ![[Pasted image 20231027133800.png]]
 - **Calibration**  
   Recovery는 Update와는 다르게 Update 후 Calibration 작업을 진행합니다. Calibration 단계에서는 서보모터의 Stroke가 수축 및 확장 작업을 진행하며 완료 될 때 까지 기다라시면 됩니다.  
-  완료가 되면 업데이트 완료 팝업이 나타나고, SCAN 창이 활성화 됩니다.
+- **Done**
+  완료가 되면 업데이트 완료 팝업이 나타나고, SCAN 창이 활성화 됩니다. 
+  ![[Pasted image 20231027134732.png]]
 ### 3.4.4 Factory Reset   
 Actuator의  상태를 공장 출하 시의 초기 상태로 돌리고, 위치 값을 결정하는 Potentiometer의 Calibration을 진행합니다.  
 ><font color="#ff0000">주의사항</font>  
@@ -310,34 +312,21 @@ Actuator의  상태를 공장 출하 시의 초기 상태로 돌리고, 위치 �
 
 **Factory Reset Icon**  
 Factory Reset은 Update Page에 들어오면 상단 매뉴에 추가 되어있는 것을 확인할 수 있습니다.  
-
+![[Pasted image 20231027134845.png]]
 **Factory Reset 화면구성**  
 Factory Reset을 선택하면 팝업 창이 나타납니다. 팜업창에는 Factory Reset 관련 Option 선택창과 Text Area가 나타나고 하단에 Factory Reset 을 위한 버튼이 존재합니다.  
-
+![[Pasted image 20231027135429.png]]
 **Options**  
 Factory Reset에 대한 Option은 2가지로 ID Remind와 Baudrate Reminde 입니다. 그외의 다른 파라메터들은 모두 초기화 됩니다.  
-<이미지>
 일전적인 Reset 에서는 초기화 되지 않는 Protocol, Min/Max Position Calibration이 초기화 되고, Potentiometer의 Calibration을 실행하면서 해당 내부 Parameter도 수정이 됩니다.  
 Factopry Reset 후에도 유지하고 싶은 Option을 선택하시면 됩니다.  
-
 **Factory Reset**  
 하단의 Factory Reset 버튼을 클릭하면, Factory Reset을 실행합니다. 실행중 진행되는 사항을 Option 선택 아래의 Text Area 창에 표시합니다. 
-<gif 이미지>
+
 Factory Reset 진행이 되면서 Actuator가 몇번의 시스템 제시작을 하면서 LED가 깜빡입니다. 또한 Potenmtiometer Calibration 시에는 Actuator가 최대로 확장 및 수축 행동을 하면서 Calibration 을 진행합니다.  
 최종적으로 Factory Reset이 완료되면 하단의 Close 버튼이 활성화 되면서 Parameter 창으로 이동하여 reset된 Data를 보여줍니다.
-<gif 이ㅁ미지>
 
-## 3.5 Setting
-Total Manager의 언어 및 Theme를 변경할 수 있는 기능입니다.
-<이미지>
-### 3.5.1 Language  
-Total Manager의 언어는 영어와 한국어를 지원합니다.  해당 언어를 선택하면 즉시 바로 적용이 되며 모든 tooltip, Popup 창이 해당 언어로 변경이 됩니다.  변경된 내용은 저장이 되어 프로그램을 재시작 해도 변경 상태를 유지합니다.  
-<이미지 toolip 및 팝업 선택 영상 포함>
-### 3.5.2 theme  
- Total Manager는 dark Mode와 white Mode 2가지를 제공합니다. 해당 theme를 선택하면 즉시 적용이 되며 변경된 내용은 저장이 되어 프로그램 재 시작시에도 변경 상태가 유지됩니다.
- <이미지>
-~~### 3.6 Software Update  
-업데이가 발생할 경우 팝업이 생성이 되면서 다운로드 유무를 물어본다.......~~ 
+
 
 
 
