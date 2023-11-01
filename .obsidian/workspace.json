@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Protocl/Modbus RTU.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,7 +26,7 @@
       {
         "id": "d03b2e53d61778f5",
         "type": "tabs",
-        "dimension": 14.749262536873145,
+        "dimension": 14.749262536873143,
         "children": [
           {
             "id": "0556098e89a7b0a8",
@@ -86,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 540.5
   },
   "right": {
     "id": "7ccabca408164915",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Protocl/Modbus RTU.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Protocl/Modbus RTU.md",
+                "file": "Total Manager/Total Manager User Manual_kor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Protocl/Modbus RTU.md"
+                "file": "Total Manager/Total Manager User Manual_kor.md"
               }
             }
           },
@@ -183,21 +183,22 @@
   },
   "active": "fb14ab34d4b2d69a",
   "lastOpenFiles": [
+    "Pasted image 20231027100637.png",
+    "Pasted image 20230919114224.png",
+    "Pasted image 20230919113922.png",
+    "Pasted image 20230809113927.png",
+    "Pasted image 20230807184527.png",
+    "Total Manager/img/InformationMenu.png",
+    "Pasted image 20230919113841.png",
+    "Pasted image 20231027104138.png",
+    "Pasted image 20231027133442.png",
+    "Pasted image 20231027135707.png",
+    "Pasted image 20231027130532.png",
+    "Total Manager/Total Manager User Manual_kor.md",
+    "Protocl/Modbus RTU.md",
     "Protocl/IR Protocol.md",
     "Mini 17Lf/Mini 17Lf User Manual_kor.md",
-    "Total Manager/Total Manager User Manual_kor.md",
-    "Pasted image 20231027135707.png",
-    "Pasted image 20231027135700.png",
-    "Pasted image 20231027135548.png",
-    "Pasted image 20231027135538.png",
-    "Pasted image 20231027135429.png",
-    "Pasted image 20231027135423.png",
-    "Pasted image 20231027135324.png",
-    "Pasted image 20231027134845.png",
-    "Pasted image 20231027134732.png",
-    "Pasted image 20231027134701.png",
     "parameter_control_checkbox.png.md",
-    "Protocl/Modbus RTU.md",
     "Mini 17Lf/27mm 코어레스버전(FC버전)-inch.pdf",
     "Docu/27mm.md",
     "Docu",

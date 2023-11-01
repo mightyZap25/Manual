@@ -57,6 +57,17 @@ OS 버전을 확인하신 후 버전에 맞게 다운로드하여 주시기 바�
 ![[window_install.jpg]]
 이제 Window에서 MightyZap Total Manager를 사용하실 수 있습니다.  
 
+### 2.2.2 Linux
+Linux 전용 패키지를 다운로드 합니다.
+	- [Linux Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
+Debian,/Ubuntu 기반 배포용 Total Manager를 설치하기 위해서는 다음과 같은 Command Line을 통해 .deb 패키지(64bit)를 다운로드하고 설치하는 것입니다.
+>sudo apt install ./[file].deb
+> # If you're on an older Linux distribution, you will need to run this instead:
+> # sudo dpkg -i [file].deb
+> # sudo apt-get install -f # Install dependencies
+
+### 2.2.3 Mac OS
+
 ## 2.3 화면 구성
 화면 구성은 크게 4가지로  Header 부분과 Side bar, Contents, Fotter로 구성되어있다.  
 ![[mainView-description.jpg]]
@@ -97,7 +108,73 @@ USB Interface Board를 PC와 연결합니다.
 [시스템]-[장치관리자]-[port]에서 Serial Port가 정상적으로 연결되었는지 확인합니다.  
 정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.
 ![[serialPort_check_win.jpg]]
+### 2.4.2 Linux[ubuntu/Demian]
+#### Driver 설치
+##### 1) CH341 Driver 
+CH341 driver는 USB-02 Model에서 만 사용됩니다. 
+CH340, CH341 의 시리얼 드라이버는 Linux 커널 버전 2.6.24부터 내장되어 있으며, 해당 위치는 drivers/usb/serial/ch341.c입니다. 다만 드라이버를 최신 상태로 유지 하기 원하실 경우 아래의 방법을 사용하기 바랍니다.
+ - 아래의 사이트에서 Linux용 드라이버를 다운로드 받으시기 바랍니다.
+   [LINUX용 CH341 Driver Donwload(ZIP)](https://www.wch.cn/downloads/CH341SER_LINUX_ZIP.html)  
+ - 다운로드한 파일의 압축을 풉니다.
+ - 터미널 창을 열고 다운로드한 디렉토리로 이동을 합니다.
+ - 다음의 명령들을 입력합니다
+   >$ make clean
+   >$ make
+   >$ sudo make load  
+   
+ - 설치된 드라이버를 확인하기 위해 USB-02를 PC와 연결한 후 다음의 명령을 입력합니다.  
+   정상적으로 설치가 되었다면 "ch34x"로 표시되어야 합니다.
+   >$ sudo dmesg | grep ch34  
+   >[   xxx] usbcore: registered new interface driver ch341
+   >[   xxx] usbserial: USB Serial support registered for ch341-uart
+   >[   xxx] ch341 1-6.4.3:1.0: ch341-uart converter detected
+   >[   xxx] usb 1-6.4.3: ch341-uart converter now attached to ttyUSB1
+##### 2) FTDI Driver
+FTDI Driver는 USB-02를 제외한 모든 모델에서 사용됩니다.
+FTDI VCP 드라이버는 Linux  커널에 내장되어 있으므로 이 드라이버는 있습니다. 모든 FTDI 장치에 VCP 드라이버 지원이 있는지 홗인하기 위해 FTDI는 Linux  시스템에 최신 커널 릴리즈를 설치할 것을 권장합니다. Linux 에서는 VCP 드라이버가 /dev/ttyUSBx로 표시됩니다.
+Comport를 확인하는 방법 :
+- USB Interface board를 PC와 Cable로 연결한다.
+- 터미널 창을 열고 다음을 입력하면 다음과 같이 출력이 나타납니다.
+  >$ dmesg|grep FTDI
+  >  [   xxx] USB Serial support registered for FTDI USB Serial Device 
+  >  [   xxx] ftdi_sio 9-1:1.0: FTDI USB Serial Device converter detected 
+  >  [   xxx] usb 9-1: FTDI USB Serial Device converter now attached to ttyUSB0 
+  >  [   xxx] ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+  
+#### Serial Port 권한 얻기
+우분투는 기본적으로  root 사용자가 아닌 일반 사용자로 로그인하도록 하기 때문에 Serial Port와 같은 시스템 장치를 다루기 위해서는 권한 설정을 해야 합니다.   
+먼저 연결된 Port 명을 확인하기 위해 아래의 명령을 입력합니다.
+>$ dmesg|grep tty
+>[   xxx] printk: console [tty0] enabled
+>[   xxx] usb 1-6.1.4: FTDI USB Serial Device converter now attached to ttyUSB0
+>[   xxx] ftdi_sio ttyUSB0: FTDI USB Serial Device converter now disconnected from ttyUSB0
+>[   xxx] usb 1-6.1.4: FTDI USB Serial Device converter now attached to ttyUSB0
 
+"ls -l" 명령을 이용하여 확인된 Serial Port를 이용하여 사용 그룹을 확인합니다.
+>$ ls -l /dev/ttyUSB0
+>   crw-rw---- 1 root dialout 188,  0 11월  1 10:49 /dev/ttyUSB0
+
+"id Gn" 명령을 통해 현재 로그인 중인 사용자가 속한 그룹을 확인합니다.
+>$ id -Gn
+>user adm cdrom sudo dip plugdev
+
+현재 로그인한 사용자에서 dialout 그룹이 포함되어 있지 않기 때문에, 현재 사용자에게 dialout 그룹을 추가해 줍니다.
+>$ sudo adduser $USER dialout
+>[sudo] password for user.
+>Adding user 'user' to group 'dialout' ...
+>Adding user user to group dialout
+>Done
+
+그룹에 추가 한 후에는 반드시 로그아웃 후 로그인 해야 변경 사항이 적용 됩니다.
+### 2.4.3 Mac OS
+USB Interface Board Driver를 다운로드 합니다.  
+	-  [USB Interface Board Window Driver]  
+다운로드한 파일을 실행하고 가이드에 따라 드라이버를 설치합니다.  
+	[이미지 ]  
+USB Interface Board를 PC와 연결합니다.  
+[시스템 정보]-[Hardware]-[USB]에서 Serial Port가 정상적으로 연결되었는지 확인합니다.    
+정장적으로 연결되어 있을 경우 이미지에서와 같이 새로운 com port가 추가되는것을 확인할 수 있습니다.  
+[이미지]  
 # 3 Total Manager Description
 ## 3.1 통신 연결 및 검색
 아래의 이미지와 같이 프로그램을 실행 한 후 상단 매뉴에서 Scan 버튼을 누르면 Actuator Scan을 위한 팝업 창이 활성화 됩니다.   
@@ -135,7 +212,7 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
 ## 3.2 Information
 MightyZap Actuator의 Model명, Rated Load, Stroke, firmware Version등 관련된 정보를 표시하는 페이지 입니다.  
 Manager가 실행이 되면 처음 표시하는 창이  창이며, 아래의 이미지와 같이 사이드 바 매뉴의 첫번째 아이콘을 클릭하면 해당 페이지로 이동합니다.
-![[Pasted image 20231027100550.png]]
+![[InformationMenu.png]]
 ### 3.2.1 서보모터 List 확인
 아래의 그림과 같이 매니저에 왼쪽에는 검색된 서보모터가 Display 됩니다.  
 Actuator List는 Baudrate와 Protocol에 따라 분류되어 표시 되며,  Baudrate 별로 접거나 펼 수 있다.  
