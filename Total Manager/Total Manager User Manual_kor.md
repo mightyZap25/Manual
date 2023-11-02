@@ -182,23 +182,20 @@ USB Interface Board를 PC와 연결합니다.
 ### 3.1.1 SCAN 화면 구성
 Actuaotor Scan 팝업 창의 화면 구성은 아래와 같습니다.  
 ![[Pasted image 20231102175315.png]]
-**Scan Actuator 화면 구성**
-- Serial Port 
-- Baudrate Select 
-- Scan 결과 창
-- Scan, close 버튼 창
-
+- **Serial Port**  : USB Interface Board의 Serial Port
+- **Protocol** : 통신 프로토콜 설정, Actutator Model에 따라 다르며 Scan시 중복 선택 가능
+- **Baudrate Select** :  통신 속도 설정 (default 57600bps) Scan시 중복 선택 가능
+- **Scan 결과 창** : SCAN 진행 상황과 결과를 출력한다.
+- **SCAN, CLOSE** : SCAN 실행 및 창 닫기 버튼
 ### 3.1.2 통신 설정
 ##### 1. Port 선택
 위 [[#2.4 USB Interface Board]] 의 설명을 참조하시어 Serial Port 명을 확인 하신 후 진행하시기 바랍니다.  연결된 Serial Port와 동일한 Port를 선택한 후 OPEN 버튼을 클릭하여 Serial Port를 연결합니다.  ![[Pasted image 20231102174400.png]]
-Serial Port 를 Open 한 후 Protocol과 Baudrate를 선택한 후 검색을 진행 해야 합니다.  
-PC와 연결한 Actuator의 Model에 따라 또는 사용자 설정 사항에 따라 각각의 값을 선택합니다. 
+Serial Port 를 Open하면 Option 항목이 활성화 됩니다.  
 모든 옵션은 중복으로 선택할 수 있으며 검색 시 순차적으로 진행이 됩니다.  
-All 버튼을 누르게 되면 모든 선택 사항들이 선택이 되며, 아무것도 선택하지 않고 검색 시 경고 창이 나오게 됩니다.  
+All 버튼을 누르게 되면 모든 선택 사항들이 선택되거나 모두 선택되지 ㅇ
    ![[yrdy-2023-07-25_10.39.gif]]
-  (이미지 조금 작게 border 도 얇게)
-  다음은 모델에 따른 기본 설정 값에 대한 예시 입니다.  
- (자세한 내용은 해당 모델의 매뉴얼을 참조하여 주시기 바랍니다.)   
+  
+다음은 모델에 따른 기본 설정 값에 대한 예시 입니다.  
  
 |   예시 모델         |   Protocol(dafault)                 |   Baudrate (dafault)          |
 |:------------------|:----------------------------|:---------------------|
