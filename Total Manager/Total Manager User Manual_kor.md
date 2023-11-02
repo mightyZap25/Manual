@@ -62,9 +62,9 @@ Linux 전용 패키지를 다운로드 합니다.
 	- [Linux Software 다운로드](https://github.com/mightyZap25/Total-Manager/releases/download/v0.8.1/latest.yml)
 Debian,/Ubuntu 기반 배포용 Total Manager를 설치하기 위해서는 다음과 같은 Command Line을 통해 .deb 패키지(64bit)를 다운로드하고 설치하는 것입니다.
 >sudo apt install ./[file].deb
-> # If you're on an older Linux distribution, you will need to run this instead:
-> # sudo dpkg -i [file].deb
-> # sudo apt-get install -f # Install dependencies
+> - If you're on an older Linux distribution, you will need to run this instead:
+> - sudo dpkg -i [file].deb
+> - sudo apt-get install -f # Install dependencies
 
 ### 2.2.3 Mac OS
 
