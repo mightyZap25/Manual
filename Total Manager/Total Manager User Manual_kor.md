@@ -188,9 +188,12 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
 - Serial Port Select (default :Won Protocl)
 - Baudrate Select (default :57600bps)
 - Scan 결과 창
-  검색 진행 사항과 결과를 표시합니다. 
 - Scan, close 버튼 창
+
 ### 3.1.2 통신 설정
+##### 1. Port 선택
+위 [[#2.4 USB Interface Board]] 의 설명을 참조하시어 Serial Port 명을 확인 하신 후 진행하시기 바랍니다.  
+
  Serial Port 를 Open 한 후 Protocol과 Baudrate를 선택한 후 검색을 진행 해야 합니다.  
  PC와 연결한 Actuator의 Model에 따라 또는 사용자 설정 사항에 따라 각각의 값을 선택합니다. 
  모든 옵션은 중복으로 선택할 수 있으며 검색 시 순차적으로 진행이 됩니다.  
@@ -200,7 +203,7 @@ Scan Actuator 창은 아래와 같이 구성되어있습니다.
   다음은 모델에 따른 기본 설정 값에 대한 예시 입니다.  
  (자세한 내용은 해당 모델의 매뉴얼을 참조하여 주시기 바랍니다.)   
  
-|   예시 모델         |   Protocol                  |   Baudrate           |
+|   예시 모델         |   Protocol(dafault)                 |   Baudrate (dafault)          |
 |:------------------|:----------------------------|:---------------------|
 |   **Mini L12/12Lf**   | Own Protocol                |             57600pbs |
 |   **Mini 17Lf**       | Modbus Protocol             |             57600pbs |  
