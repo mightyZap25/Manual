@@ -192,7 +192,7 @@ Actuaotor Scan 팝업 창의 화면 구성은 아래와 같습니다.
 위 [[#2.4 USB Interface Board]] 의 설명을 참조하시어 Serial Port 명을 확인 하신 후 진행하시기 바랍니다.  연결된 Serial Port와 동일한 Port를 선택한 후 OPEN 버튼을 클릭하여 Serial Port를 연결합니다.  ![[Pasted image 20231102174400.png]]
 Serial Port 를 Open하면 Option 항목이 활성화 됩니다.  
 모든 옵션은 중복으로 선택할 수 있으며 검색 시 순차적으로 진행이 됩니다.  
-All 버튼을 누르게 되면 모든 선택 사항들이 선택되거나 모두 선택되지 ㅇ
+All 버튼을 누르게 되면 모든 선택하거나 모두 선택 해지를 하게 됩니다.
    ![[yrdy-2023-07-25_10.39.gif]]
   
 다음은 모델에 따른 기본 설정 값에 대한 예시 입니다.  
@@ -369,3 +369,4 @@ Factory Reset 진행이 되면서 Actuator가 몇 번의 시스템 재 시작을
 
 
 
+// restart , reset 설명 추가
